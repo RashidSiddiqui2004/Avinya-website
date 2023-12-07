@@ -1,9 +1,8 @@
 
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
-import Gallery from './components/Gallery'
-import Sponsors from './components/Sponsors'
+import './App.css' 
+import Sponsors from './components/Sponsors/Sponsors'
 
 function App() { 
 
