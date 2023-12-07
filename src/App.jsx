@@ -1,7 +1,6 @@
-
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+ 
 import './App.css' 
+import Gallery from './components/Gallery/Gallery'
 import Sponsors from './components/Sponsors/Sponsors'
 
 function App() { 
@@ -9,6 +8,10 @@ function App() {
   return (
     <> 
       <h1 className='text-6xl font-bold'>AVINYA 2023</h1> 
+
+      <div>
+        <Gallery/>
+      </div>
  
       <div>
         <Sponsors/>
