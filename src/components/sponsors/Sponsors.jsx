@@ -14,12 +14,13 @@ function Sponsors() {
       {/* Platinum Partners */}
 
       <div className='h-[200px] rounded-full transition-all
-       opacity-40 absolute mt-3 -left-32'>
+       opacity-40 absolute mt-3 hidden md:block lg:-left-32'>
         <img src="public/gift.png" alt="" />
       </div>
 
       <div className='h-[205px] rounded-full w-[205px] hover:bg-gradient-to-r hover:from-red-300
-       hover:via-green-300 hover:to-pink-400 hover:scale-[102%] transition-all opacity-40 absolute mt-64 -right-32 
+       hover:via-green-300 hover:to-pink-400 hover:scale-[102%] transition-all opacity-40 absolute 
+       mt-64 -right-[29%] hidden md:block md:-right-28
        bg-gradient-to-r from-blue-200 via-green-200 to-purple-300'>
           <h2 className='text-slate-900 text-4xl mt-[30%] font-fairdisplay italic font-bold 
           text-center items-center px-3'>AVINYA</h2>
@@ -29,7 +30,8 @@ function Sponsors() {
       </div>
 
       <div className='h-[200px] rounded-full transition-all
-       opacity-40 absolute mt-3 -right-28 top-[290%]'>
+       opacity-40 absolute mt-3 -right-[29%] top-[290%]
+        hidden md:block lg:top-[390%] lg:-right-32'>
         <img src="public/gift.png" alt="" />
       </div>
 

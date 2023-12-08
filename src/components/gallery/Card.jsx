@@ -13,10 +13,10 @@ function Card({ imageNumber, setImageNumber, imagesList,totalImage, titles, desc
 
     return (
         <div>
-            <div className='flex flex-row mx-[10%] border-2 bg-slate-200 
+            <div className='flex flex-column md:flex-row mx-[10%] border-2 bg-slate-200 
              rounded-e-2xl'>
 
-                <div className='w-[40%] rounded-sm max-h-[390px]'>
+                <div className='w-[40%] rounded-sm  sm:max-h-[390px]'>
                     <img src={`img${imagesList[imageNumber-1]}.jpg`} alt="Gallery Image"
                      className='w-[100%] h-[100%] hover:scale-[104%] hover:rounded-lg hover:-translate-x-2 transition-all' />
                 </div>
@@ -25,7 +25,7 @@ function Card({ imageNumber, setImageNumber, imagesList,totalImage, titles, desc
                 <div className='h-full w-full py-8 px-8'>
                     <h1 className='text-gray-900 pb-5 font-serif font-semibold italic'>AVINYA EVENT - {titles[imageNumber-1]}</h1>
 
-                    <p className='text-slate-700 text-lg italic'>
+                    <p className='text-slate-700 text-sm md:text-lg italic'>
                         {descriptions[imageNumber-1]}
                     </p>
 
