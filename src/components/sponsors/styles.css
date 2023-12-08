@@ -1,0 +1,54 @@
+
+.underlined-text {
+    position: relative;
+    display: inline-block;  
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  .underlined-text::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; 
+    background-color: #cd1a1a; 
+    transition: width 0.3s ease-out;
+  }
+
+  .underlined-text:hover {
+    color: #26e482;
+  }
+
+  .underlined-text:hover::before {
+    width: 100%;
+  }
+
+  
+.underlined-text2 {
+  position: relative;
+  display: inline-block;  
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.underlined-text2::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; 
+  background-color: rgb(0, 143, 10); 
+  transition: width 0.3s ease-out;
+}
+
+.underlined-text2:hover {
+  color: #ffffff;
+}
+
+.underlined-text2:hover::before {
+  width: 100%;
+}
+
