@@ -2,6 +2,7 @@
 import './App.css' 
 import Gallery from './components/gallery/Gallery'
 import Sponsors from './components/Sponsors/Sponsors'
+import Button from './components/handles/handles'
 
 function App() {
 
@@ -19,6 +20,10 @@ function App() {
  
  
       <Gallery /> 
+      <div>
+      <h1>JOIN OUR DISCORD SERVER TO STAY UPDATED</h1>
+      <Button />
+      </div>
       <Sponsors />
   
     </>
