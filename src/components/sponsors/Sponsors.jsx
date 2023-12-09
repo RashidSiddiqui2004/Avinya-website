@@ -29,12 +29,7 @@ function Sponsors() {
           <span className='text-2xl animate-ping transition-all'>❤️</span>
       </div>
 
-      <div className='h-[200px] rounded-full transition-all
-       opacity-40 absolute mt-3 -right-[29%] top-[290%]
-        hidden md:block lg:top-[390%] lg:-right-32'>
-        <img src="public/gift.png" alt="" />
-      </div>
-
+  
       <div>
         <h2 className='text-4xl text-center mt-16 mb-5 font-bold font-fairdisplay
         underlined-text2 pb-3 italic space-x-1'>PLATINUM PARTNERS</h2>
@@ -92,6 +87,13 @@ function Sponsors() {
             <p className='text-white text-2xl font-semibold text-center my-4 px-4'>polygon</p>
           </div>
         </div>
+      </div> 
+
+       
+      <div className='h-[200px] rounded-full transition-all
+       opacity-40 absolute mt-6 -right-[29%]
+        hidden md:block lg:top-[390%] lg:-right-32'>
+        <img src="public/gift.png" alt="" />
       </div>
 
 
