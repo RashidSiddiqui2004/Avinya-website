@@ -1,6 +1,6 @@
 
 import './App.css'
-import Footer2 from './components/footerAlternative/Footer'
+import Footer from './components/footerAlternative/Footer'
 import Gallery from './components/gallery/Gallery'
 import RegistrationPoster from './components/register/RegistrationPoster'
 import Sponsors from './components/Sponsors/Sponsors'
@@ -22,23 +22,21 @@ function App() {
         <img src="public/VR.png" alt="image" className='w-[50%]' />
       </div>
 
-
+ 
       <RegistrationPoster/>
-      <Gallery />
-
+      <Gallery /> 
+      
+      {/* Join Button */}
       <Button />
 
       <Sponsors />
 
-      <div className='flex flex-row px-[10%] mt-[6%] mb-10'>
+      <div className='flex flex-row px-[10%] mt-7'>
         <img src="public/desk.png" alt="image" className='w-[80%] mx-[15%]' />
       </div>
 
-      <div className='my-2'>
-        <Footer />
-      </div>
-
-
+      <Footer />
+ 
     </>
   )
 }
