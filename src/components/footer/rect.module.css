@@ -1,20 +1,28 @@
 .footer_main{
-     padding: 2% 4% 1.5% 4%;
-     box-sizing: border-box;
-     left: 0;
-     color: white;
+     padding: 3% 4% 1.5% 4%;
      font-Family: "Montserrat";
-     position: absolute;
-     width: 100vw;
-     height: fit-content;
+     width: 100%;
+     height: 100%;
      background: url("../public/back_img.png");
+     background-size: contain;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-     border: 4px solid #02D7F2;;
+     clip-path: polygon(1.5rem 0, 100% 0, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 0 100%, 0 1.5rem);
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
  }
  
+ .border_div{
+    background-color: #02D7F2;
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 2px;
+    clip-path: polygon(1.5rem 0, 100% 0, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 0 100%, 0 1.5rem);
+
+ }
+
  .avinya_txt{
      width: fit-content;
      height: fit-content;
@@ -88,10 +96,11 @@
      .follow, .email, .addrs, .tagline{
         font-size: 0.9rem;
      }
+     .img_cont{width: 55%;}
  }
  
  @media (max-width: 1000px){
-     .footer_main{
+     .test{
          height: 210px;
      }
      .cont, .cnt2{
@@ -114,7 +123,10 @@
  
  @media (max-width: 700px){
      .footer_main{
-         flex-wrap: wrap; height: 230px;
+         flex-wrap: wrap;
+     }
+     .test{
+        height: 230px;
      }
      .avinya_txt{
          font-size: 24px;
