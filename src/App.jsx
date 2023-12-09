@@ -1,13 +1,21 @@
 
 import './App.css'
-import Footer from './components/footerAlternative/Footer'
+// import Footer2 from './components/footerAlternative/Footer'
 import Gallery from './components/gallery/Gallery'
 import RegistrationPoster from './components/register/RegistrationPoster'
 import Sponsors from './components/Sponsors/Sponsors'
 import Button from './components/handles/handles'
 import Footer from './components/footer/footer';
+import { useState } from 'react'
+
 
 function App() {
+
+  const [cta, setCTA] = useState('Get, Set, CODE & FUN ❤️!');
+
+  function changeCTA(){
+    setCTA('Registrations starting soon ❤️');
+  }
 
   return (
     <>
@@ -31,8 +39,13 @@ function App() {
 
       <Sponsors />
 
-      <div className='flex flex-row px-[10%] mt-7'>
+      <div className='flex flex-row px-[10%] mt-7 mb-4'>
         <img src="public/desk.png" alt="image" className='w-[80%] mx-[15%]' />
+      </div>
+
+      <div className='mt-6 mb-4'>
+        <button className='text-2xl bg-green-200 hover:bg-green-300 text-slate-950 transition-all
+         hover:scale-[102%] hover:text-slate-900' onClick={changeCTA}>{cta}</button>
       </div>
 
       <Footer />
