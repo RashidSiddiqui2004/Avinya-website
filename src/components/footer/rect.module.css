@@ -1,0 +1,157 @@
+.footer_main{
+     padding: 2% 4% 1.5% 4%;
+     box-sizing: border-box;
+     left: 0;
+     color: white;
+     font-Family: "Montserrat";
+     position: absolute;
+     width: 100vw;
+     height: fit-content;
+     background: url("../public/back_img.png");
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     border: 4px solid #02D7F2;;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+ 
+ .avinya_txt{
+     width: fit-content;
+     height: fit-content;
+     font-weight: 600;
+     font-size: 4rem;
+     line-height: 138%;
+     letter-spacing: 0.04em;
+ }
+ 
+ 
+ .tagline, .follow{
+     width: fit-content;
+     height: fit-content;
+     font-weight: 400;
+     font-size: 1.2rem;
+     line-height: 138%;
+     letter-spacing: 0.04em;
+ }
+
+ .tagline{
+    text-align: left;
+ }
+ 
+ .follow{
+     margin: 10px;
+     font-weight: 500;
+     text-align: center;
+ }
+ 
+ .email, .addrs{
+     font-weight: 400;
+     font-size: 1.2rem;
+     line-height: 138%;
+     margin-top: 10px;
+     text-align: center;
+ }
+
+ .cnt2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1.3;
+}
+
+.cnt3, .cnt4{
+    flex: 0.3;
+}
+.cnt3{
+    margin-right: 5px;
+}
+.cnt4{
+    margin-left: 5px;
+}
+
+.img_cont{
+     width: 40%;
+     height: 25%;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .break, .break2{
+     flex-basis: 0;
+     height: 0;
+ }
+ 
+ @media (max-width: 1500px) {
+     .avinya_txt{
+        font-size: 3rem;
+     }
+     .follow, .email, .addrs, .tagline{
+        font-size: 0.9rem;
+     }
+ }
+ 
+ @media (max-width: 1000px){
+     .footer_main{
+         height: 210px;
+     }
+     .cont, .cnt2{
+        flex: 1;
+     }
+     .img_cont{
+         width: 45%;
+     }
+     .break2{
+         flex-basis: 100%;
+     }
+     .email, .addrs{
+         margin: 0;
+     }
+     .cnt3, .cnt4{
+         flex-grow: 1;
+         margin-bottom: 2%;
+     }
+ }
+ 
+ @media (max-width: 700px){
+     .footer_main{
+         flex-wrap: wrap; height: 230px;
+     }
+     .avinya_txt{
+         font-size: 24px;
+     }
+     .tagline, .follow, .email, .addrs{
+         font-size: 14px;
+     }
+     .img_cont{
+         width: 55%; width: 35%;
+     }
+     .cnt2,.cnt3,.cnt4 {
+         flex-basis: 100%;
+         flex: 1;
+       }
+     .break{
+         flex-basis: 100%;
+     }
+     .addrs, .email{
+         margin: auto;
+     }
+ }
+
+
+  /* .rect::before{
+     content: '';
+     background-color: black;
+     inset: 2px;
+     position: absolute;
+     z-index: -1;
+     clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 100%, 0% 100%);
+ } */
+ 
+ /* .rect::after{
+ 
+ } */
+
+ /* Rectangle 4 */
+
+
+

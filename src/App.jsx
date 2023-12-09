@@ -4,6 +4,7 @@ import Gallery from './components/gallery/Gallery'
 import RegistrationPoster from './components/register/RegistrationPoster'
 import Sponsors from './components/Sponsors/Sponsors'
 import Button from './components/handles/handles'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -30,9 +31,7 @@ function App() {
         <img src="public/desk.png" alt="image" className='w-[80%] mx-[15%]' /> 
       </div>
 
-      <div className='my-8'>
-        <h1>Footer here</h1>
-      </div>
+      <Footer />
     </>
   )
 }
