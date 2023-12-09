@@ -1,6 +1,6 @@
 
 import './App.css'
-import Footer from './components/footerAlternative/Footer'
+// import Footer from './components/footerAlternative/Footer'
 import Gallery from './components/gallery/Gallery'
 import RegistrationPoster from './components/register/RegistrationPoster'
 import Sponsors from './components/Sponsors/Sponsors'
@@ -23,19 +23,21 @@ function App() {
       </div>
 
  
-      <RegistrationPoster/>
-      <Gallery /> 
-      
-      {/* Join Button */}
+     <RegistrationPoster />
+      <Gallery />
+
       <Button />
-       
+
       <Sponsors />
 
-      <div className='flex flex-row px-[10%] mt-7'>
+      <div className='flex flex-row px-[10%] mt-3 mb-4'>
         <img src="public/desk.png" alt="image" className='w-[80%] mx-[15%]' />
       </div>
 
-      <Footer />
+      <div className='my-2'>
+        <Footer />
+      </div>
+
  
     </>
   )
