@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+.container {
+  margin: 4rem 0;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.heading{
+  font-size: 2.5rem;
+}
+.button {
+  --glow-color: rgb(176, 231, 255);
+  --glow-spread-color: rgba(123, 222, 255, 0.781);
+  --enhanced-glow-color: rgb(206, 239, 255);
+  --btn-color: rgb(61, 121, 136);
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  width: 9.6rem;
+  height: 4.7rem;
+  font-size: 1.3rem;
+  border-radius: 0;
+  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+  color: white;
+  background-color: rgb(61, 61, 61);
+  outline: none;
+  text-shadow: 0 0 .15em var(--glow-color);
+  transition: all 0.15s;
+}
+.button:hover {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  width: 9.6rem;
+  height: 4.7rem;
+  border-radius: 0;
+  border-bottom: 0.3rem solid rgb(91, 247, 255);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0.3rem solid rgb(91, 247, 255);
+  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+  color: rgba(80, 220, 227, 0.849);
+  font-size: 1.3rem;
+  background-color: rgb(61, 61, 61);
+}
+.button:focus{
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  width: 9.6rem;
+  height: 4.7rem;
+  font-size: 1.3rem;
+  border-radius: 0;
+  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+  border: 0;
+  background-color: red;
+  color: white;
+}
+.button:disabled{
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  width: 9.6rem;
+  height: 4.7rem;
+  font-size: 1.3rem;
+  border-radius: 0;
+  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+  border: 0;
+  background-color: lightgray;
+  color: gray;
+}
+.button:active{
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.3rem;
+  width: 9.6rem;
+  height: 4.7rem;
+  font-size: 1.3rem;
+  border-radius: 0;
+  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+  border: 0;
+  background-color: rgb(91, 247, 255);
+  color: black;
+}

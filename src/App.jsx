@@ -4,6 +4,8 @@ import Footer from './components/footerAlternative/Footer'
 import Gallery from './components/gallery/Gallery'
 import RegistrationPoster from './components/register/RegistrationPoster'
 import Sponsors from './components/Sponsors/Sponsors'
+import Button from './components/handles/handles'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -20,18 +22,21 @@ function App() {
         <img src="public/VR.png" alt="image" className='w-[50%]' />
       </div>
 
-      <RegistrationPoster />
-      <Gallery />
-
+ 
+      <RegistrationPoster/>
+      <Gallery /> 
+      
+      {/* Join Button */}
+      <Button />
+       
       <Sponsors />
 
       <div className='flex flex-row px-[10%] mt-7'>
         <img src="public/desk.png" alt="image" className='w-[80%] mx-[15%]' />
       </div>
 
-      <div className='my-8'>
-        <Footer />
-      </div>
+      <Footer />
+ 
     </>
   )
 }
