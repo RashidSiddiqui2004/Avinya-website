@@ -21,10 +21,9 @@ function App() {
  
       <RegistrationPoster/>
       <Gallery /> 
-      <div>
-        <h1>JOIN OUR DISCORD SERVER TO STAY UPDATED</h1>
-        <Button />
-      </div>
+      {/* Join Button */}
+      <Button />
+      
       <Sponsors />
 
       <div className='flex flex-row mx-[10%] mt-7'>
