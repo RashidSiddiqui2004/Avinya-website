@@ -82,6 +82,7 @@
  }
  
  @media (max-width: 1500px) {
+     
      .avinya_txt{
         font-size: 3rem;
      }
@@ -91,8 +92,8 @@
  }
  
  @media (max-width: 1000px){
-     .footer_main{
-         height: 210px;
+     .footer_main{ 
+        height: 210px;
      }
      .cont, .cnt2{
         flex: 1;
@@ -111,10 +112,11 @@
          margin-bottom: 2%;
      }
  }
- 
+
  @media (max-width: 700px){
      .footer_main{
-         flex-wrap: wrap; height: 230px;
+        width: 100vw; 
+        flex-wrap: wrap; height: 230px;
      }
      .avinya_txt{
          font-size: 24px;

@@ -43,6 +43,7 @@
   color: rgba(80, 220, 227, 0.849);
   font-size: 1.3rem;
   background-color: rgb(61, 61, 61);
+  transition-duration: 50ms;
 }
 .button:focus{
   text-align: center;

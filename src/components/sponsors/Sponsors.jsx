@@ -17,7 +17,8 @@ function Sponsors() {
        opacity-40 absolute mt-3 hidden md:block lg:-left-32'>
         <img src="public/gift.png" alt="" />
       </div>
-
+      
+{/* 
       <div className='h-[205px] rounded-full w-[205px] hover:bg-gradient-to-r hover:from-red-300
        hover:via-green-300 hover:to-pink-400 hover:scale-[102%] transition-all opacity-40 absolute 
        mt-64 -right-[29%] hidden md:block md:-right-28
@@ -27,7 +28,7 @@ function Sponsors() {
           <h3 className='text-slate-900 text-4xl font-fairdisplay italic font-bold 
           text-center items-center px-2'>SPONSORS</h3>
           <span className='text-2xl animate-ping transition-all'>❤️</span>
-      </div>
+      </div> */}
 
   
       <div>
@@ -87,15 +88,15 @@ function Sponsors() {
             <p className='text-white text-2xl font-semibold text-center my-4 px-4'>polygon</p>
           </div>
         </div>
+
+        <div className='h-[200px] rounded-full transition-all
+       opacity-40 absolute mt-6 -right-[29%]
+        hidden md:block lg:-right-0'>
+        <img src="public/gift.png" alt="" />
+      </div>
       </div> 
 
        
-      <div className='h-[200px] rounded-full transition-all
-       opacity-40 absolute mt-6 -right-[29%]
-        hidden md:block lg:top-[390%] lg:-right-32'>
-        <img src="public/gift.png" alt="" />
-      </div>
-
 
       {/* Other Sponsors */}
 
@@ -177,7 +178,7 @@ function Sponsors() {
 
       {/* Past Sponsors */}
 
-      <div className='py-32'>
+      <div className='pt-32'>
 
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-8 items-center ml-8'>
 

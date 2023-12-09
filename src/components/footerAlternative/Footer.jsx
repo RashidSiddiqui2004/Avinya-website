@@ -4,11 +4,11 @@ import { FaLinkedin,FaInstagramSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";  
 
-function Footer() {
+function Footer2() {
     return (
-        <div className='bg-black w-screen'>
+        <div className='bg-black'>
 
-            <hr className='w-[100%] md:-ml-[8%] pb-3' />
+            <hr className='w-[130%] md:w-[120%] -ml-[6%] md:-ml-[10%] pb-3' />
             
             <div className='grid grid-cols-2 md:grid-cols-4 font-fairdisplay mr-[10%]'>
                 
@@ -17,7 +17,7 @@ function Footer() {
                     <h2 className='font-semibold text-slate-200 text-center'> Tag Line Goes here Tagline...</h2>
                 </div>
 
-                <div className='mt-[16%]'>
+                <div className='mt-5 md:mt-[16%] ml-[30%] md:ml-0'>
                     <h2 className='text-2xl font-fairdisplay white font-bold mb-3'>Follow Us On Social Media</h2>
                     
                     <div className='flex flex-row gap-2 items-center mx-[18%] mt-7'>
@@ -38,13 +38,13 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className='mt-[16%]'>
+                <div className='mt-[16%] md:ml-[30%]'>
                     <h2 className='text-2xl font-fairdisplay white font-bold
                      mb-3'>EMail</h2>
                     <h2 className='font-semibold text-slate-200'> avinya@gmail.com </h2>
                 </div>
 
-                <div className='mt-[16%]'>
+                <div className='mt-[16%] ml-[30%]'>
                     <h2 className='text-2xl font-fairdisplay white font-bold
                      mb-3'>Address</h2>
                     <h2 className='font-semibold text-slate-200'> NSUT, Dwarka, Sector-3</h2>
@@ -56,4 +56,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default Footer2
