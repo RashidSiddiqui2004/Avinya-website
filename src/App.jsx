@@ -55,7 +55,7 @@ function App() {
          hover:scale-[102%] hover:text-slate-900' onClick={changeCTA}>{cta}</button>
       </div>
 
-      <Footer />
+        <Footer />
  
     </>
   )

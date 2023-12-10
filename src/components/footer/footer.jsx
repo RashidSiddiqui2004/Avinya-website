@@ -3,7 +3,6 @@ import styling from "./rect.module.css";
 
 const Footer = () => {
     return (
-        <>
         <div className={styling.border_div}>
             <div className={styling.footer_main}>
                 <div className={styling.cont}>
@@ -15,16 +14,16 @@ const Footer = () => {
                     <div className={styling.follow}>Follow us on</div>
                     <div className={styling.img_cont} >
                         <div className="flex-1 flex justify-center">
-                            <img className="h-full"  src="..//fb.png" alt="media"/>
+                            <a href="/"><img className="h-full"  src="..//fb.png" alt="media"/></a>
                         </div>
                         <div className="flex-1 flex justify-center">
-                            <img className="h-full"  src="..//insta.png" alt="media"/>
-                            </div>
-                        <div className="flex-1 flex justify-center">
-                            <img className="h-full"  src="..//twitter.png" alt="media" />
+                            <a href="/"><img className="h-full"  src="..//insta.png" alt="media"/></a>
                         </div>
                         <div className="flex-1 flex justify-center">
-                            <img className="h-full" src="..//lkdin.png" alt="media"/>
+                            <a href="/"><img className="h-full"  src="..//twitter.png" alt="media"/></a>
+                        </div>
+                        <div className="flex-1 flex justify-center">
+                            <a href="/"><img className="h-full" src="..//lkdin.png" alt="media"/></a>
                         </div>
                     </div>
                 </div>
@@ -39,7 +38,6 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        </>
     );
 }
 
