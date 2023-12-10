@@ -7,6 +7,7 @@ import Sponsors from './components/Sponsors/Sponsors'
 import Button from './components/handles/handles'
 import Footer from './components/footer/footer';
 import IntroFunc from './components/intro/intro'
+import whypart from  './components/why_to_participate/why_to_part';
 import { useState } from 'react'
 
 
@@ -34,6 +35,7 @@ function App() {
       <IntroFunc/>
       
       <RegistrationPoster/>
+      <whypart /> {/*why to participate*/}
       <Gallery /> 
       
       {/* Join Button */}
