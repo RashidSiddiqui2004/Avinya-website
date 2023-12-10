@@ -1,0 +1,126 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+.event-heading {
+  color: white;
+  text-align: center;
+}
+.tabs-paper {
+  display: flex;
+  justify-content: center;
+}
+.MuiPaper-root.tabs-paper.MuiPaper-elevation1 {
+  background-color: black;
+}
+.MuiTabs-root {
+  background-color: black;
+}
+.MuiTab-wrapper {
+  color: white;
+}
+.dateValue {
+  color: white;
+  text-align: center;
+}
+.master1 {
+  display: flex;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.master2 {
+  display: flex;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.master {
+  display: flex;
+  margin: auto;
+}
+.smallBox {
+  background-color: #a0f0fa;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  transition: background-color 0.3s;
+  color: black;
+  position: relative;
+  overflow: hidden;
+}
+.bigBox {
+  height: 150px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  color: black !important;
+  background-color: #02d7f2;
+}
+.infoLinkLeft {
+  color: black !important;
+  background-color: #80ffff;
+  position: absolute;
+  text-decoration: none;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem 0.75rem;
+}
+.infoLinkRight {
+  color: black;
+  background-color: #80ffff;
+  position: absolute;
+  text-decoration: none;
+  bottom: 0;
+  left: 0;
+  padding-right: 30px;
+  padding: 0.5rem 0.75rem;
+}
+.days {
+  display: flex;
+}
+.smallBox:hover {
+  background-image: url("https://images.assetsdelivery.com/compings_v2/soifer/soifer1807/soifer180700018.jpg");
+}
+.num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 25px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 4.5rem;
+  z-index: 1;
+}
+.content {
+  padding: 1.25rem;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 138%;
+  letter-spacing: 0.049rem;
+}
+.triangleLeft {
+  height: 0;
+  width: 0;
+  right: 10px;
+  top: -50px;
+  border-top: 200px solid black;
+  border-right: 200px solid transparent;
+  position: absolute;
+}
+.triangleRight {
+  height: 0;
+  width: 0;
+  right: -10px;
+  top: -100px;
+  border-top: 200px solid black;
+  border-left: 200px solid transparent;
+  position: absolute;
+}
