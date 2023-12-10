@@ -9,6 +9,7 @@ function Card({ imageNumber, setImageNumber, imagesList, totalImage, titles, des
 
         let nextImageNumber = (imageNumber == totalImage) ? 1 : imageNumber + 1;
         setImageNumber(nextImageNumber);
+        console.log(imageNumber);
     }
 
     return (
@@ -16,9 +17,9 @@ function Card({ imageNumber, setImageNumber, imagesList, totalImage, titles, des
             <div className='md:flex md:flex-row mx-[10%] border-2 bg-slate-200 
              rounded-e-2xl'>
 
-                <div className='w-[80%] mx-[10%] md:mx-0 md:w-[40%] md:rounded-sm  sm:max-h-[390px]'>
+                <div className='w-[90%] mx-[30%] sm:mx-[30%] md:mx-0 md:w-[40%] md:rounded-sm  sm:max-h-[390px]'>
                     <img src={`img${imagesList[imageNumber - 1]}.jpg`} alt="Gallery Image"
-                        className='w-[320px] h-[320px] md:w-[100%] md:h-[100%] lg:hover:scale-[104%] rounded-2xl md:rounded-none hover:rounded-lg hover:-translate-x-2 transition-all' />
+                        className='w-[400px] h-[360px] md:w-[100%] md:h-[100%] lg:hover:scale-[104%] rounded-2xl md:rounded-none hover:rounded-lg hover:-translate-x-2 transition-all' />
                 </div>
 
 

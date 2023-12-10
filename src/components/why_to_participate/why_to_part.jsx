@@ -1,12 +1,11 @@
 import React from 'react';
 import './why_to_part.css';
 
-function whypart() {
-    return (
-      <div className='containerwp'>
-      
-        <p className='headingwp'> WHY TO PARTICIPATE IN TECHX 2023</p>
-      
+function Whypart() {
+  return (
+    <div className=''>
+      <p className='headingwp'> WHY TO PARTICIPATE IN TECHX 2023</p>
+
       <div className='reasonsboxwp'>
         <div className="reasonwp reason1wp">
           <h3>GET INSPIRED</h3>
@@ -32,11 +31,10 @@ function whypart() {
           <h3>FREE SWAGS</h3>
           <p>Get cool goodies and swags to show off to your friends.</p>
         </div>
-  
-  
-      </div>
-      </div>
-    )
-  }
 
-  export default whypart;
+      </div>
+    </div>
+  )
+}
+
+export default Whypart;

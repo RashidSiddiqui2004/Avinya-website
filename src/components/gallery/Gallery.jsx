@@ -34,27 +34,24 @@ function Gallery() {
       style={{ background: '#092e3d' }}
     >
 
-      <div className='flex flex-row sm:mx-[20%] mb-7'>
-
+      <div className='flex flex-row mx-[30%] sm:mx-[20%] mb-7'>
         <img src="/avinyaLogo.png" alt="Avinya Logo" className='rounded-full' />
 
-        <h1 className='text-4xl md:text-6xl font-fairdisplay font-bold
+        <h1 className='text-5xl md:text-6xl ml-16 md:ml-8 font-fairdisplay font-bold
       bg-gradient-to-r from-pink-500 via-gray-300 to-red-500
       text-transparent bg-clip-text mx-2 pt-12 italic underlined-text2 pb-3'>AVINYA PAST EVENTS</h1>
 
       </div>
 
-
       <Card imageNumber={imageNumber} setImageNumber={setImageNumber} imagesList={imagesList}
         totalImage={imagesList.length} titles={titles} descriptions={imageDescriptions}
         mobileDescriptions={mobileDescriptions} />
 
-      <div className='bg-slate-600 h-[3px] mx-5 my-5 rounded-xl md:w-[50%] md:mx-[25%]'>
+      <div className='bg-slate-600 h-[4px] mx-5 my-5 rounded-se-3xl rounded-bl-none
+      rounded-e-xl rounded-ee-full md:w-[50%] md:mx-[25%] transition-all'>
         <div className={`bg-red-600 w-${imageNumber}/5 h-full rounded-xl transition-all`}>
         </div>
       </div>
-
-
 
     </div>
   )
