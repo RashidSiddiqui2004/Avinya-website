@@ -13,7 +13,7 @@ function Card({ imageNumber, setImageNumber, imagesList, totalImage, titles, des
     }
 
     return (
-        <div>
+        <div className='transition-all'>
             <div className='md:flex md:flex-row mx-[10%] border-2 bg-slate-200 
              rounded-e-2xl'>
 
@@ -25,13 +25,13 @@ function Card({ imageNumber, setImageNumber, imagesList, totalImage, titles, des
 
                 <div className='h-full w-full py-8 px-8'>
                     <h1 className='text-gray-900 pb-5 font-serif font-semibold 
-                    italic text-2xl md:text-6xl'>AVINYA EVENT - {titles[imageNumber - 1]}</h1>
+                    italic text-4xl md:text-6xl'>AVINYA EVENT - {titles[imageNumber - 1]}</h1>
 
                     <p className='text-slate-700 hidden md:block text-sm md:text-lg italic'>
                         {descriptions[imageNumber - 1]}
                     </p>
 
-                    <p className='text-slate-700 block md:hidden text-sm md:text-lg italic'>
+                    <p className='text-slate-700 block md:hidden text-2xl italic'>
                         {mobileDescriptions[imageNumber - 1]}
                     </p>
 

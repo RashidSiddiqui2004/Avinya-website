@@ -104,7 +104,7 @@ function Sponsors() {
 
       <div>
         <h2 className='text-6xl sm:text-4xl text-center mt-14 mb-16 font-bold font-fairdisplay space-x-1
-        underlined-text'>OTHER SPONSORS</h2>
+        underlined-text pb-3'>OTHER SPONSORS</h2>
 
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-8 
         items-center ml-[25%] sm:ml-[20%] md:ml-[18%] lg:ml-8'>

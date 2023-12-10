@@ -7,7 +7,6 @@ import Sponsors from "./components/sponsors/Sponsors";
 import Button from "./components/handles/handles";
 import Footer from "./components/footer/footer";
 import IntroFunc from "./components/intro/intro";
-// import Whypart from './components/why_to_participate/why_to_part'
 import WhyPart2 from "./components/why_to_participate/WhyPart";
 import Event from "./components/events/Event";
 
@@ -23,7 +22,7 @@ function App() {
       <h1
         className="text-6xl font-bold font-fairdisplay italic 
       bg-gradient-to-r from-purple-400 via-green-300 to-blue-500 text-transparent
-       bg-clip-text"
+       bg-clip-text underlined-text pb-3 px-1 hover:scale-95 transition-all"
       >
         AVINYA
         <span className="text-red-500 mx-6 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
@@ -41,6 +40,7 @@ function App() {
       <div className="mb-10">
         <Event />
       </div>
+
       {/* <RegistrationPoster/>  --> to be added later after backend integration*/}
       <WhyPart2 />
 
@@ -48,7 +48,7 @@ function App() {
 
       {/* Join Button */}
 
-      <Button />
+      <Button CTA={"JOIN"} />
 
       <Sponsors />
 
@@ -60,8 +60,7 @@ function App() {
         <button
           className="text-2xl bg-green-200 hover:bg-green-300 text-slate-950 transition-all
          hover:scale-[102%] hover:text-slate-900"
-          onClick={changeCTA}
-        >
+          onClick={changeCTA}>
           {cta}
         </button>
       </div>

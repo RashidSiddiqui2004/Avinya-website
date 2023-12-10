@@ -3,7 +3,7 @@ import './why_to_part.css';
 
 function Whypart() {
   return (
-    <div className=''>
+    <div className='mt-16'>
       <p className='headingwp'> WHY TO PARTICIPATE IN TECHX 2023</p>
 
       <div className='reasonsboxwp'>

@@ -3,7 +3,7 @@ import React from 'react'
 
 function WhyPart2() {
     return (
-        <div>
+        <div className='mt-24'>
 
             <h1 className='text-6xl text-white pt-4 pb-4 text-center md:ml-0
     font-bold hover:scale-[101%] hover:bg-gradient-to-r hover:from-green-300 hover:via-gray-300 hover:to-red-500

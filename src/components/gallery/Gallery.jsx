@@ -31,7 +31,7 @@ function Gallery() {
 
   return (
     <div className='py-8 w-[120%] md:w-[120%] mb-10 mt-[3%] sm:-ml-[10%]'
-      style={{ background: '#092e3d' }}
+      // style={{ background: '#092e3d' }}
     >
 
       <div className='flex flex-row mx-[30%] sm:mx-[20%] mb-7'>
@@ -45,10 +45,10 @@ function Gallery() {
 
       <Card imageNumber={imageNumber} setImageNumber={setImageNumber} imagesList={imagesList}
         totalImage={imagesList.length} titles={titles} descriptions={imageDescriptions}
-        mobileDescriptions={mobileDescriptions} />
+        mobileDescriptions={mobileDescriptions}/>
 
-      <div className='bg-slate-600 h-[4px] mx-5 my-5 rounded-se-3xl rounded-bl-none
-      rounded-e-xl rounded-ee-full md:w-[50%] md:mx-[25%] transition-all'>
+      <div className='bg-slate-600 h-[4px] my-5 rounded-se-3xl rounded-bl-none
+      rounded-e-xl rounded-ee-full w-[50%] mx-[25%] md:w-[50%] md:mx-[25%] transition-all'>
         <div className={`bg-red-600 w-${imageNumber}/5 h-full rounded-xl transition-all`}>
         </div>
       </div>
