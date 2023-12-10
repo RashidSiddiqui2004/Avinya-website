@@ -6,6 +6,8 @@ import RegistrationPoster from './components/register/RegistrationPoster'
 import Sponsors from './components/Sponsors/Sponsors'
 import Button from './components/handles/handles'
 import Footer from './components/footer/footer';
+import IntroFunc from './components/intro/intro'
+import whypart from  './components/why_to_participate/why_to_part';
 import { useState } from 'react'
 
 
@@ -30,8 +32,10 @@ function App() {
         <img src="/VR.png" alt="image" className='w-[50%]' />
       </div>
 
- 
+      <IntroFunc/>
+      
       <RegistrationPoster/>
+      <whypart /> {/*why to participate*/}
       <Gallery /> 
       
       {/* Join Button */}
