@@ -61,7 +61,7 @@ body {
   background-color: #02d7f2;
 }
 .infoLinkLeft {
-  color: black !important;
+  color: black;
   background-color: #80ffff;
   position: absolute;
   text-decoration: none;
