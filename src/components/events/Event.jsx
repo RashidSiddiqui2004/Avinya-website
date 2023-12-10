@@ -67,12 +67,25 @@ function Event() {
             textColor="primary"
             onChange={handleChange}
             aria-label="Tabs"
-            className={`bg-black`}
+            sx={{
+              "& button": {
+                backgroundColor: "black",
+                color: "white",
+                fontSize: "1.25rem",
+                width: "10rem",
+              },
+              "& button:focus": {
+                color: "primary",
+              },
+              "& button.Mui-selected": {
+                color: "primary",
+              },
+            }}
           >
-            <Tab label="Day 1" value={1} />
-            <Tab label="Day 2" value={2} />
-            <Tab label="Day 3" value={3} />
-            <Tab label="Day 4" value={4} />
+            <Tab label="Day 01" value={1} />
+            <Tab label="Day 02" value={2} />
+            <Tab label="Day 03" value={3} />
+            <Tab label="Day 04" value={4} />
           </Tabs>
         </Paper>
       </div>
