@@ -36,8 +36,8 @@ function Sponsors() {
         underlined-text2 pb-3 italic space-x-1'>PLATINUM PARTNERS</h2>
         <hr className='w-[40%] py-1 mx-[30%]' />
 
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center
-         mx-[40%] sm:mx-14 mt-3 md:mx-96'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
+         mx-[40%] sm:mx-[40%] mt-3 md:mx-96'>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
             <img src="/devfolio.png" alt="" className='h-16 rounded-lg' />
             <p className='text-white text-4xl sm:text-2xl font-semibold text-center my-4 px-4'>Devfolio</p>
@@ -55,9 +55,9 @@ function Sponsors() {
         <h2 className='text-6xl sm:text-4xl text-center mt-14 mb-5 font-bold font-fairdisplay space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
         <hr className='w-[60%] py-1 mx-[20%]' />
-
-        <div className='grid grid-cols-1 md:grid-cols-3 gap-14 mx-[40%] sm:mx-14 mt-3
-         md:mx-56'>
+        {/* md:mx-56  mx-[40%]  */}
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-14 mx-[40%] mt-3
+         sm:mx-[40%] md:mx-56'>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
             <img src="/devfolio.png" alt="" className='h-16 rounded-lg' />
             <p className='text-white text-4xl sm:text-2xl font-semibold text-center my-4 px-4'>Devfolio</p>
@@ -80,8 +80,8 @@ function Sponsors() {
         underlined-text pb-3'>GOLD PARTNERS</h2>
         <hr className='w-[40%] py-1 mx-[30%]' />
 
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center
-         mx-[40%] sm:mx-14 mt-3 md:mx-96'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
+          mx-[40%] sm:mx-[40%] mt-3 md:mx-96'>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
             <img src="/devfolio.png" alt="" className='h-16 rounded-lg' />
             <p className='text-white text-4xl sm:text-2xl font-semibold text-center my-4 px-4'>Devfolio</p>
@@ -106,8 +106,8 @@ function Sponsors() {
         <h2 className='text-6xl sm:text-4xl text-center mt-14 mb-16 font-bold font-fairdisplay space-x-1
         underlined-text'>OTHER SPONSORS</h2>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-8 
-        items-center ml-[40%] sm:ml-[20%] md:ml-[18%] lg:ml-8'>
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-8 
+        items-center ml-[25%] sm:ml-[20%] md:ml-[18%] lg:ml-8'>
 
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
             <img src="/devfolio.png" alt="" className='h-16 rounded-lg' />
