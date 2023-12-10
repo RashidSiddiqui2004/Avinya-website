@@ -18,7 +18,7 @@ function Card({ imageNumber, setImageNumber, imagesList, totalImage, titles, des
 
                 <div className='w-[80%] mx-[10%] md:mx-0 md:w-[40%] md:rounded-sm  sm:max-h-[390px]'>
                     <img src={`img${imagesList[imageNumber - 1]}.jpg`} alt="Gallery Image"
-                        className='w-[100%] h-[100%] lg:hover:scale-[104%] rounded-2xl md:rounded-none hover:rounded-lg hover:-translate-x-2 transition-all' />
+                        className='w-[320px] h-[320px] md:w-[100%] md:h-[100%] lg:hover:scale-[104%] rounded-2xl md:rounded-none hover:rounded-lg hover:-translate-x-2 transition-all' />
                 </div>
 
 

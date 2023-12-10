@@ -36,7 +36,7 @@ function Gallery() {
 
       <div className='flex flex-row sm:mx-[20%] mb-7'>
 
-        <img src="public/avinyaLogo.png" alt="Avinya Logo" className='rounded-full' />
+        <img src="/avinyaLogo.png" alt="Avinya Logo" className='rounded-full' />
 
         <h1 className='text-4xl md:text-6xl font-fairdisplay font-bold
       bg-gradient-to-r from-pink-500 via-gray-300 to-red-500

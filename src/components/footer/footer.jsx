@@ -15,16 +15,16 @@ const Footer = () => {
                     <div className={styling.follow}>Follow us on</div>
                     <div className={styling.img_cont} >
                         <div className="flex-1 flex justify-center">
-                            <img className="h-full"  src="../public/fb.png" alt="media"/>
+                            <img className="h-full"  src="..//fb.png" alt="media"/>
                         </div>
                         <div className="flex-1 flex justify-center">
-                            <img className="h-full"  src="../public/insta.png" alt="media"/>
+                            <img className="h-full"  src="..//insta.png" alt="media"/>
                             </div>
                         <div className="flex-1 flex justify-center">
-                            <img className="h-full"  src="../public/twitter.png" alt="media" />
+                            <img className="h-full"  src="..//twitter.png" alt="media" />
                         </div>
                         <div className="flex-1 flex justify-center">
-                            <img className="h-full" src="../public/lkdin.png" alt="media"/>
+                            <img className="h-full" src="..//lkdin.png" alt="media"/>
                         </div>
                     </div>
                 </div>

@@ -25,9 +25,9 @@ function App() {
         <span className='text-red-500 mx-6 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text'>2023</span></h1>
 
       <div className='flex flex-row px-[20%] mt-7 mb-9'>
-        <img src="public/programmer.png" alt="image" className='w-[50%] mr-16' />
+        <img src="/programmer.png" alt="image" className='w-[50%] mr-16' />
 
-        <img src="public/VR.png" alt="image" className='w-[50%]' />
+        <img src="/VR.png" alt="image" className='w-[50%]' />
       </div>
 
  
@@ -40,7 +40,7 @@ function App() {
       <Sponsors />
 
       <div className='flex flex-row px-[10%] mt-7 mb-4'>
-        <img src="public/desk.png" alt="image" className='w-[80%] mx-[15%]' />
+        <img src="/desk.png" alt="image" className='w-[80%] mx-[15%]' />
       </div>
 
       <div className='mt-6 mb-4'>

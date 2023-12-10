@@ -15,7 +15,7 @@ function Sponsors() {
 
       <div className='h-[200px] rounded-full transition-all
        opacity-40 absolute mt-3 hidden md:block lg:-left-32'>
-        <img src="public/gift.png" alt="" />
+        <img src="/gift.png" alt="" />
       </div>
       
 {/* 
@@ -92,7 +92,7 @@ function Sponsors() {
         <div className='h-[200px] rounded-full transition-all
        opacity-40 absolute mt-6 -right-[29%]
         hidden md:block lg:-right-0'>
-        <img src="public/gift.png" alt="" />
+        <img src="/gift.png" alt="" />
       </div>
       </div> 
 
@@ -119,7 +119,7 @@ function Sponsors() {
             <p className='text-white text-2xl font-semibold text-center my-4 px-4'>filecoin</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-16 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-16 rounded-md' />
             <p className='text-white text-2xl font-semibold text-center my-4 px-8'>Tezos</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
@@ -141,7 +141,7 @@ function Sponsors() {
             <p className='text-white text-2xl font-semibold text-center my-4 px-4'>filecoin</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-16 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-16 rounded-md' />
             <p className='text-white text-2xl font-semibold text-center my-4 px-8'>Tezos</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
@@ -163,7 +163,7 @@ function Sponsors() {
             <p className='text-white text-2xl font-semibold text-center my-4 px-4'>filecoin</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-16 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-16 rounded-md' />
             <p className='text-white text-2xl font-semibold text-center my-4 px-8'>Tezos</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
@@ -195,7 +195,7 @@ function Sponsors() {
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>filecoin</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
@@ -216,7 +216,7 @@ function Sponsors() {
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>filecoin</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
@@ -237,7 +237,7 @@ function Sponsors() {
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>filecoin</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
@@ -266,7 +266,7 @@ function Sponsors() {
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>filecoin</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
@@ -274,7 +274,7 @@ function Sponsors() {
             <p className='text-white text-2xl font-semibold text-center my-4 pr-6'>Celo</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
 
@@ -283,7 +283,7 @@ function Sponsors() {
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Celo</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
 
@@ -292,7 +292,7 @@ function Sponsors() {
             <p className='text-white text-2xl font-semibold text-center my-4 pr-6'>Celo</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
 
@@ -305,7 +305,7 @@ function Sponsors() {
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>filecoin</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
@@ -313,7 +313,7 @@ function Sponsors() {
             <p className='text-white text-2xl font-semibold text-center my-4 pr-6'>Celo</p>
           </div>
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="public/tezos.png" alt="" className='h-12 rounded-md' />
+            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
             <p className='text-white text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
           </div>
 
