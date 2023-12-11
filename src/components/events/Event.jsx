@@ -3,7 +3,6 @@ import { Paper, Tab, Tabs } from "@mui/material";
 import ReactPropTypes from "prop-types";
 import dayValues from "./data.jsx";
 import styling from "./event.module.css";
-
 function DayDataLeft(props) {
   return (
     <div className={styling.master1}>
@@ -57,7 +56,9 @@ function Event() {
 
   return (
     <div className={styling.main}>
-      <h1 className={`${styling["eventHeading"]} text-5xl my-5 font-extrabold`}>
+      <h1
+        className={`${styling["eventHeading"]} text-8xl my-5 font-extrabold py-4`}
+      >
         EVENTS
       </h1>
       <div className="flex flex-col text-center items-center justify-center mb-5">
@@ -72,11 +73,15 @@ function Event() {
               "& button": {
                 backgroundColor: "black",
                 color: "white",
-                fontSize: "1.25rem",
+                fontSize: "1.5rem",
                 width: "10rem",
+                fontFamily: "Montserrat",
+                fontWeight: "bold",
+                fontStyle: "normal",
               },
-              "& button:focus": {
-                color: "primary",
+              "& button:hover": {
+                backgroundColor: "#02d7f2",
+                color: "black",
               },
               "& button.Mui-selected": {
                 color: "primary",
@@ -90,7 +95,7 @@ function Event() {
           </Tabs>
         </Paper>
       </div>
-      <h1 className={`${styling["dateValue"]} text-2xl`}>
+      <h1 className={`${styling["dateValue"]} text-4xl my-12`}>
         {dayValues[activeDay].date}
       </h1>
       <div className={styling.allContent}>
