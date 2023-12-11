@@ -79,10 +79,6 @@ function Event() {
                 fontWeight: "bold",
                 fontStyle: "normal",
               },
-              "& button:hover": {
-                backgroundColor: "#02d7f2",
-                color: "black",
-              },
               "& button.Mui-selected": {
                 color: "primary",
               },
