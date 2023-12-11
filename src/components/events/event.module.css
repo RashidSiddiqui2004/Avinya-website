@@ -91,7 +91,7 @@ body {
   display: flex;
 }
 .smallBox:hover {
-  background-image: url("https://images.assetsdelivery.com/compings_v2/soifer/soifer1807/soifer180700018.jpg");
+  color: white;
 }
 .num {
   display: flex;
