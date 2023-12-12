@@ -1,14 +1,25 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    padding: 20px;
-    user-select: none;
+body {
+  padding: 20px;
+  user-select: none;
 }
 
+
+@font-face {
+  font-family: akira;
+  src: url(akiraExpanded.otf);
+}
+
+.headerAkira {
+  font-family: akira;
+}
+
+
+/* 
 [type=radio]{
     display: none;
 }
@@ -86,4 +97,4 @@ body{
   left: 100%;
   top: 50%;
   cursor: default;
-}
+} */

@@ -29,6 +29,7 @@ function App() {
       </div>
 
       {/* <RegistrationPoster/>  --> to be added later after backend integration*/}
+      
       <WhyPart2 />
 
       <Gallery />

@@ -1,0 +1,9 @@
+
+@font-face{
+    font-family: akira;
+    src: url(akiraExpanded.otf);
+}
+
+.headerAkira{
+    font-family: akira;
+}
