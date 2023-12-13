@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './handles.module.css';
 
-const joinButton = ({CTA}) => {
+const JoinButton = ({CTA}) => {
   return (
     <div className={styles.container}>
     <h1 className={styles.heading}>JOIN OUR DISCORD SERVER TO STAY UPDATED</h1>
@@ -11,4 +11,4 @@ const joinButton = ({CTA}) => {
     </div>
   );
 };
-export default joinButton;
+export default JoinButton;

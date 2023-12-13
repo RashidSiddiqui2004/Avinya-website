@@ -21,11 +21,11 @@ function Sponsors() {
       </div>
 
       <div>
-        <h2 className='text-6xl sm:text-4xl text-center mt-16 mb-5 font-semibold font-fairdisplay
+        <h2 className='text-6xl sm:text-4xl text-center mt-16 mb-5 ml-[25%] md:ml-[32%] font-semibold
         underlined-text2 pb-3 space-x-1 headerAkira'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
-         mx-[40%] sm:mx-[40%] mt-3 md:mx-96'>
+         mx-[40%] sm:mx-[45%] mt-3 md:mx-[35%]'>
           <SponsorCard sponsorName="Devfolio" logosrc="devfolio" />
           <SponsorCard sponsorName="polygon" logosrc="polygon" />
         </div>
@@ -34,12 +34,13 @@ function Sponsors() {
       {/* Education Partners */}
 
       <div>
-        <h2 className='text-6xl sm:text-4xl text-center mt-12 mb-5 font-semibold headerAkira space-x-1
+        <h2 className='text-6xl sm:text-4xl text-center mt-12 mb-5 ml-[14%] md:ml-[30%]
+        font-semibold headerAkira space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
         {/* md:mx-56  mx-[40%]  */}
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-14 mx-[40%] mt-3
-         sm:mx-[40%] md:mx-56'>
+         sm:mx-[40%] md:mx-[30%]'>
           <SponsorCard sponsorName="Devfolio" logosrc="devfolio" />
           <SponsorCard sponsorName="polygon" logosrc="polygon" />
           <SponsorCard sponsorName="Celo" logosrc="celo" />
@@ -55,11 +56,12 @@ function Sponsors() {
       {/* Gold Partners */}
 
       <div>
-        <h2 className='text-6xl sm:text-4xl text-center mt-14 mb-5 font-semibold headerAkira space-x-1
+        <h2 className='text-6xl sm:text-4xl text-center mt-14 mb-5 ml-[20%] md:ml-[35%]
+        font-semibold headerAkira space-x-1
         underlined-text pb-3'>GOLD PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
-          mx-[40%] sm:mx-[40%] mt-3 md:mx-96'>
+           mx-[40%] sm:mx-[45%] mt-3 md:mx-[38%]'>
 
           <SponsorCard sponsorName="Devfolio" logosrc="devfolio" />
           <SponsorCard sponsorName="polygon" logosrc="polygon" />
@@ -72,22 +74,23 @@ function Sponsors() {
 
         </div>
 
-        <div className='h-[200px] rounded-full transition-all
+        {/* <div className='h-[200px] rounded-full transition-all
        opacity-40 absolute mt-6 -right-[29%]
         hidden md:block lg:-right-0'>
           <img src="/gift.png" alt="" />
-        </div>
+        </div> */}
       </div>
 
 
       {/* Other Sponsors */}
 
       <div>
-        <h2 className='text-6xl sm:text-4xl text-center mt-14 mb-16 headerAkira font-semibold space-x-1
+        <h2 className='text-6xl sm:text-4xl text-center mt-14 mb-16 headerAkira 
+        font-semibold space-x-1  ml-[20%] md:ml-[34%]
         underlined-text pb-3'>OTHER SPONSORS</h2>
 
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-16 lg:gap-8 
-        items-center ml-[25%] sm:ml-[20%] md:ml-[18%] lg:ml-8'>
+        items-center ml-[22%] sm:ml-[20%] md:ml-[18%] lg:ml-16'>
 
           <SponsorCard sponsorName="Devfolio" logosrc="devfolio" />
           <SponsorCard sponsorName="polygon" logosrc="polygon" />
@@ -119,7 +122,7 @@ function Sponsors() {
       <div className='pt-32'>
 
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-8 
-        items-center ml-[23%] sm:ml-[20%] md:ml-[18%] lg:ml-8'>
+        items-center ml-[15%] sm:ml-[20%] md:ml-[18%] lg:ml-8'>
 
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
             <img src="/devfolio.png" alt="" className='h-12 rounded-lg' />

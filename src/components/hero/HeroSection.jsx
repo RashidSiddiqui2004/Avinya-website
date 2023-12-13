@@ -5,7 +5,7 @@ function HeroSection() {
     return (
         <div>
             <h1
-                className="text-6xl font-bold font-fairdisplay headerAkira 
+                className="text-6xl font-bold headerAkira py-10
              pb-3 px-1 hover:scale-95 transition-all"
             >
                 AVINYA  <span className='ml-2'> 2024</span> 

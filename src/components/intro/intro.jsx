@@ -3,7 +3,7 @@ import styles from './intro_style.module.css';
 
 function IntroFunc() {
   return (
-    <div className={styles.box}>
+    <div className={styles.box} >
       <div className={styles.overlap_group}>
         <div className={styles.rectangle_1} />
         <div className={styles.avinya}>
