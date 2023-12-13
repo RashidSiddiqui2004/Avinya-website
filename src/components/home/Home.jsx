@@ -5,12 +5,13 @@ import 'aos/dist/aos.css'
 import HeroSection from "../hero/HeroSection";
 import IntroFunc from "../intro/intro";
 import WhyPart from "../why_to_participate/WhyPart";
-// import Gallery from "../gallery/Gallery";
+import Gallery from "../gallery/Gallery";
 import JoinButton from "../handles/handles";
 import Sponsors from "../sponsors/Sponsors";
 import Footer from "../footer/footer";
 import Event from "../events/Event";
-import InitialLoader from "../intialLoader/InitialLoader";
+import InitialLoader from "../intialLoader/InitialLoader"; 
+import SponsDummy from "../sponsors/SponsDummy";
 
 function Home() {
 
@@ -49,9 +50,14 @@ function Home() {
                     {/* <RegistrationPoster/>  --> to be added later after backend integration*/}
 
                     <WhyPart />
-                    {/* <Gallery /> */}
-                    <JoinButton CTA={"JOIN"} />
+                    <Gallery />
+
+                    <div className="mt-32">
+                        <JoinButton CTA={"JOIN"} />
+                    </div>
+
                     <Sponsors />
+                    {/* <SponsDummy/> */}
 
                     <div className="flex flex-row px-[10%] mt-20 mb-4">
                         <img src="/desk.png" alt="image" className="w-[80%] mx-[15%]" />

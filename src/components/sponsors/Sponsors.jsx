@@ -21,7 +21,7 @@ function Sponsors() {
       </div>
 
       <div>
-        <h2 className='text-6xl sm:text-4xl text-center mt-16 mb-5 ml-[25%] md:ml-[32%] font-semibold
+        <h2 className='text-6xl sm:text-4xl text-center mt-16 mb-5 ml-[15%] md:ml-[32%] font-semibold
         underlined-text2 pb-3 space-x-1 headerAkira'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
@@ -194,7 +194,7 @@ function Sponsors() {
 
 
           <h2 className='text-3xl text-center  font-bold font-fairdisplay
-        space-x-1 bg-blue-600 px-5 rounded-xl items-center mx-[16%] md:mx-[35%] 
+        space-x-1 bg-blue-600 px-5 rounded-xl items-center mx-[25%] md:mx-[35%] 
         lg:mx-16 w-[350px] py-6 h-20 col-span-3'>PAST SPONSORS</h2>
 
           <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
