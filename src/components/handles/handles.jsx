@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./handles.module.css";
 
-const joinButton = ({ CTA }) => {
+const JoinButton = ({CTA}) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>

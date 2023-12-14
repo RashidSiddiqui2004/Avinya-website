@@ -3,7 +3,7 @@ import React from 'react'
 import FeaturesCard from './FeaturesCard'
 import "./stylesFeatures.css";
 
-function WhyPart2() {
+function WhyPart() {
 
     const featureObject = {
         titles: [
@@ -30,7 +30,7 @@ function WhyPart2() {
             <h1 className='text-5xl text-white pt-4 pb-4 text-center md:ml-0
     font-bold hover:scale-[101%] transition-all headerAkira'> WHY TO PARTICIPATE IN AVINYA 2024</h1>
 
-            <div className='grid grid-cols-4 mx-[24%] md:grid-cols-3 md:w-[70%] md:mx-[15%] gap-12
+            <div className='grid grid-cols-2 mx-[24%] md:grid-cols-3 md:w-[70%] md:mx-[15%] gap-12
       md:gap-16'>
 
                 {featureObject.titles.map((title, index) =>  
@@ -80,4 +80,4 @@ function WhyPart2() {
     )
 }
 
-export default WhyPart2
+export default WhyPart
