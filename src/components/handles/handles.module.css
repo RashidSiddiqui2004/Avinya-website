@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
 .container {
   margin: 4rem 0;
   font-family: 'Akira', sans-serif;
@@ -6,12 +5,8 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-}
-.heading{
-  font-size: 2.5rem;
-}
-.p{
-  font-size: 1.3rem;
+  text-align: center;
+  color: #ffffff
 }
 .button {
   --glow-color: rgb(176, 231, 255);
@@ -29,7 +24,6 @@
   color: white;
   background-color: rgb(61, 61, 61);
   outline: none;
-  /* text-shadow: 0 0 .15em var(--glow-color); */
   transition: all 0.15s;
 }
 .button:hover {
