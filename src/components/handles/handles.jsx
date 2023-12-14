@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./handles.module.css";
 
-const joinButton = ({CTA}) => {
+const joinButton = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>
@@ -12,7 +12,6 @@ const joinButton = ({CTA}) => {
           href="https://discord.gg/hhHtDXCBpn"
           target="_blank"
           rel="noreferrer"
-          cl
         >
           <button className={styles.button}>
             <p className={styles.p}>JOIN</p>
