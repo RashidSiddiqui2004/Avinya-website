@@ -110,37 +110,37 @@ function Event() {
         <div className={styling.master}>
           <DayDataLeft
             num="3"
-            context={dayValues[activeDay].block3}
-            info={dayValues[activeDay].infoBlock3}
+            context={dayValues[activeDay].block1}
+            info={dayValues[activeDay].infoBlock1}
           />
           <DayDataRight
             num="4"
-            context={dayValues[activeDay].block4}
-            info={dayValues[activeDay].infoBlock4}
+            context={dayValues[activeDay].block2}
+            info={dayValues[activeDay].infoBlock2}
           />
         </div>
         <div className={styling.master}>
           <DayDataLeft
             num="5"
-            context={dayValues[activeDay].block5}
-            info={dayValues[activeDay].infoBlock5}
+            context={dayValues[activeDay].block1}
+            info={dayValues[activeDay].infoBlock1}
           />
           <DayDataRight
             num="6"
-            context={dayValues[activeDay].block6}
-            info={dayValues[activeDay].infoBlock6}
+            context={dayValues[activeDay].block2}
+            info={dayValues[activeDay].infoBlock2}
           />
         </div>
         <div className={styling.master}>
           <DayDataLeft
             num="7"
-            context={dayValues[activeDay].block7}
-            info={dayValues[activeDay].infoBlock7}
+            context={dayValues[activeDay].block1}
+            info={dayValues[activeDay].infoBlock1}
           />
           <DayDataRight
             num="8"
-            context={dayValues[activeDay].block8}
-            info={dayValues[activeDay].infoBlock8}
+            context={dayValues[activeDay].block2}
+            info={dayValues[activeDay].infoBlock2}
           />
         </div>
       </div>
