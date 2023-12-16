@@ -21,7 +21,7 @@ export default {
         'purple': '#4c1d95',  
         'tahiti': '#3ab7bf',   
         'black':'#030712',
-        'green':'#3ab7bf',
+        'green':'#A0F0FA',
       },
     },
   },
