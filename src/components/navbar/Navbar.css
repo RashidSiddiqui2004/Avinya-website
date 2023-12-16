@@ -23,7 +23,7 @@
     height: 5%;
     position: absolute;
     top: 0%;
-
+    visibility: hidden;
     z-index: 100;
 }
 .nav-2{
