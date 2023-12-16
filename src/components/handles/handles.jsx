@@ -1,14 +1,24 @@
-import React from 'react';
-import styles from './handles.module.css';
+import React from "react";
+import styles from "./handles.module.css";
 
-const JoinButton = ({CTA}) => {
+const joinButton = () => {
   return (
     <div className={styles.container}>
-    <h1 className={styles.heading}>JOIN OUR DISCORD SERVER TO STAY UPDATED</h1>
-    <button className={styles.button} role="button">
-      {CTA}
-    </button>
+      <h1 className={styles.heading}>
+        JOIN OUR DISCORD SERVER TO STAY UPDATED
+      </h1>
+      <div className="pointer" target="_blank" style={{ margin: "auto" }}>
+        <a
+          href="https://discord.gg/hhHtDXCBpn"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className={styles.button}>
+            <p className={styles.p}>JOIN</p>
+          </button>
+        </a>
+      </div>
     </div>
   );
 };
-export default JoinButton;
+export default joinButton;

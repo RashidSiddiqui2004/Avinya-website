@@ -30,8 +30,9 @@ const Footer = () => {
                 <div className={styling.break2}></div>
                 <div className={styling.cnt3}>
                     <div className={styling.email}>Email</div>
-                    <div className="text-center text-[0.8rem]">Email@gmail.com</div>
+                    <div className="text-center text-[0.8rem]">nsut.devcomm@gmail.com</div>
                 </div>
+                <div className={styling.break3}></div>
                 <div className={styling.cnt4}>
                     <div className={styling.addrs}>Address</div>
                     <div className="text-center text-[0.8rem]">NSUT Dwarka, Sector-3</div>

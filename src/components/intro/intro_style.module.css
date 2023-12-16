@@ -1,107 +1,161 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&family=Chakra+Petch:wght@600&display=swap');
 
-.box {
+.box { 
   height: 1068px;
   width: 1188px;
   overflow-x: hidden;
-  overflow: hidden;
+  overflow: hidden; 
+  max-width: 100%;  
 }
 
 .overlap_group {
-  height: 883px;
-  position: relative;
-  width: 1193px;
-  background-color:#02D7F2;
+  height: auto; 
+  width: 100%;
+  background-color: #02D7F2;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 22%, 17% 0);
   overflow: hidden;
   margin-top: 20px;
+  margin-bottom: 100px;
+  position: relative;
 }
 
+
+.avinya{
+  position: relative;
+  font-size: 6vw; /* Adjusted font size based on viewport width */
+  line-height: 1.2; /* Adjusted line height for better responsiveness */
+  color: #010101;
+  font-family: "Chakra Petch", Helvetica;
+  letter-spacing: 0;
+  width: 80%; 
+  left: 10%; 
+}
 .avinya {
-  color: #010101;
-  font-family: "Chakra Petch", Helvetica;
-  font-size: 150px;
+  position: relative;
+  box-sizing: border-box;
   font-weight: 600;
-  left: 143px;
-  letter-spacing: 0;
-  line-height: 130px;
-  position: absolute;
-  top: 135px;
-  width: 707px;
-}
-
-.avinya_year{
-  color: #010101;
-  font-family: "Chakra Petch", Helvetica;
-  font-size: 150px;
-  font-weight: 1000;
-  left: 143px;
-  letter-spacing: 0;
-  line-height: 130px;
-  position: absolute;
-  top: 290px;
-  width: 707px;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  line-height: 1;
 }
 
 .intro_text {
   color: #010101;
   font-family: "Bai Jamjuree", Helvetica;
   text-align: left;
-  font-size: 30px;
-  font-weight: 500;
-  left: 143px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 441px;
-  width: 879px;
+  position: relative;
+  width: 80%; 
+  left: 10%; 
+  font-size: 2vw; 
+  top: 30%;
+  bottom:3.5vw;
 }
 
 .rectangle_1 {
   background-color: #010101;
-  height: 8px;
-  left: 766px;
+  height: 1%; 
+  left: 65%; 
   position: absolute;
-  top: 133px;
-  width: 427px;
+  top: 10%; 
+  width: 40%; 
 }
-
-.rectangle_2{
+.rectangle_2 {
   background-color: #010101;
-  height: 8px;
-  left: 927px;
+  height: 1%;
+  left: 5%; 
   position: absolute;
-  top: 275px;
-  transform: rotate(-90deg);
-  width: 427px;
+  transform-origin: bottom left; 
+  transform: rotate(-90deg); 
+  width: 35%; 
+  bottom: 0.1%;
 }
-
 .rectangle_3 {
   background-color: #010101;
-  height: 8px;
-  left: -143px;
+  height: 1%; 
+  left: 2%; 
   position: absolute;
-  top: 666px;
-  transform: rotate(-90deg);
-  width: 427px;
+  bottom: 3%;
+  transform-origin: bottom left; 
+  width: 40%; 
 }
-
-.rectangle_4 {
+.rectangle_4{
   background-color: #010101;
-  height: 8px;
-  left: 29px;
+  height: 1%; 
+  left: 95%; 
   position: absolute;
-  top: 789px;
-  width: 427px;
+  top: 40%; 
+  transform-origin: top left; 
+  transform: rotate(-90deg); 
+  width: 30%; 
 }
 
-@media screen and (min-width: 1200px) {
-
+@media screen and (max-width: 767px) {
   .box {
-    height: 1068px;
-    width: 1188px;
-    margin-left: 8%;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  .rectangle_2{
+    width: 17%; 
+  }
+  .overlap_group{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 30%, 12% 0);
+    height:max-content;
+  }
+  .intro_text {
+    font-size: 4vw; 
+    bottom: 6vw; 
+    margin-bottom: 3vw;
+  }
+  .avinya{
+    font-size: 9vw;
+    left: 15%;
+    margin-bottom: 10vw;
+  }
+  .rectangle_3{
+    bottom:7%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .box {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .overlap_group{
+    width: 90%;
+    left:10%;
+  }
+  .rectangle_2{
+    width: 17%; 
+  }
+  .overlap_group{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 30%, 12% 0);
+  }
+  
+}
 
+@media screen and (min-width: 1024px) {
+  .box {
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .overlap_group{
+    width: 90%;
+    left:5%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 27%, 17% 0);
+  }
+  .intro_text{
+    font-size: 1.5vw;
+  }
+  
+}
+@media screen and (min-width: 1536px) {
+  .box {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
