@@ -198,16 +198,22 @@
     margin-bottom: -400px;
   }
   .overlap_group{
-    width: 70%;
-    left:15%;
+    width: 85%;
+    left:7%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 27%, 17% 0);
   }
   .intro_text{
     font-size: 1.25rem;
-    margin-bottom: 3vw;
+    margin-bottom: 4vw;
   }
   .avinya{
+    margin-top: 5vw;
     left:15%;
+    margin-bottom: 4vw;
+  }
+  .rectangle_3{
+    margin-bottom: 2vw;
+    left:1%;
   }
   
 }
@@ -220,13 +226,12 @@
     margin-bottom: -400px;
   }
   .overlap_group{
-    width: 80%;
-    left:10%;
+    width: 85%;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 27%, 17% 0);
   }
   .intro_text{
     font-size: 1.5rem;
-    margin-bottom: 1.5vw;
+    margin-bottom: 4vw;
   }
   .avinya{
     left:15%;
