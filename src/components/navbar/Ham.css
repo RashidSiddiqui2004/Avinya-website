@@ -1,0 +1,47 @@
+.hamburger-menu {
+    position: relative;
+    
+  }
+  
+  .menu-toggle {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .menu-items {
+    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .menu-items li {
+    width: 600%;
+    padding: 40% 20%;
+    background-color: rgba(68,68,68,0.7);
+    border-bottom: 1px solid black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  .menu-items li:hover{
+    font-size: 3vw;
+    transition-duration: 800ms;
+    transition: all 0.2s ease;
+    text-shadow: 1px 1px 10px white;
+  }
+  .menu-items a {
+    text-decoration: none;
+    color: white;
+  }
+  
