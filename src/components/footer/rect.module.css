@@ -13,12 +13,15 @@
  }
  
  .border_div{
-    background-color: #02D7F2;
-    height: 200px;
-    width: 100%;
-    padding: 2px;
-    clip-path: polygon(1.5rem 0, 100% 0, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 0 100%, 0 1.5rem);
- }
+   background-color: #02D7F2;
+   height: 200px;
+   position: static;
+   width: 98%;
+   width: 97%;
+   padding: 2px;
+   margin: 1%;
+   clip-path: polygon(1.5rem 0, 100% 0, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 0 100%, 0 1.5rem);
+  }
 
  .avinya_txt{
      width: fit-content;

@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -100px;
+  overflow-x: hidden;
 }
 .event-heading {
   color: white;

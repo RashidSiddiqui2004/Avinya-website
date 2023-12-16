@@ -3,9 +3,9 @@ import React from "react";
 
 // Import Swiper React components 
 import { useEffect } from "react";
-import { Swiper, SwiperSlide } from "swiper/react"; 
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Navigation, EffectCoverflow, Pagination, Autoplay, Scrollbar, A11y} from 'swiper/modules';
+import { Navigation, EffectCoverflow, Pagination, Autoplay, Scrollbar, A11y } from 'swiper/modules';
 
 import img1 from '../../assets/images/img1.jpg'
 import img2 from '../../assets/images/img2.jpg'
@@ -14,9 +14,9 @@ import img4 from '../../assets/images/img4.jpg'
 import img5 from '../../assets/images/img5.jpg'
 import img6 from '../../assets/images/img6.jpg'
 import img7 from '../../assets/images/img7.jpg'
-import img8 from '../../assets/images/img8.jpg' 
+import img8 from '../../assets/images/img8.jpg'
 import img10 from '../../assets/images/img10.jpg'
-import img11 from '../../assets/images/img11.jpg' 
+import img11 from '../../assets/images/img11.jpg'
 
 import "./carousel.css";
 
@@ -43,35 +43,37 @@ export default function App() {
              px-1 hover:scale-95 transition-all">GALLERY</h1>
       </div>
 
-         <Swiper 
-      modules={[Navigation, Pagination, Scrollbar, A11y,Autoplay,EffectCoverflow]}
-      spaceBetween={50}
-      slidesPerView={1}
-      loop= {true}
-      coverflowEffect={{
-        rotate: 0,
-        stretch: 0,
-        depth: 105,
-        modifier: 1,
-        slideShadows: true,
-
-      }}
-      autoplay={{
-        disableOnInteraction: false,
-      }}
-      navigation
-      pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}  
-      breakpoints={{
-        640: {
-          slidesPerView: 2, // Adjust for medium screens
-        },
-        768: {
-          slidesPerView: 3, // Adjust for large screens
-        },
-      }}
-      className="mySwiper"
-    >
+      <Swiper
+        // modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
+        modules={[EffectCoverflow,Autoplay,Navigation]}
+        spaceBetween={50}
+        centeredSlides={true}
+        slidesPerView={1}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 105,
+          modifier: 1,
+          slideShadows: true,
+                
+        }}
+        autoplay={{      
+          disableOnInteraction: false,
+       }}
+        loop={true}  
+        navigation = {false}
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        breakpoints={{
+          640: {
+            slidesPerView: 2, // Adjust for medium screens
+          },
+          768: {
+            slidesPerView: 3, // Adjust for large screens
+          },
+        }}
+        className="mySwiper"
+      >
         <SwiperSlide>
           <img src={img1} alt="img-1" />
         </SwiperSlide>
@@ -127,7 +129,7 @@ export default function App() {
 }
 
 
- {/* <Swiper
+{/* <Swiper
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}

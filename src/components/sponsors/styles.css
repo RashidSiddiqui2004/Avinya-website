@@ -1,5 +1,4 @@
 
-
 /* static styles */
 @font-face {
   font-family: akira;
@@ -66,22 +65,59 @@
 
 /* dynamic styles */
 
-
-/* .container{
-  color:white;
-  text-align: center;
+@keyframes floatFromLeft {
+  0% {
+    transform: translateX(-150%);
+  } 
+  50% {
+    transform: translateX(150%);
+  }  
+  100% {
+    transform: translateX(-150%);
+  }
 }
 
-.title{
-  color:white;
-  text-transform: uppercase;
-  font-size: clamp(2rem, 3rem + 1px, 5rem);
-  font-family: 'Orbitron !important';
-  font-weight: 900;
-  letter-spacing: 0.2px;
-  padding: 2rem;
-  text-shadow: 1px 1px grey;
-} */
+@keyframes floatFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes floatFromLeft2 {
+  0% {
+    transform: translateX(-110%);
+  } 
+  50% {
+    transform: translateX(75%);
+  }  
+  100% {
+    transform: translateX(-110%);
+  }
+}
+
+.logo-animation {
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.float-from-left {
+  animation-name: floatFromLeft;
+}
+
+.float-from-right {
+  animation-name: floatFromRight;
+}
+
+.float-from-leftNew {
+  animation-name: floatFromLeft2;
+}
 
 
 /* sponsors CSS */

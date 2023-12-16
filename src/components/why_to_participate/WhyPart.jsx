@@ -25,7 +25,7 @@ function WhyPart() {
     }
 
     return (
-        <div className='mt-24'>
+        <div className='mt-24 overflow-x-hidden'>
 
             <h1 className='text-5xl text-white pt-4 pb-4 text-center md:ml-0
     font-bold hover:scale-[101%] transition-all headerAkira'> WHY TO PARTICIPATE IN AVINYA 2024</h1>

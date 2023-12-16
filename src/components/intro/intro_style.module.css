@@ -4,6 +4,8 @@
 .box {
   height: 1068px;
   width: 1188px;
+  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .overlap_group {
