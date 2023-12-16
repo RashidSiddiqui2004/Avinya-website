@@ -11,6 +11,9 @@ import Sponsors from "../sponsors/Sponsors";
 import Footer from "../footer/footer";
 import Event from "../events/Event";
 import InitialLoader from "../intialLoader/InitialLoader";
+import Banner from '../banner/Banner';
+import Nav from '../navbar/Navbar';
+import Reg_button from '../Reg_button/Reg_button'
 
 function Home() {
 
@@ -40,6 +43,12 @@ function Home() {
                 <InitialLoader />
             ) : (
                 <>
+                <div className="Banner" >
+                    <Nav />
+                    <Banner />
+                    <Reg_button />
+                </div>
+
                     <HeroSection />
 
                     <IntroFunc />
