@@ -89,16 +89,14 @@
 
 @media screen and (max-width: 420px) {
   .box {
-    max-width: 990px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    max-width:400px;
+    margin-top: 90px;
     margin-bottom: -600px;
   }
   .overlap_group{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 27%, 17% 0);
-    left:30%;
-    width: 37%;
+    width: 80%;
+    left:10%;
   }
   .rectangle_1{
     left:75%;
@@ -127,7 +125,6 @@
     margin-top: 7vw;
   }
 }
-
 @media screen and (max-width: 767px) and (min-width: 420px) {
   .box {
     max-width: 990px;
