@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '/Users/anirudhprajapati/Desktop/Avinya/my-react-app/src/avinya_banner.png'; // Replace with the actual path to your image file
+import myImage from './avinya_banner.png'; // Replace with the actual path to your image file
 
 const MyImageComponent = () => {
   return (
