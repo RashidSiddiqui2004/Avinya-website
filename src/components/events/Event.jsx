@@ -12,7 +12,10 @@ function DayDataLeft(props) {
       </div>
       <div className={styling.bigBox}>
         <p className={styling.content}>{props.context}</p>
-        <a className={styling.infoLinkLeft} href={props.info}>
+        <a
+          className={`${styling["infoLinkLeft"]} text-xs lg:text-base`}
+          href={props.info}
+        >
           More Info
         </a>
       </div>
@@ -25,7 +28,10 @@ function DayDataRight(props) {
     <div className={styling.master2}>
       <div className={styling.bigBox}>
         <p className={styling.content}>{props.context}</p>
-        <a className={styling.infoLinkRight} href={props.info}>
+        <a
+          className={`${styling["infoLinkRight"]} text-xs lg:text-base`}
+          href={props.info}
+        >
           More Info
         </a>
       </div>
@@ -55,9 +61,9 @@ function Event() {
   };
 
   return (
-    <div className={styling.main}>
+    <div className={`${styling["main"]}`}>
       <h1
-        className={`${styling["eventHeading"]} text-8xl my-5 font-extrabold py-4`}
+        className={`${styling["eventHeading"]} text-4xl md:text-6xl lg:text-8xl my-5 font-extrabold py-4`}
       >
         EVENTS
       </h1>
@@ -73,8 +79,8 @@ function Event() {
               "& button": {
                 backgroundColor: "black",
                 color: "white",
-                fontSize: "1.5rem",
-                width: "10rem",
+                fontSize: ["1rem", "1.5rem"],
+                width: ["6.5rem", "10rem"],
                 fontFamily: "Montserrat",
                 fontWeight: "bold",
                 fontStyle: "normal",
@@ -91,7 +97,9 @@ function Event() {
           </Tabs>
         </Paper>
       </div>
-      <h1 className={`${styling["dateValue"]} text-4xl my-12`}>
+      <h1
+        className={`${styling["dateValue"]} text-xl md:text-4xl lg:text-4xl my-2 lg:my-12`}
+      >
         {dayValues[activeDay].date}
       </h1>
       <div className={styling.allContent}>
