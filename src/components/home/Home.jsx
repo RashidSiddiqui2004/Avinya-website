@@ -49,6 +49,7 @@ function Home() {
                     </div>
 
                     <WhyPart />
+
                     <Gallery />
 
                     <div className="mt-32">

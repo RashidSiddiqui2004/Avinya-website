@@ -181,9 +181,23 @@
   .float-from-leftNew {
     animation-name: floatFromLeft2Small;
   }
-
 }
 
+@media (min-width: 768px) and (max-width: 1000px) {
+  .float-from-left {
+    animation-name: none;
+  }
+
+  .float-from-right {
+    animation-name: none;
+  }
+
+  .float-from-leftNew {
+    animation-name: none;
+  }
+}
+
+ 
 
 /* sponsors CSS */
 
