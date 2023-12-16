@@ -9,25 +9,11 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -100px;
-  overflow-x: hidden;
 }
 .event-heading {
   color: white;
   text-align: center;
 }
-/* .tabs-paper {
-  display: flex;
-  justify-content: center;
-}
-.MuiPaper-root.tabs-paper.MuiPaper-elevation1 {
-  background-color: black;
-}
-.MuiTab-root {
-  background-color: black;
-}
-.MuiTab-wrapper {
-  color: white;
-} */
 .dateValue {
   color: white;
   text-align: center;
@@ -114,6 +100,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 1.15rem;
+  text-align: center;
 }
 .triangleLeft {
   height: 0;
@@ -145,10 +132,55 @@ body {
     flex-direction: column;
   }
   .bigBox {
-    width: 450px;
+    width: 275px;
+    height: 75px;
     font-size: 1rem;
   }
+  .smallBox {
+    width: 75px;
+    height: 75px;
+    font-size: 0.75rem;
+  }
   .content {
-    font-size: 1.5rem;
+    font-size: 0.75rem;
+    padding: 0.25rem;
+    font-weight: 600;
+  }
+  .num {
+    font-size: 2rem;
+    margin-top: -5px;
+  }
+  .triangleLeft {
+    right: -10px;
+  }
+  .triangleRight {
+    right: -60px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .bigBox {
+    width: 250px;
+    height: 100px;
+    font-size: 1rem;
+  }
+  .smallBox {
+    width: 100px;
+    height: 100px;
+    font-size: 0.75rem;
+  }
+  .content {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    font-weight: 600;
+  }
+  .num {
+    font-size: 2rem;
+  }
+  .triangleLeft {
+    right: -10px;
+  }
+  .triangleRight {
+    right: -40px;
   }
 }
