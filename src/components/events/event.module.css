@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: -100px;
+  overflow-x: hidden;
 }
 .event-heading {
   color: white;
@@ -131,4 +132,23 @@ body {
   border-top: 200px solid black;
   border-left: 200px solid transparent;
   position: absolute;
+}
+
+.master {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .master {
+    flex-direction: column;
+  }
+  .bigBox {
+    width: 450px;
+    font-size: 1rem;
+  }
+  .content {
+    font-size: 1.5rem;
+  }
 }

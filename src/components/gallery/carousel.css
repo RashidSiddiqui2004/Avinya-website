@@ -1,10 +1,16 @@
+ 
  .gallery-section {
    font-size: 14px;
    color: white;
    margin: 0;
    padding: 0;
-   width: 100vw;
    margin: auto;
+   width: 100vw;
+   overflow-x: hidden;
+   overflow: hidden;
+   padding-left: 2%;
+   padding-right: 2%;
+   user-select: none;
  }
 
  .gallery-header h2 {
@@ -15,28 +21,30 @@
    padding: .75rem 0;
  }
 
+ /* .mySwiper{
+
+ } */
+
+ 
  .swiper {
    width: 100%;
    padding-top: 50px;
    padding-bottom: 50px;
+   overflow-x: hidden;
  }
-
- /* .swiper-slide {
-   background-position: center;
-   background-size: cover;
-   width: 300px;
-   height: 300px;
- } */
 
  .swiper-slide {
    background-position: center;
    background-size: cover;
-   width: 80%;
+   width: 90%;
    /* Set a percentage width or adjust as needed */
    height: 300px;
    /* Adjust the height as needed */
    margin: 0 auto;
-   /* Center the slide */
+   text-align: center;
+   align-items: center;
+   filter: blur(2px); /* Initial blur for side images */
+   opacity: 0.9; /* Initial opacity for side images */
  }
 
  /* .swiper-slide img {
@@ -48,19 +56,43 @@
 
  .swiper-slide img {
    display: block;
-   width: 100%;
-   /* Set a percentage width */
-   height: auto;
-   /* Maintain aspect ratio */
+   width: 100%; 
+   height: auto; 
+   margin-top: 5%;
+   opacity: 60%;
+   background-size: cover;
+   background-position: center;
  }
-
+ 
 
  .gallery-header {
    text-align: center;
    margin-top: 3rem;
    font-size: 2rem;
-
  }
+
+ /* Custom styles for Swiper navigation arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  margin-right: 10px; /* Padding in the x-direction */
+}
+
+/* Custom style for the center slide */
+.swiper-slide-active { 
+  transform: scale(1.4);
+  transition: transform 0.5s;  
+  filter: blur(0);  
+  opacity: 1; 
+  transition: filter 0.5s ease, opacity 0.5s ease;  
+}
+
+/* 
+.swiper-slide img :active {  
+  opacity: 1; 
+  transition: filter 0.5s ease, opacity 0.5s ease;  
+} */
 
  @media (min-width: 1000px) {
    .gallery-header h2 {
@@ -70,26 +102,13 @@
  }
 
  @media (max-width: 768px) {
-  .swiper-slide img {
-    display: block;
-    width: 800px; 
-    height: auto; 
-  }
+   .swiper-slide img {
+     display: block;
+     width: 800px;
+     height: auto;
+   }
  }
-
-
-
- /* gallery ends */
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 

@@ -10,14 +10,14 @@ import JoinButton from "../handles/handles";
 import Sponsors from "../sponsors/Sponsors";
 import Footer from "../footer/footer";
 import Event from "../events/Event";
-import InitialLoader from "../intialLoader/InitialLoader"; 
-import SponsDummy from "../sponsors/SponsDummy";
+import InitialLoader from "../intialLoader/InitialLoader";
 
 function Home() {
 
     useEffect(() => {
         new AOS.init({ duration: 1500 });
     }, []);
+
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -27,11 +27,11 @@ function Home() {
         }, 5000);
     }, []);
 
-    const [cta, setCTA] = useState("Get, Set, CODE & FUN ❤️!");
+    // const [cta, setCTA] = useState("Get, Set, CODE & FUN ❤️!");
 
-    function changeCTA() {
-        setCTA("Registrations starting soon ❤️");
-    }
+    // function changeCTA() {
+    //     setCTA("Registrations starting soon ❤️");
+    // }
 
     return (
 
@@ -43,11 +43,10 @@ function Home() {
                     <HeroSection />
 
                     <IntroFunc />
+                    
                     <div className="mb-10">
                         <Event />
                     </div>
-
-                    {/* <RegistrationPoster/>  --> to be added later after backend integration*/}
 
                     <WhyPart />
                     <Gallery />
@@ -57,19 +56,9 @@ function Home() {
                     </div>
 
                     <Sponsors />
-                    {/* <SponsDummy/> */}
 
-                    <div className="flex flex-row px-[10%] mt-20 mb-4">
+                    <div className="flex flex-row px-[10%] mt-20 mb-10">
                         <img src="/desk.png" alt="image" className="w-[80%] mx-[15%]" />
-                    </div>
-
-                    <div className="mt-6 mb-16 items-center ml-[38%]">
-                        <button
-                            className="text-2xl bg-green-200 hover:bg-green-300 text-slate-950 transition-all
-   hover:scale-[102%] hover:text-slate-900"
-                            onClick={changeCTA}>
-                            {cta}
-                        </button>
                     </div>
 
                     <Footer />
@@ -80,3 +69,13 @@ function Home() {
 }
 
 export default Home;
+
+{/* 
+    <div className="mt-6 mb-16 items-center ml-[10%] md:ml-[38%]">
+        <button
+                            className="text-xl md:text-2xl bg-green-200 hover:bg-green-300 text-slate-950 transition-all
+                            hover:scale-[102%] hover:text-slate-900 "
+                            onClick={changeCTA}>
+                            {cta}
+        </button>
+    </div> */}
