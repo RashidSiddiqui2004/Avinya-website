@@ -1,4 +1,4 @@
-.containerwp{
+/* .containerwp{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,7 +13,6 @@
     font-size: 3vw;
     transform: scale(1.5,1);
     margin-top: 4vh;
-   
   }
   .reasonsboxwp{
     display: grid;
@@ -50,4 +49,4 @@
     .reasonwp:hover {
       transform: none;
     }
-  }
+  } */

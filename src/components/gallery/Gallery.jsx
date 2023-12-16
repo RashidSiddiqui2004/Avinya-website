@@ -96,8 +96,8 @@ export default function App() {
       autoplay={{
         disableOnInteraction: false,
       }}
-      loop={true}
-      nanavigation={{
+      loop={true} 
+      navigation={{
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       }}

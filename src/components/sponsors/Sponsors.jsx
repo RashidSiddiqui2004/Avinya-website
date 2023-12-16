@@ -19,20 +19,22 @@ function Sponsors() {
       <hr className='w-[60%] py-1 mx-[20%]' />
       <hr className='w-[80%] mx-[10%]' />
 
-      {/* Platinum Partners */}
+     
 
-      <div className='h-[200px] rounded-full transition-all
+      {/* <div className='h-[200px] rounded-full transition-all
        opacity-40 absolute mt-3 hidden md:block lg:-left-32'>
         <img src="/gift.png" alt="" />
-      </div>
+      </div> */}
+
+       {/* Platinum Partners */}
 
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
-        ml-[10%] md:ml-[35%] font-medium
+        ml-[10%] md:ml-[30%] xl:ml-[35%] font-medium
         underlined-text2 pb-3 space-x-1 headerAkira transition-all linearGradientSponsors2'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
-         mx-[40%] sm:mx-[45%] mt-3 md:mx-[35%]'>
+         mx-[40%] sm:mx-[45%] mt-3 md:mx-[32%]'>
           <SponsorCard sponsorName="Devfolio" logosrc="devfolio" />
           <SponsorCard sponsorName="polygon" logosrc="polygon" />
         </div>
@@ -41,13 +43,13 @@ function Sponsors() {
       {/* Education Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5 ml-[10%] md:ml-[35%]
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5  ml-[10%] md:ml-[30%] xl:ml-[35%]
         font-normal headerAkira space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
         {/* md:mx-56  mx-[40%]  */}
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-14 mx-[40%] mt-3
-         sm:mx-[40%] md:mx-[30%]'>
+         sm:mx-[40%] md:mx-[20%]'>
           <SponsorCard sponsorName="Devfolio" logosrc="devfolio" />
           <SponsorCard sponsorName="polygon" logosrc="polygon" />
           <SponsorCard sponsorName="Celo" logosrc="celo" />
@@ -63,12 +65,13 @@ function Sponsors() {
       {/* Gold Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[18%] md:ml-[38%]
+        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[18%]
+        md:ml-[35%] xl:ml-[38%]
         font-normal headerAkira space-x-1
         underlined-text pb-3 transition-all linearGradientSponsors3'>GOLD PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
-           mx-[40%] sm:mx-[45%] mt-3 md:mx-[38%]'>
+           mx-[40%] sm:mx-[45%] mt-3 md:mx-[32%]'>
 
           <SponsorCard sponsorName="Devfolio" logosrc="devfolio" />
           <SponsorCard sponsorName="polygon" logosrc="polygon" />
@@ -89,7 +92,7 @@ function Sponsors() {
 
       <div>
         <h2 className='
-        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[15%] md:ml-[36%]
+        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[15%] md:ml-[34%] xl:ml-[36%]
         font-normal headerAkira space-x-1   
         underlined-text pb-3'>OTHER SPONSORS</h2>
 
