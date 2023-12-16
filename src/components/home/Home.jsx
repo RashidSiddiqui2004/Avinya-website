@@ -43,6 +43,7 @@ function Home() {
                     <HeroSection />
 
                     <IntroFunc />
+                    
                     <div className="mb-10">
                         <Event />
                     </div>

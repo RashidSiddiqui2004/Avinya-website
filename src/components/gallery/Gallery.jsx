@@ -39,14 +39,15 @@ export default function App() {
   return (
     <main className="gallery-section" data-aos="zoom-in" id="gallery">
       <div className="gallery-header">
-        <h1 className="text-5xl font-bold headerAkira pt-16 pb-24
-             px-1 hover:scale-95 transition-all">GALLERY</h1>
+        <h1 className="text-3xl md:text-5xl font-bold headerAkira pt-16 pb-24
+          px-1 hover:scale-95 transition-all">GALLERY</h1>
       </div>
 
-      <Swiper
-        // modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
-        modules={[EffectCoverflow,Autoplay,Navigation]}
-        spaceBetween={50}
+      {/* <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
+        // modules={[EffectCoverflow,Autoplay,Navigation]}
+
+        spaceBetween={40}
         centeredSlides={true}
         slidesPerView={1}
         coverflowEffect={{
@@ -60,8 +61,13 @@ export default function App() {
         autoplay={{      
           disableOnInteraction: false,
        }}
-        loop={true}  
-        navigation = {false}
+        loop={true} 
+
+        navigation={{
+          nextEl: ".swiper-button-next", // Custom class for the next arrow
+          prevEl: ".swiper-button-prev", // Custom class for the previous arrow
+        }}
+
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         breakpoints={{
@@ -73,7 +79,40 @@ export default function App() {
           },
         }}
         className="mySwiper"
-      >
+      > */}
+
+<Swiper
+      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
+      spaceBetween={40}
+      centeredSlides={true}
+      slidesPerView={1}
+      coverflowEffect={{
+        rotate: 0,
+        stretch: 0,
+        depth: 105,
+        modifier: 1,
+        slideShadows: true,
+      }}
+      autoplay={{
+        disableOnInteraction: false,
+      }}
+      loop={true}
+      nanavigation={{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }}
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
+      breakpoints={{
+        640: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+      }}
+      className="mySwiper"
+    >
         <SwiperSlide>
           <img src={img1} alt="img-1" />
         </SwiperSlide>
@@ -111,7 +150,6 @@ export default function App() {
         {/* <SwiperSlide>
           <img src={img12} alt="img-12" />
         </SwiperSlide> */}
-
         <SwiperSlide>
           <img src={img1} alt="img-1" />
         </SwiperSlide>
