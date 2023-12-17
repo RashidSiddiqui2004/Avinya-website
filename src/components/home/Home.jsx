@@ -24,12 +24,12 @@ function Home() {
 
     const [loading, setLoading] = useState(false);
 
-    // useEffect(() => {
-    //     setLoading(true);
-    //     setTimeout(() => {
-    //         setLoading(false);
-    //     }, 5000);
-    // }, []);
+    useEffect(() => {
+        setLoading(true);
+        setTimeout(() => {
+            setLoading(false);
+        }, 5000);
+    }, []);
 
     // const [cta, setCTA] = useState("Get, Set, CODE & FUN ❤️!");
 
