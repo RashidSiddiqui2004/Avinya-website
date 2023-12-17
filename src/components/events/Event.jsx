@@ -1,10 +1,48 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Paper, Tab, Tabs } from "@mui/material";
 import ReactPropTypes from "prop-types";
 import dayValues from "./data.jsx";
 import styling from "./event.module.css";
+import eventContent from "./eventdesc";
+
+
+const Mdl = (props) => {
+  return (
+    props.mdlstate && (
+      <div className="fixed bg-gray top-0 left-0 w-full h-full flex items-center justify-center z-50">
+        <div className="bg-gray-800 rounded-lg p-12 text-white w-content">
+          <h1 className="text-2xl font-bold mb-4">
+            {eventContent[props.event_id - 1].title}
+          </h1>
+          <p className="mb-4">{eventContent[props.event_id - 1].date}</p>
+          <ul className="mb-4 list-disc pl-6">
+            <li>{eventContent[props.event_id - 1].event_info}</li>
+            <li>{eventContent[props.event_id - 1].time_span}</li>
+            <li>{eventContent[props.event_id - 1].extra}</li>
+          </ul>
+          <p className="mb-4">{eventContent[props.event_id - 1].no_of_participants}</p>
+          <div className="flex justify-around">
+            <button
+              onClick={props.close}
+              className="bg-red-500 text-white px-4 py-2 rounded"
+            >
+              Back to event section
+            </button>
+            <button>
+              Go to form
+            </button>
+          </div>
+        </div>
+      </div>
+    )
+  );
+};
 
 function DayDataLeft(props) {
+  const[mdl, setmdl] = useState(false);
+  const toggle_mdl = () => {
+    setmdl(!mdl);
+  }
   return (
     <div className={styling.master1}>
       <div className={styling.smallBox}>
@@ -12,29 +50,37 @@ function DayDataLeft(props) {
         <h1 className={styling.num}>{props.num}</h1>
       </div>
       <div className={styling.bigBox}>
-        <p className={`${styling["content"]} text-left`}>{props.context}</p>
-        <a
+      <Mdl mdlstate={mdl} close={toggle_mdl} event_id={Number(props.num)}/>
+        <p className={styling.content}>{props.context}</p>
+        <button
           className={`${styling["infoLinkLeft"]} text-xs lg:text-base`}
-          href={props.info}
+          // href={props.info}
+          onClick={toggle_mdl}
         >
           More Info
-        </a>
+        </button>
       </div>
     </div>
   );
 }
 
 function DayDataRight(props) {
+  const[mdl, setmdl] = useState(false);
+  const toggle_mdl = () => {
+    setmdl(!mdl);
+  }
   return (
     <div className={styling.master2}>
       <div className={styling.bigBox}>
-        <p className={`${styling["content"]} text-right`}>{props.context}</p>
-        <a
+      <Mdl mdlstate={mdl} close={toggle_mdl} event_id={Number(props.num)}/>
+        <p className={styling.content}>{props.context}</p>
+        <button
           className={`${styling["infoLinkRight"]} text-xs lg:text-base`}
-          href={props.info}
+          // href={props.info}
+          onClick={toggle_mdl}
         >
           More Info
-        </a>
+        </button>
       </div>
       <div className={styling.smallBox}>
         <div className={styling.triangleRight}></div>
@@ -62,7 +108,7 @@ function Event() {
   };
 
   return (
-    <div className={`${styling["main"]}`} id="events">
+    <div className={`${styling["main"]}`}>
       <h1
         className={`${styling["eventHeading"]} text-4xl md:text-6xl lg:text-8xl my-5 font-extrabold py-4`}
       >

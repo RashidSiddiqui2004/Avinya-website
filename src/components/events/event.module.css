@@ -4,6 +4,22 @@ body {
   margin: 0;
   font-family: "Montserrat", monospace;
 }
+
+/* .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+  backdrop-filter: blur(1px);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal-content {
+  color: white;
+} */
+
 .main {
   display: flex;
   flex-direction: column;
