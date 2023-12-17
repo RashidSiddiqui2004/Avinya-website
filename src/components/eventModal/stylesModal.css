@@ -1,7 +1,7 @@
 /* Add this to your global styles or a component-specific stylesheet */
 
 .modal-overlay {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
