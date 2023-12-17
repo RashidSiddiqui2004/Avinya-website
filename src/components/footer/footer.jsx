@@ -1,4 +1,4 @@
-import styling from "./rect.module.css";
+import styling from "./footer.module.css";
 
 
 const Footer = () => {

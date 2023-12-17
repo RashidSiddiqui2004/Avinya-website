@@ -1,0 +1,101 @@
+.nav {
+    transform: rotate(270deg);
+    height: 50px;
+    width: 60%;
+    position: fixed;
+    top: 45.4%;
+    display: flex;
+    
+    justify-content: center;
+    background-color: transparent;
+    padding: 0%;
+    left: -28.5%;
+    
+    margin: 0;
+    z-index: 100;
+    font-size: 1.3vw;
+    
+}
+
+
+.ham{
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 0%;
+    visibility: hidden;
+    z-index: 100;
+}
+.nav-2{
+    display: none;
+}
+
+.nav-item {
+    padding: 1.3vw 1.5vw;
+    transition: all 0.2s ease;
+    background-color: rgba(68, 68, 68, 0.7);
+    font-weight: bold;
+    font-family: 'Chakra Petch', sans-serif;
+    border-right: 2px solid black;
+}
+
+
+.proj-button {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 30px;
+    /* border-radius: 10px; */
+    margin-left: 8vw;
+    transition: all 0.2s ease;
+
+}
+
+.nav-a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-a:hover{
+    /* color: rgb(173, 173, 173); */
+    transition: all 0.2s ease;
+    text-shadow: 1px 1px 10px white;
+    font-size: 1.6vw;
+
+}
+
+.proj-button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    transition: all 0.2s ease;
+    text-shadow: none;
+}
+
+@media only screen and (max-width: 768px){
+    .nav{
+        visibility: hidden;
+    }
+    .ham{
+        visibility: visible;
+    }
+    .nav-2{
+        display: initial;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1536px) {
+    .nav{
+        font-size: 1.5vw;
+    }
+    .nav-item {
+
+    }
+    .ham{
+        visibility: hidden;
+    }
+    .nav{
+        visibility: visible;
+    }
+
+    .proj-button {
+    }
+}
