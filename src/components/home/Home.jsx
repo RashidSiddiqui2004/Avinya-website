@@ -11,6 +11,7 @@ import Sponsors from "../sponsors/Sponsors";
 import Footer from "../footer/footer";
 import Event from "../events/Event";
 import InitialLoader from "../intialLoader/InitialLoader";
+import EventSection from "../eventModal/NewModalSection";
 
 function Home() {
 
@@ -20,12 +21,12 @@ function Home() {
 
     const [loading, setLoading] = useState(false);
 
-    useEffect(() => {
-        setLoading(true);
-        setTimeout(() => {
-            setLoading(false);
-        }, 5000);
-    }, []);
+    // useEffect(() => {
+    //     setLoading(true);
+    //     setTimeout(() => {
+    //         setLoading(false);
+    //     }, 5000);
+    // }, []);
 
     // const [cta, setCTA] = useState("Get, Set, CODE & FUN ❤️!");
 
@@ -44,6 +45,8 @@ function Home() {
 
                     <IntroFunc />
                     
+                    <EventSection/>
+
                     <div className="mb-10">
                         <Event />
                     </div>

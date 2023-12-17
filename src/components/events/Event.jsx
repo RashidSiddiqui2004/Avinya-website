@@ -3,6 +3,7 @@ import { Paper, Tab, Tabs } from "@mui/material";
 import ReactPropTypes from "prop-types";
 import dayValues from "./data.jsx";
 import styling from "./event.module.css";
+
 function DayDataLeft(props) {
   return (
     <div className={styling.master1}>

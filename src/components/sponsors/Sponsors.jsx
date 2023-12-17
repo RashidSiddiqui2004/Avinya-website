@@ -355,24 +355,7 @@ function Sponsors() {
             )
           ))}
 
-      
-          {/* <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="/devfolio.png" alt="" className='h-12 rounded-lg' />
-            <p className='text-white text-4xl md:text-lg font-semibold text-center mt-2 px-2'>Devfolio</p>
-          </div>
-          <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="/polygon.png" alt="" className='h-12 rounded-md' />
-            <p className='text-white text-4xl md:text-lg font-semibold text-center mt-2 mr-1'>polygon</p>
-          </div>
-          <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="/filecoin.png" alt="" className='h-12 rounded-xl' />
-            <p className='text-white text-4xl md:text-lg font-semibold text-center mt-2 px-2'>filecoin</p>
-          </div>
-          <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
-            <img src="/tezos.png" alt="" className='h-12 rounded-md' />
-            <p className='text-white text-4xl md:text-lg font-semibold text-center mt-2 px-2'>Tezos</p>
-          </div> */}
-
+    
           <div className='float-from-leftNew logo-animation'>
             <PastSposorsCard sponsorName="Devfolio" logosrc="devfolio" />
           </div>
@@ -385,8 +368,9 @@ function Sponsors() {
         space-x-1 bg-blue-600 px-5 rounded-xl items-center mx-[2%] md:mx-[35%] 
         lg:mx-16 md:px-5 py-6 h-20 col-span-1 md:col-span-3'>PAST SPONSORS</h2> */}
 
+
           <h2 className=' bg-blue-600 headerAkira w-fit -mx-4 md:mx-[37%] px-4 rounded-xl
-        lg:mx-16 md:px-5 font-bold font py-6 text-md md:text-2xl items-center md:col-span-3 
+        lg:mx-32 text-center md:px-5 font-bold font py-6 text-md md:text-2xl items-center md:col-span-3 
          '>PAST SPONSORS</h2>
 
 
