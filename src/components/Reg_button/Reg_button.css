@@ -1,0 +1,38 @@
+.reg{
+    display: inline-block;
+    position: absolute;
+    top: 106%;
+    left: 45%;
+      padding: 1% 2%;
+      background-color: rgba(100, 0, 154, 0.8);
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      font-family: 'Chakra Petch', sans-serif;
+      transition: background-color 0.3s ease;
+      letter-spacing: 2px; 
+      box-shadow: 4px 4px 8px rgba(179, 0, 125, 0.3);
+      transition-duration: 1000ms;
+      
+}
+
+.reg:hover{
+    letter-spacing: 3px;
+    font-size: 1.2vw;
+    
+}
+@media only screen and (max-width: 768px){
+    .reg{
+        top: 57.5%;
+        left: 41%;
+    }
+    .reg:hover{
+        letter-spacing: 3px;
+        font-size: 2.3vw;
+        
+    }
+}
+

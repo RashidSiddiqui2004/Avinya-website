@@ -11,7 +11,7 @@ function DayDataLeft(props) {
         <h1 className={styling.num}>{props.num}</h1>
       </div>
       <div className={styling.bigBox}>
-        <p className={styling.content}>{props.context}</p>
+        <p className={`${styling["content"]} text-left`}>{props.context}</p>
         <a
           className={`${styling["infoLinkLeft"]} text-xs lg:text-base`}
           href={props.info}
@@ -27,7 +27,7 @@ function DayDataRight(props) {
   return (
     <div className={styling.master2}>
       <div className={styling.bigBox}>
-        <p className={styling.content}>{props.context}</p>
+        <p className={`${styling["content"]} text-right`}>{props.context}</p>
         <a
           className={`${styling["infoLinkRight"]} text-xs lg:text-base`}
           href={props.info}
