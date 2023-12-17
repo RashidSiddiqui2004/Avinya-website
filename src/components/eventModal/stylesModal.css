@@ -36,7 +36,9 @@
   display: none;
 }
 
-
+#registerforEventBtn{
+  transition: ease-out 200ms;
+}
 
 @media (max-width: 700px) {
   .modal-overlay {

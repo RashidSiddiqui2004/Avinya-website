@@ -31,12 +31,6 @@ function Home() {
         }, 5000);
     }, []);
 
-    // const [cta, setCTA] = useState("Get, Set, CODE & FUN ❤️!");
-
-    // function changeCTA() {
-    //     setCTA("Registrations starting soon ❤️");
-    // }
-
     return (
 
         <>
@@ -44,17 +38,17 @@ function Home() {
                 <InitialLoader />
             ) : (
                 <>
-                <div className="Banner" >
-                    <Nav />
-                    <Banner />
-                    <Reg_button />
-                </div>
+                    <div className="Banner" >
+                        <Nav />
+                        <Banner />
+                        <Reg_button />
+                    </div>
 
-                    <HeroSection />
+                    {/* <HeroSection /> */}
 
                     <IntroFunc />
-                    
-                    <EventSection/>
+
+                    <EventSection />
 
                     <div className="mb-10">
                         <Event />
@@ -82,6 +76,12 @@ function Home() {
 }
 
 export default Home;
+
+// const [cta, setCTA] = useState("Get, Set, CODE & FUN ❤️!");
+
+// function changeCTA() {
+//     setCTA("Registrations starting soon ❤️");
+// }
 
 {/* 
     <div className="mt-6 mb-16 items-center ml-[10%] md:ml-[38%]">

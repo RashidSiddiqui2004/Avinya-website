@@ -62,11 +62,11 @@ const Modal = ({ isOpen, onClose, eventDetails }) => {
                                     <img src={calender} width={80} alt="calender icon"
                                         className='ml-[25%]' />
                                     <img className='text-5xl text-black ml-8' />
-                                    <h2 className='text-slate-950 text-4xl my-3 font-bold'>{eventDate}</h2>
+                                    <h2 className='text-slate-950 text-3xl my-3 font-bold'>{eventDate}</h2>
                                 </div>
 
 
-                                <div className='md:ml-[8%] mt-6 detailsLarge'>
+                                <div className='md:ml-[7%] mt-6 detailsLarge'>
                                     <FaLocationDot className='text-5xl text-black ml-8' />
                                     <h2 className='text-slate-950 text-2xl my-3 font-bold'>{eventVenue}</h2>
                                 </div>
@@ -96,9 +96,10 @@ const Modal = ({ isOpen, onClose, eventDetails }) => {
 
                             
 
-                            <button onClick={onClose} className='text-white bg-slate-950 my-4 sm:mx-[20%]
+                            <button onClick={onClose} className='text-slate-100 bg-slate-950 my-4 sm:mx-[20%]
                             md:mx-[10%] lg:mx-[30%] px-6 py-3 hover:scale-[102%] transition-all hover:bg-slate-800
-                            hover:text-slate-100 text-xl font-bold shadow-md shadow-teal-400'>Register for {eventTitle}</button>
+                            hover:text-white text-xl font-bold shadow-lg shadow-gray-600 hover:shadow-stone-200 hover:shadow-lg
+                            hover:translate-y-1' id='registerforEventBtn'>Register for {eventTitle}</button>
 
                         </div>
                     </div>

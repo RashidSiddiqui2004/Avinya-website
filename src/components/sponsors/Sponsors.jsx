@@ -227,7 +227,7 @@ function Sponsors() {
 
   return (
 
-    <div className=' overflow-hidden overflow-x-hidden'>
+    <div className=' overflow-hidden overflow-x-hidden' id='sponsors'>
 
       <h2 className='text-2xl sm:text-4xl text-center pt-20 text-white
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
