@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './Ham.css'; // You can create a separate CSS file for styling
+import TeamPage  from "../team/TeamPage";
+
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);

@@ -14,6 +14,7 @@ import InitialLoader from "../intialLoader/InitialLoader";
 import Banner from '../banner/Banner';
 import Nav from '../navbar/Navbar';
 import Reg_button from '../Reg_button/Reg_button'
+import TeamPage  from "../team/TeamPage";
 
 function Home() {
 
@@ -70,6 +71,8 @@ function Home() {
                     <div className="flex flex-row px-[10%] mt-20 mb-10">
                         <img src="/desk.png" alt="image" className="w-[80%] mx-[15%]" />
                     </div>
+                    
+                    
 
                     <Footer />
                 </>
