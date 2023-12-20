@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./handles.module.css";
 
-const joinButton = () => {
+const joinButton = ({CTA}) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>
@@ -14,7 +14,7 @@ const joinButton = () => {
           rel="noreferrer"
         >
           <button className={styles.button}>
-            <p className={styles.p}>JOIN</p>
+            <p className={styles.p}>{CTA}</p>
           </button>
         </a>
       </div>

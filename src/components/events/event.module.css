@@ -2,7 +2,24 @@ body {
   background-color: black;
   padding: 0;
   margin: 0;
+  font-family: "Montserrat", monospace;
 }
+
+/* .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: none;
+  backdrop-filter: blur(1px);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal-content {
+  color: white;
+} */
+
 .main {
   display: flex;
   flex-direction: column;
@@ -17,7 +34,6 @@ body {
 .dateValue {
   color: white;
   text-align: center;
-  font-family: Montserrat;
 }
 .master1 {
   display: flex;
@@ -86,7 +102,6 @@ body {
   align-items: center;
   margin-top: 10px;
   padding-top: 25px;
-  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -96,16 +111,14 @@ body {
 .content {
   padding: 1rem;
   color: #000;
-  font-family: "Anonymous Pro", monospace;
   font-style: normal;
   font-weight: 400;
   font-size: 1.15rem;
-  text-align: center;
 }
 .triangleLeft {
   height: 0;
   width: 0;
-  right: 10px;
+  right: 20px;
   top: -50px;
   border-top: 200px solid black;
   border-right: 200px solid transparent;
@@ -114,7 +127,7 @@ body {
 .triangleRight {
   height: 0;
   width: 0;
-  right: -10px;
+  right: -20px;
   top: -100px;
   border-top: 200px solid black;
   border-left: 200px solid transparent;
@@ -144,7 +157,6 @@ body {
   .content {
     font-size: 0.75rem;
     padding: 0.25rem;
-    font-weight: 600;
   }
   .num {
     font-size: 2rem;
@@ -155,6 +167,9 @@ body {
   }
   .triangleRight {
     right: -60px;
+  }
+  .content {
+    padding: 0.25rem;
   }
 }
 
@@ -172,15 +187,14 @@ body {
   .content {
     font-size: 0.85rem;
     padding: 0.5rem;
-    font-weight: 600;
   }
   .num {
     font-size: 2rem;
   }
   .triangleLeft {
-    right: -10px;
+    right: -2.5px;
   }
   .triangleRight {
-    right: -40px;
+    right: -50px;
   }
 }

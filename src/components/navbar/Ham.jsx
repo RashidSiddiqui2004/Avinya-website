@@ -20,11 +20,11 @@ const HamburgerMenu = () => {
       {isOpen && (
         <ul className="menu-items">
           <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">EVENTS</a></li>
-          <li><a href="#">GALLERY</a></li>
-          <li><a href="#">SPONSORS</a></li>
-          <li><a href="#">OUR TEAM</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#events">EVENTS</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#sponsors">SPONSORS</a></li>
+          <li><a href="#team">OUR TEAM</a></li>
           
         </ul>
       )}
