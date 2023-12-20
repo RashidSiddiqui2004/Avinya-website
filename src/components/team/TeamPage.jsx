@@ -5,7 +5,7 @@ import TeamPageLoader from '../team_page_loader/team_page_loader';
 import Footer from '../footer/footer';
 import Nav from '../navbar/Navbar';
 
-import './team.css'; // Import your styles
+import './team.css'; 
 
 function TeamPage() {
   const [loading, setLoading] = useState(true);
