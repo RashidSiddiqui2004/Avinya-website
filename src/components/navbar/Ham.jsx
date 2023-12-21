@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Ham.css'; // You can create a separate CSS file for styling
-import TeamPage  from "../team/TeamPage";
-
+import { Link } from 'react-router-dom';
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +23,9 @@ const HamburgerMenu = () => {
           <li><a href="#events">EVENTS</a></li>
           <li><a href="#gallery">GALLERY</a></li>
           <li><a href="#sponsors">SPONSORS</a></li>
-          <li><a href="#team">OUR TEAM</a></li>
+          <Link to={'/team'}> 
+          <li><a className='nav-a' href="/team"><div className='nav-item'>OUR TEAM</div></a></li>
+          </Link>
           
         </ul>
       )}
