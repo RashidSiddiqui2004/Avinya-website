@@ -73,9 +73,6 @@ function TeamPage() {
         <div class ="footer-container">
             <Footer />
         </div>
-
-
-        
         </>
       )}
     </div>

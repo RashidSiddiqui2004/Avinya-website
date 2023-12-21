@@ -14,7 +14,9 @@
 }
 
 .modal-content {
-  background: #82CC9B;
+  /* background: #82CC9B; */
+  background-color: #020937;
+  /* background-image: url('public/avinyaLogo.png');   */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -35,10 +37,20 @@
 .detailsSmall {
   display: none;
 }
+@keyframes floatFromLeft2Small {
+  0% {
+    transform: translateX(-15%);
+  }
 
-#registerforEventBtn{
-  transition: ease-out 200ms;
+  100% {
+    transform: translateX(0%);
+  }
 }
+
+#registerforEventBtn:hover{
+  animation: floatFromLeft2Small 1s ease-in-out; 
+}
+
 
 @media (max-width: 700px) {
   .modal-overlay {

@@ -49,7 +49,7 @@ function Home() {
 
                     <IntroFunc />
 
-                    <EventSection />
+                    {/* <EventSection /> */}
 
                     <div className="mb-10">
                         <Event />

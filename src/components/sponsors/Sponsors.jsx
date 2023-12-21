@@ -318,7 +318,7 @@ function Sponsors() {
         underlined-text pb-3'>OTHER SPONSORS</h2>
 
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
-        items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-16'>
+        items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20'>
 
           {otherSponsors.map((item, index) => (
             <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />

@@ -22,6 +22,7 @@ export default {
         'tahiti': '#3ab7bf',   
         'black':'#030712',
         'green':'#A0F0FA',
+        'textColorDevcomm':'#F9FCFA',
       },
     },
   },
