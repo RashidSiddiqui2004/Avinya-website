@@ -1,62 +1,60 @@
-
-
-   /* YourComponentStyles.css */
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    margin: 0;
-    padding: 0;
- 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    color: white;
-    background-color: linear-gradient(233deg, #64009A, #3B22AA, #B3007D);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 100vh;
+  color: white;
+  background-color: linear-gradient(233deg, #64009a, #3b22aa, #b3007d);
+}
 
-  
-  .section-title {
-    margin-top: 20px;
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 1.5;
-    margin-top: 10px;
-  }
-  
-  .chief-convener {
-    text-align: center;
-    margin-top: 100px;
-  }
-  
-  .team-members-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px 0;
-  }
-  
-  .team-member {
-    width: 300px;
-    height: 200px;
-    background: #02D7F2;
-    margin: 10px;
-    font-family:"Chakra Petch" ;
-  }
-  
-  
-  
- 
-  
-  .content {
-  
-    margin-bottom: auto; 
-  }
-  
-  .footer-container {
-    margin: 0;
-    position: absolute;  
-    width: 100%;
-  }
-  
+.section-title {
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.chief-convener {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.team-members-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.team-member {
+  width: 350px;
+  height: 350px;
+  background: #02d7f2;
+  margin: 10px;
+  padding: 5px;
+  font-family: "Chakra Petch";
+}
+
+.content {
+  margin-bottom: auto;
+}
+
+.footer-container {
+  padding-top: 10px;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
