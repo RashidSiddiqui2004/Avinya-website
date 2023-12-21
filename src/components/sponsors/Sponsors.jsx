@@ -246,7 +246,7 @@ function Sponsors() {
 
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
-        ml-[10%] md:ml-[30%] xl:ml-[35%] font-medium
+        ml-[14%] md:ml-[30%] xl:ml-[35%] font-medium
         underlined-text2 pb-3 space-x-1 headerAkira transition-all linearGradientSponsors2'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
@@ -263,7 +263,7 @@ function Sponsors() {
       {/* Education Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5  ml-[10%] md:ml-[30%] xl:ml-[35%]
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5  ml-[14%] md:ml-[30%] xl:ml-[35%]
         font-normal headerAkira space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
         {/* md:mx-56  mx-[40%]  */}
@@ -286,7 +286,7 @@ function Sponsors() {
       {/* Gold Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[18%]
+        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[23%]
         md:ml-[35%] xl:ml-[38%]
         font-normal headerAkira space-x-1
         underlined-text pb-3 transition-all linearGradientSponsors3'>GOLD PARTNERS</h2>
@@ -313,7 +313,7 @@ function Sponsors() {
 
       <div>
         <h2 className='
-        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[15%] md:ml-[34%] xl:ml-[36%]
+        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[19%] md:ml-[34%] xl:ml-[36%]
         font-normal headerAkira space-x-1   
         underlined-text pb-3'>OTHER SPONSORS</h2>
 
@@ -356,30 +356,24 @@ function Sponsors() {
           ))}
 
     
-          <div className='float-from-leftNew logo-animation'>
+          <div className='float-from-leftNew logo-animation hidden md:block'>
             <PastSposorsCard sponsorName="Devfolio" logosrc="devfolio" />
           </div>
 
-          <div className='float-from-leftNew logo-animation'>
+          <div className='float-from-leftNew logo-animation  hidden md:block'>
             <PastSposorsCard sponsorName="Tezos" logosrc="tezos" />
           </div>
-
-          {/* <h2 className='text-lg md:text-3xl text-center font-bold font-fairdisplay
-        space-x-1 bg-blue-600 px-5 rounded-xl items-center mx-[2%] md:mx-[35%] 
-        lg:mx-16 md:px-5 py-6 h-20 col-span-1 md:col-span-3'>PAST SPONSORS</h2> */}
-
-
-          <h2 className=' bg-blue-600 headerAkira w-fit -mx-4 md:mx-[37%] px-4 rounded-xl
-        lg:mx-32 text-center md:px-5 font-bold font py-6 text-md md:text-2xl items-center md:col-span-3 
+ 
+          <h2 className=' bg-blue-600 headerAkira w-fit ml-[5%] md:mx-[37%] px-8
+          rounded-xl lg:mx-32 text-center md:px-5 font-bold font py-6 text-md md:text-2xl
+         items-center col-span-2 md:col-span-3 
          '>PAST SPONSORS</h2>
 
-
-
-          <div className='float-from-right  logo-animation'>
+          <div className='float-from-right logo-animation  hidden md:block'>
             <PastSposorsCard sponsorName="Devfolio" logosrc="devfolio" />
           </div>
 
-          <div className='float-from-right  logo-animation'>
+          <div className='float-from-right logo-animation  hidden md:block'>
             <PastSposorsCard sponsorName="Tezos" logosrc="tezos" />
           </div>
 

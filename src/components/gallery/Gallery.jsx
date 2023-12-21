@@ -64,7 +64,7 @@ export default function App() {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }}
-        pagination={{ clickable: true }}
+        // pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         breakpoints={{
           640: {

@@ -91,9 +91,9 @@
  @media (max-width: 768px) {
    .swiper-slide img {
      display: block;
-     width:70%;
+     width:75%;
      height: auto;
-     margin-left: 15%; 
+     margin-left: 12%; 
      align-items: center;
    }
  }
