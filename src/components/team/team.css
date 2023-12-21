@@ -55,15 +55,8 @@ body {
   }
   
   .footer-container {
-    padding-top: 10px;
     margin: 0;
-    bottom: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
-  
-    text-align: center;
-    height: 100px; 
+    position: absolute; 
     width: 100%; 
   }
   
