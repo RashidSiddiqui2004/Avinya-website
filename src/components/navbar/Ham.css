@@ -48,11 +48,25 @@
   .menu-toggle {
     cursor: pointer;
     padding-left: 30px;
+    width: 50%;
+
+    
+  }
+  .menu-items li:hover{
+    font-size: 6vw;
+    transition-duration: 800ms;
+    transition: all 0.2s ease;
+    text-shadow: 1px 1px 10px white;
   }
   .menu-items {
+    width: 400%;
     list-style-type: none;
     padding-left: 35px;
     margin: 0; 
+    
+  }
+  .menu-items li {
+    width: 400%;
   }
 
     

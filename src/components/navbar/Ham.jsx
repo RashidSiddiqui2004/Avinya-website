@@ -8,6 +8,7 @@ const HamburgerMenu = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  
 
   return (
     <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
@@ -24,7 +25,7 @@ const HamburgerMenu = () => {
           <li><a href="#gallery">GALLERY</a></li>
           <li><a href="#sponsors">SPONSORS</a></li>
           <Link to={'/team'}> 
-          <li><a className='nav-a' href="/team"><div className='nav-item'>OUR TEAM</div></a></li>
+          <li><a className='nav-a' href="/team"><div className='nav-item' style={{margin: "0%"}}>OUR TEAM</div></a></li>
           </Link>
           
         </ul>
@@ -33,4 +34,7 @@ const HamburgerMenu = () => {
   );
 };
 
+
 export default HamburgerMenu;
+
+
