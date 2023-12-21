@@ -23,8 +23,10 @@
     height: 5%;
     position: absolute;
     top: 0%;
+    left: 0%;
     visibility: hidden;
     z-index: 100;
+    text-align: center;
 }
 .nav-2{
     display: none;
@@ -37,6 +39,7 @@
     font-weight: bold;
     font-family: 'Chakra Petch', sans-serif;
     border-right: 2px solid black;
+    align-items: center;
 }
 
 
