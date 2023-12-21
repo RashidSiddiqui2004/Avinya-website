@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Drummer-X;
+    src: url(drummer1.ttf);
+}
+
+@font-face {
+    font-family: Drummer-Register;
+    src: url(drummer2.ttf);
+}
+
+@font-face {
+    font-family: cyberway;
+    src: url(cyber.otf);
+}
+
+.gradient_div{
+    background: linear-gradient(180deg, rgba(35, 0, 70, 0) 0%, #230046 29.17%);
+    height: 75%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 5% 2.5% 0 2.5%;
+}
+
+.parent_div{
+    filter: drop-shadow(0px 0px 8px #8f2187);
+    text-align: left;
+    height: 600px;
+    width: 70%;
+    position: relative;
+    background-image: url("bgg.png");
+    background-size: cover;
+    margin: auto;
+}
+
+.head{
+    color: white;
+    padding: 0 20px;
+    width: 100%;
+    height: 100px;
+    font-family: Drummer-X;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.info{
+    padding: 0 20px;
+    width: 100%;
+    height: 40%;
+    font-family: 'Anonymous Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 138%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.btn1{
+    position: absolute;
+    right: 0;
+    font-family: cyberway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 138%;
+    background-color: transparent;
+    padding: 2%;
+    color: #FFFFFF;
+    border-radius: 0;
+}
+
+.btn2{
+    border-radius: 0;
+    position: absolute;
+    width: 35%;
+    height : 15%;
+    bottom: 0;
+    margin: 0 30% 5px 30%;
+    font-family: Drummer-Register;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 138%;
+    letter-spacing: 0.04em;
+    background: #02D7F2;
+}
+
+
+.btn1:hover {
+    background: #02D7F2;
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+.btn2:hover {
+    background: black;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+@media (max-width : 768px) {
+    .btn2{
+        width: 55%;
+        margin: 0 20% 5px 20%;
+    }
+    .head{
+        font-size: 30px;
+    }
+    .info{
+        font-size: 16px;
+    }
+    .parent_div{
+        height: 520px;
+        width: 100%;
+    }
+    .gradient_div{
+        height: 80%;
+    }
+}
+
+@media (max-width : 450px){
+    .gradient_div{
+        height: 90%;
+    }
+}

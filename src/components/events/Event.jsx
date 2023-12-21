@@ -3,59 +3,30 @@ import { Paper, Tab, Tabs } from "@mui/material";
 import ReactPropTypes from "prop-types";
 import dayValues from "./data.jsx";
 import styling from "./event.module.css";
+import styling2 from "./modal.module.css";
 import eventContent from "./eventdesc";
-import image from "./avinya_img.png";
 
 
 const Mdl = (props) => {
   return (
     props.mdlstate && (
-      <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-50 ">
-    <div className="fixed top-0 left-0 w-full h-full bg-black opacity-50"></div>
-    <div
-      className="bg-cover bg-center bg-no-repeat bg-fixed bg-opacity-75"
-      style={{ backgroundImage: `url('..//avinya_img.png')` }}
-    ></div>
-    <div className="bg-gray-900 rounded-lg p-10 text-white w-content relative z-10 border border-blue-500">
-      <h1 className="text-3xl font-bold mb-4 text-blue-500 h-[40px]">
-        {eventContent[props.event_id - 1].title}
-        <span className="ml-10 text-red-400"> X </span>
-        <img src={image}  className="inline-block h-[300%]"/>
-      </h1>
-      <p className="mb-4 text-lg mt-20">
-        {eventContent[props.event_id - 1].date}
-        </p>
-      <p className="mb-4 text-lg">{eventContent[props.event_id - 1].time_span}</p>
-      <p className="mb-4 text-lg">
-        Time: {eventContent[props.event_id - 1].time_span}
-      </p>
-      <p className="mb-4 text-lg">
-        Location: {eventContent[props.event_id - 1].location}
-      </p>
-      <p className="mb-4 text-lg">
-        Organizer: {eventContent[props.event_id - 1].organizer}
-      </p>
-      <h2 className="text-xl font-semibold mb-2">Event Details:</h2>
-      <p className="mb-4">{eventContent[props.event_id - 1].event_info}</p>
-      <h2 className="text-xl font-semibold mb-2">Additional Information:</h2>
-      <ul className="mb-4 list-disc pl-6">
-        <li>{eventContent[props.event_id - 1].agenda}</li>
-        <li>{eventContent[props.event_id - 1].speakers}</li>
-        <li>{eventContent[props.event_id - 1].registration_info}</li>
-      </ul>
-      <p className="mb-4 text-lg">
-        Number of Participants: {eventContent[props.event_id - 1].no_of_participants}
-      </p>
-      <div className="flex justify-around">
-        <button onClick={props.close} className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-          Back to event section
-        </button>
-        <button className="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">
-          Fill the form
-        </button>
+      <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-50">
+      <div className={styling2.parent_div}>
+              <div className={styling2.gradient_div}>
+                  <h1 className={styling2.head}>{eventContent[props.event_id-1].title} </h1>
+                  <p className={styling2.info}>
+                  {eventContent[props.event_id-1].event_info}
+                  <div style={{width : "fit-content", margin : "1%"}}> Time : {eventContent[props.event_id-1].time_span}
+                  </div><div style={{width : "fit-content", margin : "1%"}}> Date : {eventContent[props.event_id-1].date} </div>
+                  <div style={{width : "fit-content", margin : "1%"}}>No of participants registered : {eventContent[props.event_id-1].no_of_participants} </div>
+                  </p>
+                  <button className={styling2.btn2}>
+                      Register Now
+                  </button>
+              </div>
+              <button className={styling2.btn1} onClick={props.close}>X</button>
+          </div>
       </div>
-    </div>
-  </div>
     )
   );
 };
