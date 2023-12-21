@@ -70,8 +70,8 @@ function TeamPage() {
           </div>
           
         </div>
-        <div class ="footer-container">
-            <Footer />
+        <div className='absolute left-0 w-[100%]'>
+          <Footer />
         </div>
         </>
       )}
