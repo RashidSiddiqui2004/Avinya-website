@@ -246,7 +246,7 @@ function Sponsors() {
 
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
-        ml-[14%] md:ml-[30%] xl:ml-[35%] font-medium
+        ml-[18%] md:ml-[30%] xl:ml-[35%] font-medium
         underlined-text2 pb-3 space-x-1 headerAkira transition-all linearGradientSponsors2'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
@@ -263,7 +263,7 @@ function Sponsors() {
       {/* Education Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5  ml-[14%] md:ml-[30%] xl:ml-[35%]
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5  ml-[15%]  md:ml-[30%] xl:ml-[35%]
         font-normal headerAkira space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
         {/* md:mx-56  mx-[40%]  */}
@@ -286,8 +286,8 @@ function Sponsors() {
       {/* Gold Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[23%]
-        md:ml-[35%] xl:ml-[38%]
+        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[25%]
+        md:ml-[25%] xl:ml-[38%]
         font-normal headerAkira space-x-1
         underlined-text pb-3 transition-all linearGradientSponsors3'>GOLD PARTNERS</h2>
 
@@ -313,7 +313,7 @@ function Sponsors() {
 
       <div>
         <h2 className='
-        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[19%] md:ml-[34%] xl:ml-[36%]
+        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[20%] md:ml-[34%] xl:ml-[36%]
         font-normal headerAkira space-x-1   
         underlined-text pb-3'>OTHER SPONSORS</h2>
 
@@ -364,7 +364,7 @@ function Sponsors() {
             <PastSposorsCard sponsorName="Tezos" logosrc="tezos" />
           </div>
  
-          <h2 className=' bg-blue-600 headerAkira w-fit ml-[5%] md:mx-[37%] px-8
+          <h2 className=' bg-blue-600 headerAkira w-fit ml-[10%] md:mx-[37%] px-8
           rounded-xl lg:mx-32 text-center md:px-5 font-bold font py-6 text-md md:text-2xl
          items-center col-span-2 md:col-span-3 
          '>PAST SPONSORS</h2>

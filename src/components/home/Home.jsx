@@ -44,12 +44,8 @@ function Home() {
                         <Banner />
                         <Reg_button />
                     </div>
-
-                    {/* <HeroSection /> */}
-
+ 
                     <IntroFunc />
-
-                    {/* <EventSection /> */}
 
                     <div className="mb-10">
                         <Event />
@@ -69,8 +65,6 @@ function Home() {
                         <img src="/desk.png" alt="image" className="w-[80%] mx-[15%]" />
                     </div>
                     
-                    
-
                     <Footer />
                     
                 </>
