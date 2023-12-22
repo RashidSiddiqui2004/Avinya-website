@@ -9,7 +9,7 @@ import "./team.css";
 import ImageOverlay from "./ImageOverlay";
 
 function TeamPage() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
 
   // Simulating video loading with a useEffect
   useEffect(() => {
@@ -26,53 +26,38 @@ function TeamPage() {
         <TeamPageLoader />
       ) : (
         <>
-          <div className="content">
+          <div className="content mb-5 lg:mb-10">
             <div className="Banner">
               <Nav />
             </div>
-            <div>
-              <div
-                className="absolute top-0 left-0 right-0 bottom-0 flex justify-center text-white font-bold text-2xl"
-                style={{
-                  fontFamily: "Chakra Petch",
-                  marginTop: "5px",
-                  display: "flex",
-                }}
-              >
-                <div>
-                  <h1
-                    style={{
-                      background: `linear-gradient(233deg, #64009A, #3B22AA, #B3007D)`,
-                      WebkitBackgroundClip: "text",
-                      color: "transparent",
-                      fontFamily: "Chakra Petch",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    OUR TEAM
-                  </h1>
-                </div>
-              </div>
-            </div>
-            <div className="section-title chief-convener text-center">
+            <h1 className="text-center font-extrabold font-['Drummer'] mt-5 sm:text-5xl lg:text-8xl">
+              OUR TEAM
+            </h1>
+            <div className="section-title chief-convener text-3xl lg:text-5xl text-center mb-5">
               CHIEF CONVENER
             </div>
-            <ImageOverlay />
-            <div className="section-title text-center">TECH STAFF</div>
             <div className="team-members-container">
+              <ImageOverlay />
+            </div>
+            <div className="section-title text-3xl lg:text-5xl text-center mb-5 lg:mb-10">
+              TECH STAFF
+            </div>
+            <div className="team-members-container mb-5">
               <ImageOverlay />
               <ImageOverlay />
               <ImageOverlay />
             </div>
 
-            <div className="section-title text-center">CORE MEMBERS</div>
-            <div className="team-members-container">
+            <div className="section-title text-3xl lg:text-5xl text-center">
+              CORE MEMBERS
+            </div>
+            <div className="team-members-container mb-10">
               <ImageOverlay />
               <ImageOverlay />
               <ImageOverlay />
             </div>
           </div>
-          <div className="footer-container">
+          <div className="absolute left-0 w-[100%]">
             <Footer />
           </div>
         </>

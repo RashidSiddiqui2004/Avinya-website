@@ -164,6 +164,11 @@
  }
 
  @media (max-width : 500px) {
+   .border_div{
+      width: 95%;
+        margin-left: 10px;
+        margin-right: 0;
+   }
    .break3{
       flex-basis: 100%;
    }
