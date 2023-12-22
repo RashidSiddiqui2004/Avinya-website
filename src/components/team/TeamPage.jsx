@@ -1,29 +1,31 @@
 import { useState, useEffect } from "react";
-// import AOS from "aos";
+import AOS from "aos";
 import "aos/dist/aos.css";
-import TeamPageLoader from "../team_page_loader/team_page_loader";
+import team_page_loader from "../team_page_loader/team_page_loader";
 import Footer from "../footer/footer";
 import Nav from "../navbar/Navbar";
-
+import InitialLoader from "../intialLoader/InitialLoader";
 import "./team.css";
 import ImageOverlay from "./ImageOverlay";
 
 function TeamPage() {
-  const [loading, setLoading] = useState(false);
-
-  // Simulating video loading with a useEffect
   useEffect(() => {
-    const loadingTimeout = setTimeout(() => {
-      setLoading(false);
-    }, 5000);
+    new AOS.init({ duration: 1500 });
+}, []);
 
-    return () => clearTimeout(loadingTimeout);
-  }, []);
+const [loading, setLoading] = useState(false);
+
+useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+        setLoading(false);
+    }, 5000);
+}, []);
 
   return (
     <div>
       {loading ? (
-        <TeamPageLoader />
+        <InitialLoader />
       ) : (
         <>
           <div className="content mb-5 lg:mb-10">
@@ -37,6 +39,7 @@ function TeamPage() {
               CHIEF CONVENER
             </div>
             <div className="team-members-container">
+            
               <ImageOverlay />
             </div>
             <div className="section-title text-3xl lg:text-5xl text-center mb-5 lg:mb-10">
@@ -57,7 +60,7 @@ function TeamPage() {
               <ImageOverlay />
             </div>
           </div>
-          <div className="absolute left-0 w-[100%]">
+          <div className="footer-container">
             <Footer />
           </div>
         </>
