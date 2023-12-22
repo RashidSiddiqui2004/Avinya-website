@@ -3,19 +3,19 @@ import img from"./Left.png";
 const ImageOverlay = () => {
   return (
     <div className="mt-5 lg:mt-10 team-members-container flex flex-col justify-center items-center">
-      <div className="team-member relative flex justify-center">
+      <div className="team-member relative flex justify-center p-0">
         {/* First Image (SexyMonke.jpg) */}
         <img
-          src="/SexyMonke.jpg"
-          className="w-full h-full object-cover"
-          style={{
-            clipPath: 'polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 94.5% 0%, 94.5% 16.29%, 100% 20.5%, 100% 71.9%, 94.5% 76.78%, 94.5% 100%, 0% 100%)',
-            backgroundColor: '#000000',
-          }}
-        />
-  
+  src="/SexyMonke.jpg"
+  className="w-full h-full object-cover"
+  style={{
+    clipPath: 'polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 16.59%, 100% 20.5%, 100% 71.9%, 97% 76.78%, 97% 100%, 0% 100%)',
+    backgroundColor: '#000000',
+  }}
+/>
+
         {/* Vertical Line */}
-        <div className="bg-cyan-400 "></div>
+        <div className="bg-cyan-400  p-2"></div>
   
         {/* Text Overlay */}
         <div className="bg-cyan-400 flex flex-col justify-end w-[60px] py-0 px-2 z-20">
