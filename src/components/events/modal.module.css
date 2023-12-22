@@ -63,10 +63,13 @@
     font-family: cyberway;
     font-style: normal;
     font-weight: 400;
+    width: 100px;
+    height: 100px;
     font-size: 50px;
+    padding: 20px 25px 25px 25px;
     line-height: 138%;
     background-color: transparent;
-    padding: 2%;
+    border: none;
     color: #FFFFFF;
     border-radius: 0;
 }
