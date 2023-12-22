@@ -37,27 +37,9 @@
   color: rgba(80, 220, 227, 0.849);
   background-color: rgb(61, 61, 61);
   outline: none;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.23s ease-in-out;
 }
 .button:hover {
-  text-align: center;
-  margin: 3rem 0;
-  padding: 1rem;
-  width: 11rem;
-  height: 5rem;
-  font-size: 1.6rem;
-  text-shadow: .2rem .2rem .8rem var(--glow-spread-color);
-  border-radius: 0;
-  border-bottom: 0.3rem solid rgb(91, 247, 255);
-  border-top: 0;
-  border-left: 0;
-  border-right: 0.3rem solid rgb(91, 247, 255);
-  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
-  color: rgba(80, 220, 227, 0.849);
-  background-color: rgb(61, 61, 61);
-  transform: scale(1.07) ;
-}
-.button:focus {
   text-align: center;
   margin: 3rem 0;
   padding: 1rem;
@@ -67,9 +49,9 @@
   border-radius: 0;
   clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
   border: 0;
-  background-color: red;
-  color: white;
-  transform: scale(1);
+  background-color: rgb(91, 247, 255);
+  color: black;
+  transform: scale(1.05) ;
 }
 .button:disabled {
   text-align: center;
@@ -92,15 +74,20 @@
   height: 5rem;
   font-size: 1.6rem;
   border-radius: 0;
+  border-bottom: 0.3rem solid rgb(91, 247, 255);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0.3rem solid rgb(91, 247, 255);
   clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
-  border: 0;
-  background-color: rgb(91, 247, 255);
-  color: black;
+  color: rgba(80, 220, 227, 0.849);
+  background-color: rgb(61, 61, 61);
+  outline: none;
+  transform: scale(1);
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 280px) and (max-width: 450px) {
   .heading {
-    margin: 0 0rem;
+    margin: 0 2vw;
     font-size: 1.1rem;
     text-align: center;
     display: flex;
@@ -111,57 +98,41 @@
     text-align: center;
     margin: 3rem 0;
     padding: 1rem;
-    width: 8rem;
-    height: 4rem;
-    font-size: 1rem;
+    width: 6.5rem;
+    height: 3.3rem;
+    font-size: .8rem;
     border-radius: 0;
-    border-bottom: 0.3rem solid rgb(91, 247, 255);
+    border-bottom: 0.25rem solid rgb(91, 247, 255);
     border-top: 0;
     border-left: 0;
-    border-right: 0.3rem solid rgb(91, 247, 255);
+    border-right: 0.25rem solid rgb(91, 247, 255);
     clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
     color: rgba(80, 220, 227, 0.849);
     background-color: rgb(61, 61, 61);
     outline: none;
+    transition: all 0.23s ease-in-out;
   }
   .button:hover {
     text-align: center;
     margin: 3rem 0;
     padding: 1rem;
-    width: 8rem;
-    height: 4rem;
-    font-size: 1rem;
-    border-radius: 0;
-    border-bottom: 0.3rem solid rgb(91, 247, 255);
-    border-top: 0;
-    border-left: 0;
-    border-right: 0.3rem solid rgb(91, 247, 255);
-    clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
-    color: rgba(80, 220, 227, 0.849);
-    background-color: rgb(61, 61, 61);
-    transform: scale(1.1);
-  }
-  .button:focus {
-    text-align: center;
-    margin: 3rem 0;
-    padding: 1rem;
-    width: 8rem;
-    height: 4rem;
-    font-size: 1rem;
+    width: 6.5rem;
+    height: 3.3rem;
+    font-size: .8rem;
     border-radius: 0;
     clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
     border: 0;
-    background-color: red;
-    color: white;
-    /* transition-duration: .8s; */
+    background-color: rgb(91, 247, 255);
+    color: black;
+    transform: scale(1.05) ;
   }
   .button:disabled {
     text-align: center;
     margin: 3rem 0;
     padding: 1rem;
-    width: 8rem;
-    height: 4rem;
-    font-size: 1rem;
+    width: 6.5rem;
+    height: 3.3rem;
+    font-size: .8rem;
     border-radius: 0;
     clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
     border: 0;
@@ -172,21 +143,26 @@
     text-align: center;
     margin: 3rem 0;
     padding: 1rem;
-    width: 8rem;
-    height: 4rem;
-    font-size: 1rem;
+    width: 6.5rem;
+    height: 3.3rem;
+    font-size: .8rem;
     border-radius: 0;
+    border-bottom: 0.25rem solid rgb(91, 247, 255);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0.25rem solid rgb(91, 247, 255);
     clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
-    border: 0;
-    background-color: rgb(91, 247, 255);
-    color: black;
+    color: rgba(80, 220, 227, 0.849);
+    background-color: rgb(61, 61, 61);
+    outline: none;
+    transform: scale(1);
   }
 }
 
-@media screen and (min-width: 450px) and (max-width: 1000px) {
+@media screen and (min-width: 450px) and (max-width: 80px) {
   .heading {
-    margin: 0 9rem;
-    font-size: 2rem;
+    margin: 0 7vw;
+    font-size: 1.5rem;
     text-align: center;
     display: flex;
     justify-content: center;
