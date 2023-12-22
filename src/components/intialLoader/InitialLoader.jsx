@@ -6,7 +6,7 @@ import vid from "../../assets/videos/AvinyaIntoVideo.mp4"
 function InitialLoader() {
     return (
         <div className="rings">
-            <video width="100%" height="100%" autoPlay muted>
+            <video width="100%" height="100%" id='video' autoPlay muted>
                 <source src={vid} type="video/mp4" style={{ width: "1500px" }} />
             </video>
         </div>

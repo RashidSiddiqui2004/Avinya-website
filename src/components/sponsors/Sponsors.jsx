@@ -243,7 +243,7 @@ function Sponsors() {
 
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
-        ml-[15%] md:ml-[30%] xl:ml-[35%] font-medium
+        ml-[12%] md:ml-[30%] xl:ml-[35%] font-medium
         underlined-text2 pb-3 space-x-1 headerAkira transition-all linearGradientSponsors2'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
@@ -260,7 +260,7 @@ function Sponsors() {
       {/* Education Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5  ml-[15%]  md:ml-[30%] xl:ml-[35%]
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5  ml-[12%]  md:ml-[30%] xl:ml-[35%]
         font-normal headerAkira space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
         {/* md:mx-56  mx-[40%]  */}
@@ -310,7 +310,7 @@ function Sponsors() {
 
       <div>
         <h2 className='
-        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[20%] md:ml-[34%] xl:ml-[36%]
+        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[20%] md:ml-[34%] xl:ml-[38%]
         font-normal headerAkira space-x-1   
         underlined-text pb-3'>OTHER SPONSORS</h2>
 

@@ -1,20 +1,20 @@
 .container {
   margin-top: 4rem;
-  font-family: 'Akira', sans-serif;
+  font-family: "Akira", sans-serif;
   display: flex;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
   overflow-x: hidden;
 }
-.heading{
+.heading {
   font-size: 2.4rem;
   justify-content: center;
   text-align: center;
   color: #ffffff;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-.heading:hover{
-  transform: scale(1.02);
+.heading:hover {
+  transform: scale(1.05);
   z-index: 1;
 }
 .button {
@@ -37,9 +37,36 @@
   color: rgba(80, 220, 227, 0.849);
   background-color: rgb(61, 61, 61);
   outline: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.23s ease-in-out;
 }
 .button:hover {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 1rem;
+  width: 11rem;
+  height: 5rem;
+  font-size: 1.6rem;
+  border-radius: 0;
+  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+  border: 0;
+  background-color: rgb(91, 247, 255);
+  color: black;
+  transform: scale(1.05) ;
+}
+.button:disabled {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 1rem;
+  width: 11rem;
+  height: 5rem;
+  font-size: 1.6rem;
+  border-radius: 0;
+  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+  border: 0;
+  background-color: lightgray;
+  color: gray;
+}
+.button:active {
   text-align: center;
   margin: 3rem 0;
   padding: 1rem;
@@ -54,59 +81,91 @@
   clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
   color: rgba(80, 220, 227, 0.849);
   background-color: rgb(61, 61, 61);
-  transition-duration: .15s;
-}
-.button:focus{
-  text-align: center;
-  margin: 3rem 0;
-  padding: 1rem;
-  width: 11rem;
-  height: 5rem;
-  font-size: 1.6rem;
-  border-radius: 0;
-  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
-  border: 0;
-  background-color: red;
-  color: white;
-  /* transition-duration: .8s; */
-}
-.button:disabled{
-  text-align: center;
-  margin: 3rem 0;
-  padding: 1rem;
-  width: 11rem;
-  height: 5rem;
-  font-size: 1.6rem;
-  border-radius: 0;
-  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
-  border: 0;
-  background-color: lightgray;
-  color: gray;
-}
-.button:active{
-  text-align: center;
-  margin: 3rem 0;
-  padding: 1rem;
-  width: 11rem;
-  height: 5rem;
-  font-size: 1.6rem;
-  border-radius: 0;
-  clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
-  border: 0;
-  background-color: rgb(91, 247, 255);
-  color: black;
+  outline: none;
+  transform: scale(1);
 }
 
-@media screen and (max-width: 600px) {
-  .heading{
-    margin: 0 5rem;
-    padding: 0 2rem;
-    font-size: 1.5rem;
+@media screen and (min-width: 280px) and (max-width: 450px) {
+  .heading {
+    margin: 0 2vw;
+    font-size: 1.1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 1rem;
+    width: 6.5rem;
+    height: 3.3rem;
+    font-size: .8rem;
+    border-radius: 0;
+    border-bottom: 0.25rem solid rgb(91, 247, 255);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0.25rem solid rgb(91, 247, 255);
+    clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+    color: rgba(80, 220, 227, 0.849);
+    background-color: rgb(61, 61, 61);
+    outline: none;
+    transition: all 0.23s ease-in-out;
+  }
+  .button:hover {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 1rem;
+    width: 6.5rem;
+    height: 3.3rem;
+    font-size: .8rem;
+    border-radius: 0;
+    clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+    border: 0;
+    background-color: rgb(91, 247, 255);
+    color: black;
+    transform: scale(1.05) ;
+  }
+  .button:disabled {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 1rem;
+    width: 6.5rem;
+    height: 3.3rem;
+    font-size: .8rem;
+    border-radius: 0;
+    clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+    border: 0;
+    background-color: lightgray;
+    color: gray;
+  }
+  .button:active {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 1rem;
+    width: 6.5rem;
+    height: 3.3rem;
+    font-size: .8rem;
+    border-radius: 0;
+    border-bottom: 0.25rem solid rgb(91, 247, 255);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0.25rem solid rgb(91, 247, 255);
+    clip-path: polygon(0 0, 80% 0, 100% 25%, 100% 100%, 20% 100%, 0 75%);
+    color: rgba(80, 220, 227, 0.849);
+    background-color: rgb(61, 61, 61);
+    outline: none;
+    transform: scale(1);
   }
 }
- 
-@media screen and (min-width:435px) and (max-width:2560px){
-  .heading{
-    margin: 0 5rem;
+
+@media screen and (min-width: 450px) and (max-width: 80px) {
+  .heading {
+    margin: 0 7vw;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

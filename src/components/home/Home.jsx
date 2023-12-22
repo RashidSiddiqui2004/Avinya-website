@@ -22,9 +22,9 @@ function Home() {
     useEffect(() => {
         new AOS.init({ duration: 1500 });
     }, []);
-
+    
     const [loading, setLoading] = useState(false);
-
+    
     useEffect(() => {
         setLoading(true);
         setTimeout(() => {

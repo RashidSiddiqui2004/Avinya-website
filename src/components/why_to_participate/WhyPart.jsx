@@ -18,9 +18,9 @@ function WhyPart() {
         ],
         descriptions: [
             "Compete with creative project ideas and get inspiration for your next project.",
-            "Meet innovative new peers, make friends and connections.",
+            "Meet innovative new peers, make new connections.",
             "Learn about different tech stacks, see it in action and enhance your skills.",
-            "Prize Pool of worth INR 8,00,000.",
+            "Prize pool worth 8,00,000 INR awaits the competition winners.",
             "Get a real world exposure of a Tech Fest.",
             "Get cool goodies and swags to show off to your friends.",
         ]
@@ -37,7 +37,7 @@ function WhyPart() {
     font-bold hover:scale-[101%] transition-all headerAkira pb-16'> WHY TO PARTICIPATE IN AVINYA 2024</h1>
             <div className='grid grid-cols-2 mx-[24%] md:grid-cols-2 lg:grid-cols-3
             md:w-[70%] md:mx-[15%] gap-12
-            md:gap-4 lg:gap-x-8 lg:gap-y-8'>
+            md:gap-4 lg:gap-x-8 lg:gap-y-[4px]'>
                 {featureObject.titles.map((title, index) =>
                 (
                     <div key={index}>
