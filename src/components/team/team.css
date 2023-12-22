@@ -1,3 +1,4 @@
+/* YourComponentStyles.css */
 * {
   margin: 0;
   padding: 0;
@@ -16,10 +17,21 @@ body {
 
 .section-title {
   margin-top: 20px;
-  font-size: 50px;
   font-weight: 800;
   line-height: 1.5;
   margin-top: 10px;
+  font-family: "Drummer";
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Drummer";
+  src: url("/DrummerEB.ttf");
+}
+
+@font-face {
+  font-family: "LLPixel";
+  src: url("/LLPIXEL3.ttf");
 }
 
 .chief-convener {
