@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Ham.css'; 
+import './Ham.css';
 import { Link } from 'react-router-dom';
 
 const HamburgerMenu = () => {
@@ -8,7 +8,7 @@ const HamburgerMenu = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-  
+
 
   return (
     <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
@@ -20,14 +20,14 @@ const HamburgerMenu = () => {
       {isOpen && (
         <ul className="menu-items">
           <li><a href="#">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#events">EVENTS</a></li>
-          <li><a href="#gallery">GALLERY</a></li>
-          <li><a href="#sponsors">SPONSORS</a></li>
-          <Link to={'/team'}> 
-          <li><a className='nav-a' href="/team"><div className='nav-item' style={{margin: "0%"}}>OUR TEAM</div></a></li>
+          <li><a href="/#about">ABOUT</a></li>
+          <li><a href="/#events">EVENTS</a></li>
+          <li><a href="/#gallery">GALLERY</a></li>
+          <li><a href="/#sponsors">SPONSORS</a></li>
+          <li><Link to={'/team'}>
+            <a className='nav-a' href="/team"><div className='nav-item' style={{ margin: "0%" }}>OUR TEAM</div></a>
           </Link>
-          
+          </li>
         </ul>
       )}
     </div>

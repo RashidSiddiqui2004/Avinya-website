@@ -60,11 +60,7 @@ function Home() {
                     </div>
 
                     <Sponsors />
-
-                    <div className="flex flex-row px-[10%] mt-20 mb-10">
-                        <img src="/desk.png" alt="image" className="w-[80%] mx-[15%]" />
-                    </div>
-                    
+                   
                     <Footer />
                     
                 </>

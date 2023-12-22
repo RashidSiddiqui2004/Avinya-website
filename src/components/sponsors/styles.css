@@ -98,11 +98,25 @@
   }
 
   50% {
-    transform: translateX(75%);
+    transform: translateX(100%);
   }
 
   100% {
     transform: translateX(-110%);
+  }
+}
+
+@keyframes floatFromRight2 {
+  0% {
+    transform: translateX(-40%);
+  }
+
+  50% {
+    transform: translateX(75%);
+  }
+
+  100% {
+    transform: translateX(-40%);
   }
 }
 
@@ -167,6 +181,11 @@
 .float-from-leftNew {
   animation-name: floatFromLeft2;
 }
+
+.float-from-rightNew {
+  animation-name: floatFromRight2;
+}
+
 
 @media (max-width: 768px) {
 
@@ -252,14 +271,7 @@
   border-radius: 10px;
   width: 130px;
 }
-
-
-
-/* slider div of sponsors */
-/* .slider-div{
-  width:85%;
-  display: block;
-} */
+ 
 
 .slider {
   height: 200px;
