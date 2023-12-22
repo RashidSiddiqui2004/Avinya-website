@@ -16,7 +16,7 @@ const Mdl = (props) => {
                   <h1 className={styling2.head}>{eventContent[props.day-1][props.event_id-1].title} </h1>
                   <p className={styling2.info}>
                   {eventContent[props.day-1][props.event_id-1].event_info}
-                  <div style={{width : "fit-content", margin : "1%"}}> Time : {eventContent[props.day-1][props.event_id-1].time_span}
+                  <div style={{width : "fit-content", margin : "2% 1% 1% 1%"}}> Time : {eventContent[props.day-1][props.event_id-1].time_span}
                   </div><div style={{width : "fit-content", margin : "1%"}}> Date : {eventContent[props.day-1][props.event_id-1].date} </div>
                   <div style={{width : "fit-content", margin : "1%"}}>No of participants registered : {eventContent[props.day-1][props.event_id-1].no_of_participants} </div>
                   </p>
