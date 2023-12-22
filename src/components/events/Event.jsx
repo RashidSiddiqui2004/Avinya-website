@@ -120,7 +120,7 @@ function Event() {
                 backgroundColor: "black",
                 color: "white",
                 fontSize: ["1rem", "1.5rem"],
-                width: ["6.5rem", "10rem"],
+                width: ["5.5rem", "10rem"],
                 fontFamily: "Montserrat",
                 fontWeight: "bold",
                 fontStyle: "normal",
