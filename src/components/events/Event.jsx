@@ -13,12 +13,12 @@ const Mdl = (props) => {
       <div className="fixed top-0 left-0 w-[100vw] h-full flex items-center justify-center z-50">
       <div className={styling2.parent_div}>
               <div className={styling2.gradient_div}>
-                  <h1 className={styling2.head}>{eventContent[props.event_id-1].title} </h1>
+                  <h1 className={styling2.head}>{eventContent[props.day-1][props.event_id-1].title} </h1>
                   <p className={styling2.info}>
-                  {eventContent[props.event_id-1].event_info}
-                  <div style={{width : "fit-content", margin : "1%"}}> Time : {eventContent[props.event_id-1].time_span}
-                  </div><div style={{width : "fit-content", margin : "1%"}}> Date : {eventContent[props.event_id-1].date} </div>
-                  <div style={{width : "fit-content", margin : "1%"}}>No of participants registered : {eventContent[props.event_id-1].no_of_participants} </div>
+                  {eventContent[props.day-1][props.event_id-1].event_info}
+                  <div style={{width : "fit-content", margin : "1%"}}> Time : {eventContent[props.day-1][props.event_id-1].time_span}
+                  </div><div style={{width : "fit-content", margin : "1%"}}> Date : {eventContent[props.day-1][props.event_id-1].date} </div>
+                  <div style={{width : "fit-content", margin : "1%"}}>No of participants registered : {eventContent[props.day-1][props.event_id-1].no_of_participants} </div>
                   </p>
                   <button className={styling2.btn2}>
                       Register Now
@@ -43,7 +43,7 @@ function DayDataLeft(props) {
         <h1 className={styling.num}>{props.num}</h1>
       </div>
       <div className={styling.bigBox}>
-      <Mdl mdlstate={mdl} close={toggle_mdl} event_id={Number(props.num)}/>
+      <Mdl mdlstate={mdl} close={toggle_mdl} event_id={Number(props.num)} day={props.day}/>
         <p className={styling.content}>{props.context}</p>
         <button
           className={`${styling["infoLinkLeft"]} text-xs lg:text-base`}
@@ -65,7 +65,7 @@ function DayDataRight(props) {
   return (
     <div className={styling.master2}>
       <div className={styling.bigBox}>
-      <Mdl mdlstate={mdl} close={toggle_mdl} event_id={Number(props.num)}/>
+      <Mdl mdlstate={mdl} close={toggle_mdl} event_id={Number(props.num)} day={props.day}/>
         <p className={styling.content}>{props.context}</p>
         <button
           className={`${styling["infoLinkRight"]} text-xs lg:text-base`}
@@ -148,11 +148,13 @@ function Event() {
             num="1"
             context={dayValues[activeDay].block1}
             info={dayValues[activeDay].infoBlock1}
+            day={activeDay}
           />
           <DayDataRight
             num="2"
             context={dayValues[activeDay].block2}
             info={dayValues[activeDay].infoBlock2}
+            day={activeDay}
           />
         </div>
         <div className={styling.master}>
@@ -160,11 +162,13 @@ function Event() {
             num="3"
             context={dayValues[activeDay].block1}
             info={dayValues[activeDay].infoBlock1}
+            day={activeDay}
           />
           <DayDataRight
             num="4"
             context={dayValues[activeDay].block2}
             info={dayValues[activeDay].infoBlock2}
+            day={activeDay}
           />
         </div>
         <div className={styling.master}>
@@ -172,11 +176,13 @@ function Event() {
             num="5"
             context={dayValues[activeDay].block1}
             info={dayValues[activeDay].infoBlock1}
+            day={activeDay}
           />
           <DayDataRight
             num="6"
             context={dayValues[activeDay].block2}
             info={dayValues[activeDay].infoBlock2}
+            day={activeDay}
           />
         </div>
         <div className={styling.master}>
@@ -184,11 +190,13 @@ function Event() {
             num="7"
             context={dayValues[activeDay].block1}
             info={dayValues[activeDay].infoBlock1}
+            day={activeDay}
           />
           <DayDataRight
             num="8"
             context={dayValues[activeDay].block2}
             info={dayValues[activeDay].infoBlock2}
+            day={activeDay}
           />
         </div>
       </div>
