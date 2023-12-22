@@ -7,7 +7,7 @@ const Footer = () => {
             <div className={styling.footer_main}>
                 <div className={styling.cont}>
                     <div className={styling.avinya_txt}>AVINYA</div>
-                    <div className={styling.tagline}>TECH X TAG LINE X TECH X TAG LINE</div>
+                    <div className={styling.tagline}>Innovation meets Technology</div>
                 </div>
                 <div className={styling.break}></div>
                 <div className = {styling.cnt2}>
