@@ -5,7 +5,7 @@ const eventContent = [
     time_span: "9:00 AM - 5:00 PM",
     location: "Main Campus, Dwarka",
     organizer: "DevComm",
-    event_info: "Join us for an excitsectetur reiciendis sunt asperiores commodi dignissimos?.",
+    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 500,
   },
   

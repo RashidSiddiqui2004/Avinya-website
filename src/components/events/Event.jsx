@@ -10,7 +10,7 @@ import eventContent from "./eventdesc";
 const Mdl = (props) => {
   return (
     props.mdlstate && (
-      <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-50">
+      <div className="fixed top-0 left-0 w-[100vw] h-full flex items-center justify-center z-50">
       <div className={styling2.parent_div}>
               <div className={styling2.gradient_div}>
                   <h1 className={styling2.head}>{eventContent[props.event_id-1].title} </h1>
