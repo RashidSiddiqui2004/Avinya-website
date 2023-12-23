@@ -3,12 +3,11 @@
 const ImageOverlay = () => {
   return (
     <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
-      {" "}
       <div className="team-member flex justify-center p-0 ">
         {/* First Image (SexyMonke.jpg) */}
         <img
           src="/SexyMonke.jpg"
-          className="w-full h-full object-cover rounded-lg"
+          className="w-full h-full object-cover"
           style={{
             clipPath:
               "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
