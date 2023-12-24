@@ -29,7 +29,7 @@ function TeamPage() {
         <>
           <div className="content mb-5 lg:mb-10">
             <div className="Banner  ">
-              <Nav />
+              <Nav homeUrl='/'/>
             </div>
             <div
               className="flex justify-center items-center h-screen bg-cover bg-center"

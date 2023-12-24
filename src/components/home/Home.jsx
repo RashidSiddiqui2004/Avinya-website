@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import HeroSection from "../hero/HeroSection";
+// import HeroSection from "../hero/HeroSection";
 import IntroFunc from "../intro/intro";
 import WhyPart from "../why_to_participate/WhyPart";
 import Gallery from "../gallery/Gallery";
@@ -11,7 +11,7 @@ import Sponsors from "../sponsors/Sponsors";
 import Footer from "../footer/footer";
 import Event from "../events/Event";
 import InitialLoader from "../intialLoader/InitialLoader";
-import EventSection from "../eventModal/NewModalSection";
+// import EventSection from "../eventModal/NewModalSection";
 import Banner from '../banner/Banner';
 import Nav from '../navbar/Navbar';
 
@@ -40,7 +40,7 @@ function Home() {
             ) : (
                 <>
                     <div className="Banner" >
-                        <Nav />
+                        <Nav homeUrl='/'/>
                         <Banner />
                         
                     </div>

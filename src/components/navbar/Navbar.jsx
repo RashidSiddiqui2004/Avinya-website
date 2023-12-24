@@ -4,11 +4,11 @@ import './Navbar.css'
 import { Link } from 'react-router-dom';
 
 
-export default function Navbar() {
+export default function Navbar({homeUrl}) {
   return (
     <>
       <div className='ham'>
-        <Ham />
+        <Ham homeUrl={'/'}/>
 
       </div>
       <nav className='nav'>
@@ -19,7 +19,7 @@ export default function Navbar() {
         <a className='nav-a' href="/#gallery"><div className='nav-item'>GALLERY</div></a>
         <a className='nav-a' href="/#events"><div className='nav-item'>EVENTS</div></a>
         <a className='nav-a' href="/#about"><div className='nav-item'>ABOUT</div></a>
-        <a className='nav-a' href="/"><div className='nav-item'>HOME</div></a>
+        <a className='nav-a' href={homeUrl}><div className='nav-item'>HOME</div></a>
       </nav>
       <nav className="nav-2">
       </nav>
