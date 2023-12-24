@@ -229,21 +229,16 @@ function Sponsors() {
 
     <div className='overflow-hidden overflow-x-hidden mb-16' id='sponsors'>
 
-      <h2 className='text-2xl sm:text-4xl text-center pt-20 text-white
+      <h2 className='text-2xl sm:text-4xl pt-20 text-white
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
-       linearGradientSposnsors transition-all'
-      >EVENT PARTNERS</h2>
-
-      {/* <div className='h-[200px] rounded-full transition-all
-       opacity-40 absolute mt-3 hidden md:block lg:-left-32'>
-        <img src="/gift.png" alt="" />
-      </div> */}
+       linearGradientSposnsors transition-all text-center ml-10'
+      >EVENT PARTNERS</h2> 
 
       {/* Platinum Partners */}
 
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
-        ml-[12%] md:ml-[30%]  xl:ml-[40%] font-medium
+        ml-[12%] md:ml-[30%] xl:ml-[35%] font-medium
         underlined-text2 pb-3 space-x-1 headerAkira transition-all linearGradientSponsors2'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
@@ -260,7 +255,7 @@ function Sponsors() {
       {/* Education Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5  ml-[12%]  md:ml-[30%] xl:ml-[39%]
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5 ml-[12%] md:ml-[30%] xl:ml-[35%]
         font-normal headerAkira space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
         {/* md:mx-56  mx-[40%]  */}
@@ -284,7 +279,7 @@ function Sponsors() {
 
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[25%]
-        md:ml-[25%] lg:ml-[34%] xl:ml-[42%]
+        md:ml-[25%] lg:ml-[34%] xl:ml-[38%]
         font-normal headerAkira space-x-1
         underlined-text pb-3 transition-all linearGradientSponsors3'>GOLD PARTNERS</h2>
 
@@ -310,7 +305,7 @@ function Sponsors() {
 
       <div>
         <h2 className='
-        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[20%] md:ml-[34%] xl:ml-[41%]
+        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[20%] md:ml-[34%] xl:ml-[38%]
         font-normal headerAkira space-x-1   
         underlined-text pb-3'>OTHER SPONSORS</h2>
 

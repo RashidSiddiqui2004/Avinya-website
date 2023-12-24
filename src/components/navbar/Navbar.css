@@ -3,7 +3,7 @@
     height: 50px;
     width: 60%;
     position: fixed;
-    top: 50%;
+    top: 46%;
     display: flex;
     
     justify-content: center;
@@ -14,7 +14,6 @@
     margin: 0;
     z-index: 100;
     font-size: 1.3vw;
-    
 }
 
 
@@ -32,8 +31,11 @@
     display: none;
 }
 
-.nav-item {
-    padding: 1.3vw 1.5vw;
+.nav-item { 
+    padding-top: 1vw;
+    padding-bottom: 1.2vw; 
+    padding-right: 0.9vw;
+    padding-left: 0.9vw;
     transition: all 0.2s ease;
     background-color: rgba(68, 68, 68, 0.7);
     font-weight: bold;
