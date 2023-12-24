@@ -1,6 +1,4 @@
 
-/* banner.css */
-
 .banner-container {
     position: relative;
     height: 100vh;
@@ -30,17 +28,17 @@
   
   #avinya {
     font-size: 15em;
-    letter-spacing: 0.2em; /* Adjust the font size as needed */
+    letter-spacing: 0.2em; 
   }
   
   #age {
     font-size: 4em;
-    letter-spacing: 0.2em; /* Adjust the font size as needed */
+    letter-spacing: 0.2em; 
   }
   
   #month {
     font-size: 4em; 
-    letter-spacing: 0.2em;/* Adjust the font size as needed */
+    letter-spacing: 0.2em;
   }
   
   @media (max-width: 410px){
@@ -59,17 +57,17 @@
       
       #avinya {
         font-size: 5.5em;
-         /* Adjust the font size as needed */
+         
       }
       
       #age {
         font-size: 2em;
-        /* Adjust the font size as needed */
+        
       }
       
       #month {
         font-size: 2em; 
-        /* Adjust the font size as needed */
+        
       }
       
 }
