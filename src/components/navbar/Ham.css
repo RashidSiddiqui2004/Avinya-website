@@ -5,7 +5,7 @@
   
   .menu-toggle {
     cursor: pointer;
-    padding: 10px;
+    padding: 28px;
     width: 50%;
   }
 
@@ -50,12 +50,11 @@
     color: white;
   }
     
- @media (max-width: 410px) {
-  .menu-toggle {
+ @media (max-width: 412px) {
+  .menu-toggle {   
     cursor: pointer;
-    padding-left: 30px;
+    padding: 32px;
     width: 50%;
-
     
   }
   .menu-items li:hover{
