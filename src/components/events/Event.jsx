@@ -103,7 +103,7 @@ function Event() {
   return (
     <div className={`${styling["main"]}`} id="events">
       <h1
-        className={`${styling["eventHeading"]} text-4xl md:text-6xl lg:text-8xl my-5 font-extrabold py-4`}
+        className={`${styling["eventHeading"]} text-4xl md:text-6xl font-[drummer] lg:text-8xl my-5 font-extrabold py-4`}
       >
         EVENTS
       </h1>
