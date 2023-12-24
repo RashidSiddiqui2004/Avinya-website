@@ -6,7 +6,7 @@ import Nav from "../navbar/Navbar";
 import InitialLoader from "../intialLoader/InitialLoader";
 import "./team.css";
 import ImageOverlay from "./ImageOverlay";
-
+import img from "./img1.jpg";
 function TeamPage() {
   useEffect(() => {
     new AOS.init({ duration: 1500 });
@@ -31,11 +31,21 @@ function TeamPage() {
             <div className="Banner  ">
               <Nav />
             </div>
-            <h1 className="text-center font-extrabold font-['Drummer'] mt-5 sm:text-5xl lg:text-8xl p-30">
-              OUR TEAM
-            </h1>
+            <div
+              className="flex justify-center items-center h-screen bg-cover bg-center"
+              style={{
+                backgroundImage: `url(${img})`,
+              }}
+            >
+              <div className="p-8">
+              <h1 className="text-center font-extrabold font-[drummer] text-6xl lg:text-9xl text-purple-700">
+                OUR TEAM
+              </h1>
+              </div>
+            </div>
+
             <div className="py-10">
-              <div className="section-title chief-convener text-3xl lg:text-5xl text-center mb-5">
+              <div className="section-title chief-convener text-3xl lg:text-5xl text-center mb-5 p-10">
                 CHIEF CONVENER
               </div>
               <div className="team-members-container py-10">
