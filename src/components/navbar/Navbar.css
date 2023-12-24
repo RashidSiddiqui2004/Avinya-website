@@ -79,6 +79,7 @@
     }
     .ham{
         visibility: visible;
+        left:4%;
     }
     .nav-2{
         display: initial;
