@@ -16,7 +16,7 @@
   .text-overlay {
     position: absolute;
     top: 50%;
-    left: 54%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
@@ -47,7 +47,7 @@
     .banner{
         width: 100%;
         height: 100vh;
-        background-Repeat: no-repeat;
+        
     background-Position: center center;
     background-Size: auto;
     }
@@ -78,7 +78,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-Repeat: no-repeat;
+    
     background-Position: center center;
     background-Size: auto;
 }
