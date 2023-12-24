@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Ham.css';
 import { Link } from 'react-router-dom';
 
-const HamburgerMenu = () => {
+const HamburgerMenu = ({homeUrl}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -28,7 +28,7 @@ const HamburgerMenu = () => {
       </div>
       {isOpen && (
         <ul className="menu-items" onClick={toggleMenu}>
-          <li><a href="#">HOME</a></li>
+          <li><a href={homeUrl}>HOME</a></li>
           <li><a href="/#about">ABOUT</a></li>
           <li><a href="/#events">EVENTS</a></li>
           <li><a href="/#gallery">GALLERY</a></li>
