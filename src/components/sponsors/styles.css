@@ -66,15 +66,15 @@
 
 @keyframes floatFromLeft {
   0% {
-    transform: translateX(-150%);
+    transform: translateX(-140%);
   }
 
   50% {
-    transform: translateX(150%);
+    transform: translateX(140%);
   }
 
   100% {
-    transform: translateX(-150%);
+    transform: translateX(-140%);
   }
 }
 

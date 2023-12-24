@@ -18,14 +18,14 @@ const HamburgerMenu = () => {
         <div className="bar"></div>
       </div>
       {isOpen && (
-        <ul className="menu-items">
+        <ul className="menu-items" onClick={toggleMenu}>
           <li><a href="#">HOME</a></li>
           <li><a href="/#about">ABOUT</a></li>
           <li><a href="/#events">EVENTS</a></li>
           <li><a href="/#gallery">GALLERY</a></li>
           <li><a href="/#sponsors">SPONSORS</a></li>
           <li><Link to={'/team'}>
-            <a className='nav-a' href="/team"><div className='nav-item' style={{ margin: "0%" }}>OUR TEAM</div></a>
+            <a className='nav-a' href="/team">OUR TEAM</a>
           </Link>
           </li>
         </ul>

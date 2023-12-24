@@ -80,8 +80,7 @@
     font-family: 'Chakra Petch', sans-serif;
   }
 
-  .menu-items a { 
-    background-color: rgba(68,68,68,0.7); 
+  .menu-items a {  
     color: white;
     padding: 3px; 
   }
