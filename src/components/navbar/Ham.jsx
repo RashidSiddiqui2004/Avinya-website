@@ -13,9 +13,18 @@ const HamburgerMenu = () => {
   return (
     <div className={`hamburger-menu ${isOpen ? 'open' : ''}`}>
       <div className="menu-toggle" onClick={toggleMenu}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
+        {isOpen ? (
+          <>
+            <div className="cross">X</div>
+            
+          </>
+        ) : (
+          <>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+          </>
+        )}
       </div>
       {isOpen && (
         <ul className="menu-items" onClick={toggleMenu}>
@@ -35,6 +44,7 @@ const HamburgerMenu = () => {
 };
 
 
-export default HamburgerMenu;
 
+
+export default HamburgerMenu;
 

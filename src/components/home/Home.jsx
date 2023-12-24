@@ -14,7 +14,7 @@ import InitialLoader from "../intialLoader/InitialLoader";
 import EventSection from "../eventModal/NewModalSection";
 import Banner from '../banner/Banner';
 import Nav from '../navbar/Navbar';
-import Reg_button from '../Reg_button/Reg_button'
+
 import TeamPage  from "../team/TeamPage";
 
 function Home() {
@@ -42,7 +42,7 @@ function Home() {
                     <div className="Banner" >
                         <Nav />
                         <Banner />
-                        <Reg_button />
+                        
                     </div>
  
                     <IntroFunc />

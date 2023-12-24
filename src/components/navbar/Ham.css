@@ -8,6 +8,12 @@
     padding: 10px;
     width: 50%;
   }
+
+  .cross{
+    font-size: x-large;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+  }
   
   .bar {
     width: 25px;
