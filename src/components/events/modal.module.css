@@ -104,7 +104,7 @@
 @media (max-width : 768px) {
     .btn2{
         width: 55%;
-        margin: 5% 20% 5px 20%;
+        margin: 4% 20% 5px 20%;
     }
     .head{
         font-size: 30px;
@@ -130,6 +130,6 @@
 
 @media (max-width : 380px) {
     .parent_div{
-        height: 620px;
+        height: 560px;
     }
 }
