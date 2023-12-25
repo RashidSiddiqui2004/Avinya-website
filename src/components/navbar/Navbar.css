@@ -101,9 +101,7 @@
     .nav{
         font-size: 1.5vw;
     }
-    .nav-item {
-
-    }
+    
     .ham{
         visibility: hidden;
     }
@@ -111,8 +109,7 @@
         visibility: visible;
     }
 
-    .proj-button {
-    }
+    
 }
 
 @media only screen and (max-width: 438px){

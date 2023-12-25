@@ -13,7 +13,7 @@
 
 .text-overlay {
   position: absolute;
-  top: 80%;
+  top: 50%;
   left: 50%;
   font-size: auto;
   transform: translate(-50%, -50%);
@@ -104,17 +104,16 @@
 
 
 .avinya_name{
-  position: absolute;
-  left: -4%;
-  top: -30%;
-  margin: 4%;
+  
+  width: 500%;
 }
 
-@media (max-width: 360px){
+@media (max-width: 640px){
   .avinya_name{
     position: absolute;
-    left: -4%;
-    top: -20%;
+    left: 0%;
+    bottom: 0;
     margin: 4%;
+    width: 80%;
   }
 }
