@@ -13,9 +13,9 @@ const MyImageComponent = () => {
         className="banner-image"
         id="banner-image"
       />
-      <img src={myImage3} alt="Avinya" className="avinya_name"/>
+     
       <div className="text-overlay">
-        
+      <img src={myImage3} alt="Avinya" className="avinya_name"/>
         <div className="centered font-[drummer]" id="age">
           18 - 21
         </div>
