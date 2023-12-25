@@ -29,7 +29,7 @@ function TeamPage() {
         <>
           <div className="content mb-5 lg:mb-10">
             <div className="Banner  ">
-              <Nav homeUrl='/'/>
+              <Nav homeUrl="/" />
             </div>
             <div
               className="flex justify-center items-center h-screen bg-cover bg-center"
@@ -37,10 +37,17 @@ function TeamPage() {
                 backgroundImage: `url(${img})`,
               }}
             >
-              <div className="p-8">
-              <h1 className="text-center font-extrabold font-[drummer] text-6xl lg:text-9xl text-purple-700">
-                OUR TEAM
-              </h1>
+              <div
+                className="p-8"
+                style={{
+                  
+                  textShadow:
+                    "0 0 10px rgba(238, 194, 51, 0.8), 0 0 20px rgba(231, 172, 63, 0.801), 0 0 30px rgba(255, 255, 255, 0.8)",
+                }}
+              >
+                <h1 className="text-center font-extrabold font-[drummer] text-7xl lg:text-9xl text-purple-700">
+                  OUR TEAM
+                </h1>
               </div>
             </div>
 
