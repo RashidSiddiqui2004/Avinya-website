@@ -6,7 +6,7 @@
     left: -5.1%;
    
     display: flex;
-  flex-direction: column; /* Make the nav items stack vertically */
+  flex-direction: column; 
    justify-content: center;
     
     background-color: transparent;
