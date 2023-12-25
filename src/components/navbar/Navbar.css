@@ -2,19 +2,20 @@
     
     
     position: fixed;
-    width: 65%;
-    left: -5.1%;
+    width: 15%;
+    height: 88%;
+    left: -2.2%;
    
     display: flex;
   flex-direction: column; 
-   justify-content: center;
+   justify-content:flex-start;
     
     background-color: transparent;
     padding: 0%;
     
     margin: 0;
     z-index: 100;
-    font-size: 1.3vw;
+    font-size: 0.6vw;
 }
 
 
@@ -34,8 +35,9 @@
 
 .nav-item { 
     margin: 4%;
-    width: 13.5%;
-    padding: 1%;
+    width: 47%;
+    padding: 5%;
+    font-size: 1.3vw;
     /* padding-top: 1vw; */
     transform: rotate(270deg);
     /* padding-bottom: 1.2vw; 
@@ -122,10 +124,26 @@
 
 
 .team{
-    margin-top:6.5%;
-    width: 16%;
-    margin-left:2.7%;
+    margin-top:37%;
+    width: 65%;
+    margin-left:-4.9%;
 }
 .sponsors{
-    margin-top: 5.4%;
+    margin-top: 35%;
+    
+    
+}
+.gall{
+    margin-top:26%;
+    width: 60%;
+    margin-left:-2.6%;
+}
+.gall2{
+    margin-top: 32%;
+}
+.about{
+    margin-top: 20%;
+}
+.home{
+    margin-top: 10.4%;
 }

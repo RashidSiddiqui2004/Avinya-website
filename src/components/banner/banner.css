@@ -1,5 +1,8 @@
 /* banner.css */
 
+.banner-image{
+  height: 100vh;
+}
 .banner-container {
   position: relative;
   align-items: center;
