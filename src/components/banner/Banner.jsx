@@ -1,6 +1,7 @@
 import React from "react";
 import myImage1 from "./AVINYA_BANNER1.jpg";
 import myImage2 from "./AVINYA_BANNER2.jpg";
+import myImage3 from "./nameonly_white.png";
 import "./banner.css";
 
 const MyImageComponent = () => {
@@ -12,10 +13,9 @@ const MyImageComponent = () => {
         className="banner-image"
         id="banner-image"
       />
+      <img src={myImage3} alt="Avinya" className="avinya_name"/>
       <div className="text-overlay">
-        <div className="centered font-[drummer]" id="avinya">
-          AVINYA
-        </div>
+        
         <div className="centered font-[drummer]" id="age">
           18 - 21
         </div>

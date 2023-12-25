@@ -12,17 +12,21 @@ export default function Navbar({homeUrl}) {
 
       </div>
       <nav className='nav'>
-        <Link to={'/team'}> 
-          <a className='nav-a' href="/team"><div className='nav-item'>OUR TEAM</div></a>
+      <div className='nav-item'><a className='nav-a' href={homeUrl}>HOME</a></div>
+      <div className='nav-item'><a className='nav-a' href="/#about">ABOUT</a></div>
+      <div className='nav-item'><a className='nav-a' href="/#events">EVENTS</a></div>
+      <div className='nav-item'><a className='nav-a' href="/#gallery">GALLERY</a></div>
+      <div className='nav-item team sponsors'><a className='nav-a team' href="/#sponsors">SPONSORS</a></div>
+      <Link to={'/team'}> 
+          <div className='nav-item team'><a className='nav-a team' href="/team">OUR TEAM</a></div>
         </Link>
-        <a className='nav-a' href="/#sponsors"><div className='nav-item'>SPONSORS</div></a>
-        <a className='nav-a' href="/#gallery"><div className='nav-item'>GALLERY</div></a>
-        <a className='nav-a' href="/#events"><div className='nav-item'>EVENTS</div></a>
-        <a className='nav-a' href="/#about"><div className='nav-item'>ABOUT</div></a>
-        <a className='nav-a' href={homeUrl}><div className='nav-item'>HOME</div></a>
+        
+        
+        
+        
+        
       </nav>
-      <nav className="nav-2">
-      </nav>
+      
     </>
   )
 }

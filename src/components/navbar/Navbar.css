@@ -1,15 +1,16 @@
 .nav {
-    transform: rotate(270deg);
-    height: 50px;
-    width: 60%;
-    position: fixed;
-    top: 46%;
-    display: flex;
     
-    justify-content: center;
+    
+    position: fixed;
+    width: 68%;
+    left: -5.4%;
+   
+    display: flex;
+  flex-direction: column; /* Make the nav items stack vertically */
+   justify-content: center;
+    
     background-color: transparent;
     padding: 0%;
-    left: -28.5%;
     
     margin: 0;
     z-index: 100;
@@ -32,10 +33,15 @@
 }
 
 .nav-item { 
-    padding-top: 1vw;
-    padding-bottom: 1.2vw; 
+    margin: 4%;
+    width: 13.5%;
+    padding: 1%;
+    /* padding-top: 1vw; */
+    transform: rotate(270deg);
+    /* padding-bottom: 1.2vw; 
     padding-right: 0.9vw;
-    padding-left: 0.9vw;
+    padding-left: 0.9vw; */
+    text-align: center;
     transition: all 0.2s ease;
     background-color: rgba(68, 68, 68, 0.7);
     font-weight: bold;
@@ -81,24 +87,13 @@
     }
     .ham{
         visibility: visible;
-        left:4%;
+        left:-3%;
     }
     .nav-2{
         display: initial;
     }
 }
-@media only screen and (max-width: 768px){
-    .nav{
-        visibility: hidden;
-    }
-    .ham{
-        visibility: visible;
-        left: -7%;
-    }
-    .nav-2{
-        display: initial;
-    }
-}
+
 
 @media only screen and (min-width: 768px) and (max-width: 1536px) {
     .nav{
@@ -116,4 +111,21 @@
 
     .proj-button {
     }
+}
+
+@media only screen and (max-width: 438px){
+    .ham{
+        visibility: visible;
+        left:-7%;
+    }
+}
+
+
+.team{
+    margin-top:5.4%;
+    width: 15%;
+    margin-left: 3.2%;
+}
+.sponsors{
+    margin-top: 5%;
 }

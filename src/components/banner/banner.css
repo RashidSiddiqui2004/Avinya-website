@@ -4,12 +4,12 @@
   position: relative;
   align-items: center;
   height: auto;
-  width: auto;
+  width: 100%;
 }
 
 .text-overlay {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   font-size: auto;
   transform: translate(-50%, -50%);
@@ -50,13 +50,22 @@
   #avinya {
     font-size: 5.5em;
   }
+  .avinya_name{
+    top: 20%;
+  }
 
   #age {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   #month {
-    font-size: 2em;
+    font-size: 1.5em;
+  }
+  .avinya_name{
+    position: absolute;
+    left: -2%;
+    top: -20%;
+    margin: 4%;
   }
 }
 @media (max-width: 432px) {
@@ -67,16 +76,18 @@
     max-width: 414px;
     max-height: 900px;
   }
+  .avinya_name{
+    position: absolute;
+    left: 0%;
+    top: -20%;
+    margin: 4%;
+  }
 
   #banner-image {
     overflow: hidden;
   }
 
-  #avinya {
-    font-size: 2.5em;
-    text-align: center;
-    top: 50%;
-  }
+ 
 
   #age {
     font-size: 1em;
@@ -84,5 +95,22 @@
 
   #month {
     font-size: 1em;
+  }
+}
+
+
+.avinya_name{
+  position: absolute;
+  left: -4%;
+  top: -30%;
+  margin: 4%;
+}
+
+@media (max-width: 360px){
+  .avinya_name{
+    position: absolute;
+    left: -4%;
+    top: -20%;
+    margin: 4%;
   }
 }
