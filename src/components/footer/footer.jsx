@@ -1,4 +1,8 @@
 import styling from "./footer.module.css";
+import fb from "./fb.svg";
+import twitter from "./twiiter.svg";
+import insta from "./insta.svg";
+import linkdn from "./linkdn.svg";
 
 
 const Footer = () => {
@@ -14,16 +18,16 @@ const Footer = () => {
                     <div className={styling.follow}>Follow us on</div>
                     <div className={styling.img_cont} >
                         <div className="flex-1 flex justify-center">
-                            <a href="/"><img className="h-full"  src="..//fb.png" alt="media"/></a>
+                            <a href="/"><img className="h-full"  src={fb} alt="media"/></a>
                         </div>
                         <div className="flex-1 flex justify-center">
-                            <a href="/"><img className="h-full"  src="..//insta.png" alt="media"/></a>
+                            <a href="/"><img className="h-full"  src={insta} alt="media"/></a>
                         </div>
                         <div className="flex-1 flex justify-center">
-                            <a href="/"><img className="h-full"  src="..//twitter.png" alt="media"/></a>
+                            <a href="/"><img className="h-full"  src={twitter} alt="media"/></a>
                         </div>
                         <div className="flex-1 flex justify-center">
-                            <a href="/"><img className="h-full" src="..//lkdin.png" alt="media"/></a>
+                            <a href="/"><img className="h-full" src={linkdn} alt="media"/></a>
                         </div>
                     </div>
                 </div>
