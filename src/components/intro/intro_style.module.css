@@ -93,7 +93,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    margin-bottom: 220px;
+    margin-bottom: 240px;
   }
   .overlap_group{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 27%, 17% 0);
@@ -134,7 +134,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    margin-bottom: 220px;
+    margin-bottom: 240px;
   }
   .overlap_group{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 27%, 17% 0);
@@ -173,7 +173,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 240px;
   }
   .overlap_group{
     width: 70%;
@@ -200,7 +200,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 240px;
   }
   .overlap_group{
     width: 85%;
@@ -228,7 +228,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 240px;
   }
   .overlap_group{
     width: 85%;
