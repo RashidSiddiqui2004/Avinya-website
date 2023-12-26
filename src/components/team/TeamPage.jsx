@@ -46,18 +46,21 @@ function TeamPage() {
         <InitialLoader />
       ) : (
         <>
+        
           <div className="content mb-5 lg:mb-10">
             <div className="Banner  ">
               <Nav homeUrl="/" />
             </div>
             <div
-              className="flex justify-center items-center w-screen h-screen bg-cover bg-center"
+              className="flex  justify-center items-center w-screen h-screen bg-cover bg-center"
               style={{
                 backgroundImage: `url(${img})`,
+                overflow :"hidden",
+             
               }}
             >
               <div
-                className="p-8"
+                className="p-0"
                 style={{
                   textShadow:
                     "0 0 10px rgba(238, 194, 51, 0.8), 0 0 20px rgba(231, 172, 63, 0.801), 0 0 30px rgba(255, 255, 255, 0.8)",

@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-bo */
 }
 body {
   display: flex;
@@ -12,7 +12,12 @@ body {
   height: auto;
   min-height: 100vh;
   color: white;
+  overflow-x: hidden;
   background-color: linear-gradient(233deg, #64009a, #3b22aa, #b3007d);
+}
+.Banner {
+  background-size: cover;
+  background-position: center;
 }
 
 .section-title {
