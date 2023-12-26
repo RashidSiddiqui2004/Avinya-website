@@ -1,63 +1,61 @@
 .hamburger-menu {
-    position: relative;
-    
-  }
-  
-  .menu-toggle {
-    cursor: pointer;
-    padding: 28px;
-    width: 50%;
-  }
+  position: relative;
+}
 
-  .cross{
-    font-size: x-large;
-    font-family: 'Chakra Petch', sans-serif;
-    font-weight: bolder;
-  }
-  
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .menu-items {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .menu-items li {
-    width: 600%;
-    padding: 40% 20%;
-    background-color: rgba(68,68,68,0.7);
-    border-bottom: 1px solid black;
-    color: white;
-    font-weight: bold;
-    font-family: 'Chakra Petch', sans-serif;
-  }
-  
-  .menu-items li:hover{
-    font-size: 3vw;
-    transition-duration: 800ms;
-    transition: all 0.2s ease;
-    text-shadow: 1px 1px 10px white;
-  }
-  .menu-items a {
-    text-decoration: none;
-    color: white;
-  }
-    
- @media (max-width: 412px) {
-  .menu-toggle {   
+.menu-toggle {
+  cursor: pointer;
+  padding: 28px;
+  width: 50%;
+}
+
+.cross {
+  font-size: x-large;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: bolder;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.menu-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-items li {
+  width: 600%;
+  padding: 40% 20%;
+  background-color: rgba(68, 68, 68, 0.7);
+  border-bottom: 1px solid black;
+  color: white;
+  font-weight: bold;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.menu-items li:hover {
+  font-size: 3vw;
+  transition-duration: 800ms;
+  transition: all 0.2s ease;
+  text-shadow: 1px 1px 10px white;
+}
+.menu-items a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 450px) {
+  .menu-toggle {
     cursor: pointer;
     padding: 32px;
     width: 50%;
-    
   }
-  .menu-items li:hover{
+  .menu-items li:hover {
     font-size: 6vw;
     transition-duration: 800ms;
     transition: all 0.2s ease;
@@ -67,26 +65,24 @@
     width: 400%;
     list-style-type: none;
     padding-left: 35px;
-    margin: 0; 
-    
+    margin: 0;
   }
   .menu-items li {
     width: 400%;
   }
 
-    
   .menu-items li {
     width: 600%;
     padding: 40% 20%;
-    background-color: rgba(68,68,68,0.7);
+    background-color: rgba(68, 68, 68, 0.7);
     border-bottom: 1px solid black;
     color: white;
     font-weight: bold;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "Chakra Petch", sans-serif;
   }
 
-  .menu-items a {  
+  .menu-items a {
     color: white;
-    padding: 3px; 
+    padding: 3px;
   }
 }
