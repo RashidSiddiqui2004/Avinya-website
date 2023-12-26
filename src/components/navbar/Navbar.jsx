@@ -9,7 +9,7 @@ export default function Navbar({ homeUrl }) {
       <div className="ham">
         <Ham homeUrl={"/"} />
       </div>
-      <nav className="nav mt-12">
+      <nav className="nav mt-6">
         <div className="nav-item home">
           <a className="nav-a" href={homeUrl}>
             HOME

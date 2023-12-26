@@ -6,8 +6,7 @@ import "aos/dist/aos.css";
 import Footer from "../footer/footer";
 import Nav from "../navbar/Navbar";
 import InitialLoader from "../intialLoader/InitialLoader";
-import "./team.css";
-import ImageOverlay from "./ImageOverlay";
+import "./team.css"; 
 import img from "./img1.jpg";
 import TeamSection from "./TeamSection";
 
