@@ -11,7 +11,7 @@ export default function Navbar({ homeUrl }) {
       </div>
       <nav className="nav mt-6">
         <div className="nav-item home">
-          <a className="nav-a" href={homeUrl}>
+          <a className="nav-a" href="/#">
             HOME
           </a>
         </div>
