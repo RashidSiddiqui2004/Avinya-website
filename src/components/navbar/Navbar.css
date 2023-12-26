@@ -3,7 +3,7 @@
   width: 13%;
   height: 85%;
   left: -2.2%;
-
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,8 +84,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .nav {
-    width: 25%;
-    position: absolute;
+    width: 20%;
     left: -15px;
   }
   .nav-item {
