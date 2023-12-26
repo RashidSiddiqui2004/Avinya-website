@@ -46,7 +46,7 @@ function DayDataLeft(props) {
       <Mdl mdlstate={mdl} close={toggle_mdl} event_id={Number(props.num)} day={props.day}/>
         <p className={styling.content}>{props.context}</p>
         <button
-          className={`${styling["infoLinkLeft"]} text-xs lg:text-base`}
+          className={`${styling["infoLinkLeft"]} text-xs lg:text-base rounded-none focus:outline-none`}
           // href={props.info}
           onClick={toggle_mdl}
         >
@@ -68,7 +68,7 @@ function DayDataRight(props) {
       <Mdl mdlstate={mdl} close={toggle_mdl} event_id={Number(props.num)} day={props.day}/>
         <p className={styling.content}>{props.context}</p>
         <button
-          className={`${styling["infoLinkRight"]} text-xs lg:text-base`}
+          className={`${styling["infoLinkRight"]} text-xs lg:text-base rounded-none focus:outline-none`}
           // href={props.info}
           onClick={toggle_mdl}
         >
