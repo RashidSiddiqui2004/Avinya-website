@@ -1,25 +1,22 @@
 .nav {
-    
-    
   position: fixed;
   width: 13%;
   height: 85%;
   left: -2.2%;
-  top: -2.7%;
+  text-align: center;
   display: flex;
-flex-direction: column; 
- justify-content:flex-start;
-  
+  flex-direction: column;
+  justify-content: center;
+
   background-color: transparent;
   padding: 0%;
-  
+
   margin: 0;
   z-index: 100;
   font-size: 0.6vw;
 }
 
-
-.ham{
+.ham {
   width: 5%;
   height: 5%;
   position: absolute;
@@ -29,99 +26,127 @@ flex-direction: column;
   z-index: 100;
   text-align: center;
 }
-.nav-2{
+.nav-2 {
   display: none;
 }
 
-.nav-item { 
-  margin: 4%;
-  width: 51%;
-  padding: 5%;
-  font-size: 1.3vw;
-  transform: rotate(270deg);
-  text-align: center;
+.navbar {
+  position: fixed;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 80px; 
+  background-color: #f2f2f2;
+}
+
+.nav-item {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc; 
+  cursor: pointer;
   transition: all 0.2s ease;
   background-color: rgba(68, 68, 68, 0.7);
   font-weight: bold;
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   border-right: 2px solid black;
   align-items: center;
 }
 
+a, span {
+  transform: rotate(270deg);
+  white-space: nowrap; 
+}
+
+.nav-item:hover {
+  background-color: #e0e0e0; 
+}
 
 .proj-button {
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px 30px;
   margin-left: 8vw;
   transition: all 0.2s ease;
-
 }
 
 .nav-a {
   color: white;
   text-decoration: none;
-
 }
 
-
-@media only screen and (max-width: 768px){
-  .nav{
-      visibility: hidden;
-  }
-  .ham{
-      visibility: visible;
-      left:-3%;
-  }
-  .nav-2{
-      display: initial;
-  }
+.nav-a:hover {
+  transition: all 0.2s ease;
+  text-shadow: 1px 1px 10px white;
+  font-size: 1.4vw;
 }
 
-
-@media only screen and (min-width: 768px) and (max-width: 1536px) {
-  .nav{
-      font-size: 1.5vw;
-  }
-  
-  .ham{
-      visibility: hidden;
-  }
-  .nav{
-      visibility: visible;
-  }
-
-  
+.proj-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  transition: all 0.2s ease;
+  text-shadow: none;
 }
 
-@media only screen and (max-width: 438px){
-  .ham{
-      visibility: visible;
-      left:-7%;
+@media only screen and (max-width: 780px) {
+  .navbar {
+    visibility: hidden;
+  }
+  .ham {
+    visibility: visible;
+    left: 2%;
+  }
+  .nav-2 {
+    display: initial;
   }
 }
 
+@media only screen and (min-width: 780px) and (max-width: 1024px) {
+  .nav {
+    width: 20%;
+    left: -15px;
+  }
+  .nav-item {
+    font-size: 1rem;
+  }
 
-.team{
-  margin-top:39%;
-  width: 68%;
-  margin-left:-4.9%;
+  .ham {
+    visibility: hidden;
+  }
+  .nav {
+    visibility: visible;
+  }
 }
-.sponsors{
-  margin-top: 36%;
-  
-  
+
+@media only screen and (max-width: 438px) {
+  .ham {
+    visibility: visible;
+    left: -7%;
+  }
 }
-.gall{
-  margin-top:27%;
-  width: 63%;
-  margin-left:-2.6%;
+
+
+.navbar {
+  position: fixed;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 80px; 
+  background-color: #f2f2f2;
 }
-.gall2{
-  margin-top: 34%;
+
+.nav-item {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
-.about{
-  margin-top: 22%;
-}
-.home{
-  margin-top: 12.3%;
+
+.nav-item span {
+  transform: rotate(270deg); 
 }

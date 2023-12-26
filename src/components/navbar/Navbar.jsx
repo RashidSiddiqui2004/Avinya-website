@@ -2,6 +2,7 @@ import React from "react";
 import Ham from "./Ham";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import TeamPage from "../team/TeamPage";
 
 export default function Navbar({ homeUrl }) {
   return (
@@ -9,38 +10,14 @@ export default function Navbar({ homeUrl }) {
       <div className="ham">
         <Ham homeUrl={"/"} />
       </div>
-      <nav className="nav mt-6">
-        <div className="nav-item home">
-          <a className="nav-a" href="/#">
-            HOME
-          </a>
-        </div>
-        <div className="nav-item about">
-          <a className="nav-a" href="/#about">
-            ABOUT
-          </a>
-        </div>
-        <div className="nav-item gall">
-          <a className="nav-a" href="/#events">
-            EVENTS
-          </a>
-        </div>
-        <div className="nav-item gall2 gall">
-          <a className="nav-a" href="/#gallery">
-            GALLERY
-          </a>
-        </div>
-        <div className="nav-item team sponsors">
-          <a className="nav-a team" href="/#sponsors">
-            SPONSORS
-          </a>
-        </div>
-        <div className="nav-item team">
-          <Link to={"/team"} className="nav-a team">
-            OUR TEAM
-          </Link>
-        </div>
-      </nav>
+      <div class="navbar">
+  <div class="nav-item"><a href={homeUrl}><span>HOME</span></a></div>
+  <div class="nav-item"><a href="/#about"><span>ABOUT</span></a></div>
+  <div class="nav-item"><a href="/#events"><span>EVENTS</span></a></div>
+  <div class="nav-item"><a href="/#gallery"><span>GALLERY</span></a></div>
+  <div class="nav-item"><a href="/#sponsors"><span>SPONSORS</span></a></div>
+  <div class="nav-item"><Link to={"/team"}><span>OUR TEAM</span></Link></div>
+  </div>
     </>
   );
 }
