@@ -231,19 +231,19 @@ function Sponsors() {
 
       <h2 className='text-2xl sm:text-4xl pt-20 text-white
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
-       linearGradientSposnsors transition-all text-center ml-10'
+       linearGradientSposnsors transition-all text-center md:ml-4 lg:ml-7'
       >EVENT PARTNERS</h2>
 
       {/* Platinum Partners */}
 
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
-        ml-[12%] md:ml-[30%] xl:ml-[36%] font-medium
+        ml-[10%] md:ml-[22%] xl:ml-[36%] font-medium
         underlined-text2 pb-3 space-x-1 headerAkira transition-all 
         linearGradientSponsors2'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
-         mx-[38%] sm:mx-[45%] mt-3 md:mx-[32%]'>
+         mx-[38%] sm:mx-[45%] mt-3 md:mx-[25%] lg:mx-[36%]'>
 
           {platinumPartners.map((item, index) => (
             <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
@@ -256,12 +256,12 @@ function Sponsors() {
       {/* Education Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5 ml-[12%]
-         md:ml-[30%] xl:ml-[35%] font-normal headerAkira space-x-1
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5 ml-[8%]
+         md:ml-[22%] xl:ml-[35%] font-normal headerAkira space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-14 mx-[38%] mt-3
-         sm:mx-[40%] md:mx-[23%]'>
+         sm:mx-[40%] md:mx-[20%] lg:mx-[25%]'>
 
           {educationPartners.map((item, index) => (
             <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
@@ -278,14 +278,14 @@ function Sponsors() {
       {/* Gold Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[25%]
-        md:ml-[25%] lg:ml-[34%] xl:ml-[38%]
+        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5 ml-[20%]
+        md:ml-[27%] lg:ml-[34%] xl:ml-[38%]
         font-normal headerAkira space-x-1
         underlined-text pb-3 transition-all linearGradientSponsors3'>GOLD PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
-           mx-[36%] sm:mx-[45%] mt-3 md:mx-[32%]'>
-
+           mx-[36%] sm:mx-[45%] mt-3 md:mx-[25%] lg:mx-[36%]'>
+ 
           {goldPartners.map((item, index) => (
             <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
           ))}
@@ -305,7 +305,7 @@ function Sponsors() {
 
       <div>
         <h2 className='
-        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[20%] md:ml-[34%] xl:ml-[38%]
+        text-xl sm:text-3xl text-center mt-14 mb-5 ml-[17%] md:ml-[25%] xl:ml-[38%]
         font-normal headerAkira space-x-1   
         underlined-text pb-3'>OTHER SPONSORS</h2>
 

@@ -76,7 +76,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={sarthak}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -102,7 +102,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src="/SexyMonke.jpg"
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -131,7 +131,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={yashwani}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -157,7 +157,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={dhruv_garg}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -188,7 +188,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={rinav}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -214,7 +214,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={harshit}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -243,7 +243,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={rahul_sahay}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -269,7 +269,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={dhruv_deora}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -299,7 +299,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={chirag}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -325,7 +325,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={atish_malik}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -356,7 +356,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src="/SexyMonke.jpg"
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -382,7 +382,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={manvi}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -413,7 +413,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={uttkarsh}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -439,7 +439,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={priyanshu}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -469,7 +469,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={aryan_chourey}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -498,7 +498,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={yash_chandra}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
@@ -524,7 +524,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <img
                     src={adib_ahmed}
-                    className="w-full h-full object-cover"
+                    className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
                         "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
