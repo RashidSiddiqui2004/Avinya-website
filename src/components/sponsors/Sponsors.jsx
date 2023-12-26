@@ -215,14 +215,14 @@ function Sponsors() {
       sponsor: "polygon",
       logoSource: "polygon"
     },
-    {
-      sponsor: "filecoin",
-      logoSource: "filecoin"
-    },
-    {
-      sponsor: "Tezos",
-      logoSource: "tezos"
-    },
+    // {
+    //   sponsor: "filecoin",
+    //   logoSource: "filecoin"
+    // },
+    // {
+    //   sponsor: "Tezos",
+    //   logoSource: "tezos"
+    // },
   ]
 
   return (
@@ -232,14 +232,15 @@ function Sponsors() {
       <h2 className='text-2xl sm:text-4xl pt-20 text-white
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSposnsors transition-all text-center ml-10'
-      >EVENT PARTNERS</h2> 
+      >EVENT PARTNERS</h2>
 
       {/* Platinum Partners */}
 
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
-        ml-[12%] md:ml-[30%] xl:ml-[35%] font-medium
-        underlined-text2 pb-3 space-x-1 headerAkira transition-all linearGradientSponsors2'>PLATINUM PARTNERS</h2>
+        ml-[12%] md:ml-[30%] xl:ml-[36%] font-medium
+        underlined-text2 pb-3 space-x-1 headerAkira transition-all 
+        linearGradientSponsors2'>PLATINUM PARTNERS</h2>
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center
          mx-[38%] sm:mx-[45%] mt-3 md:mx-[32%]'>
@@ -255,13 +256,12 @@ function Sponsors() {
       {/* Education Partners */}
 
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5 ml-[12%] md:ml-[30%] xl:ml-[35%]
-        font-normal headerAkira space-x-1
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5 ml-[12%]
+         md:ml-[30%] xl:ml-[35%] font-normal headerAkira space-x-1
         underlined-text pb-3'>EDUCATION PARTNERS</h2>
-        {/* md:mx-56  mx-[40%]  */}
 
         <div className='grid grid-cols-1 md:grid-cols-3 gap-14 mx-[38%] mt-3
-         sm:mx-[40%] md:mx-[20%]'>
+         sm:mx-[40%] md:mx-[23%]'>
 
           {educationPartners.map((item, index) => (
             <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
@@ -348,46 +348,48 @@ function Sponsors() {
           ))}
 
 
-          <div className='float-from-leftNew logo-animation hidden md:block z-0'>
+          {/* <div className='float-from-leftNew logo-animation hidden md:block z-0'>
             <PastSposorsCard sponsorName="Devfolio" logosrc="devfolio" />
           </div>
 
           <div className='float-from-leftNew logo-animation  hidden md:block z-0'>
             <PastSposorsCard sponsorName="Tezos" logosrc="tezos" />
-          </div>
+          </div> */}
 
           {/* <h2 className=' bg-blue-600 headerAkira w-fit ml-[10%] md:mx-[37%] px-8
           rounded-xl lg:mx-32 text-center md:px-5 font-bold font py-6 text-md md:text-2xl
          items-center col-span-2 md:col-span-2 
          '>PAST SPONSORS</h2> */}
 
-          <h2 className='bg-blue-600 headerAkira w-fit ml-8 md:ml-[25%] md:my-3 lg:my-1 lg:ml-[35%]
-          rounded-xl lg:mx-32 text-center px-5 md:px-5 lg:px-8 font-bold font py-6
+          <h2 className='bg-blue-600 headerAkira w-fit ml-8 md:ml-[25%] md:my-3 lg:my-1 lg:ml-[30%]
+          xl:ml-[35%] rounded-xl lg:mx-32 text-center px-5 md:px-5 lg:px-8 font-bold font py-6
            text-md md:text-2xl items-center col-span-2 md:col-span-2 z-10 lg:absolute
            '>
             PAST SPONSORS
           </h2>
 
-          <div className='float-from-leftNew logo-animation hidden md:block'>
+          {/* <div className='float-from-leftNew logo-animation hidden md:block z-0'>
             <PastSposorsCard sponsorName="Devfolio" logosrc="devfolio" />
           </div>
 
-          <div className='float-from-leftNew logo-animation hidden md:block'>
+          <div className='float-from-leftNew logo-animation hidden md:block z-0'>
             <PastSposorsCard sponsorName="Tezos" logosrc="tezos" />
-          </div>
+          </div> */}
 
+ 
+            {pastSponsorsRows45.map((item, index) => (
+              (index < 6) ? (
+                <div key={index} className='float-from-left logo-animation'>
+                  <PastSposorsCard sponsorName={item.sponsor} logosrc={item.logoSource} />
+                </div>
+              ) : (
+                <div key={index} className='float-from-right logo-animation'>
+                  <PastSposorsCard sponsorName={item.sponsor} logosrc={item.logoSource} />
+                </div>
+              )
+            ))}
+          
 
-          {pastSponsorsRows45.map((item, index) => (
-            (index < 8) ? (
-              <div key={index} className='float-from-left logo-animation'>
-                <PastSposorsCard sponsorName={item.sponsor} logosrc={item.logoSource} />
-              </div>
-            ) : (
-              <div key={index} className='float-from-right logo-animation'>
-                <PastSposorsCard sponsorName={item.sponsor} logosrc={item.logoSource} />
-              </div>
-            )
-          ))}
 
 
           {/* <div className='flex flex-row gap-2 rounded-lg lg:bg-slate-600 w-full md:w-fit'>
