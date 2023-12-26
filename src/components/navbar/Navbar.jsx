@@ -11,12 +11,12 @@ export default function Navbar({ homeUrl }) {
         <Ham homeUrl={"/#"} />
       </div>
       <div class="navbar">
-        <div class="nav-item"><a href={homeUrl}><span> HOME</span></a></div>
-        <div class="nav-item"><a href="/#about"><span>ABOUT</span></a></div>
-        <div class="nav-item"><a href="/#events"><span>EVENTS</span></a></div>
-        <div class="nav-item"><a href="/#gallery"><span>GALLERY</span></a></div>
-        <div class="nav-item"><a href="/#sponsors"><span>SPONSORS</span></a></div>
-        <div class="nav-item"><Link to={"/team"}><span>OUR TEAM</span></Link></div>
+        <div class="nav-item"><a className="c1" href={homeUrl}><span className="c2"> HOME</span></a></div>
+        <div class="nav-item"><a className="c1" href="/#about"><span className="c2"> ABOUT</span></a></div>
+        <div class="nav-item"><a className="c1" href="/#events"><span className="c2" >EVENTS</span></a></div>
+        <div class="nav-item"><a className="c1" href="/#gallery"><span className="c2" >GALLERY</span></a></div>
+        <div class="nav-item"><a className="c1" href="/#sponsors"><span className="c2" >SPONSORS</span></a></div>
+        <div class="nav-item"><Link to={"/team"} className="c1"><span className="c2">OUR TEAM</span ></Link></div>
   </div>
     </>
   );
