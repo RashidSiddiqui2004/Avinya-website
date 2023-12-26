@@ -1,7 +1,7 @@
 import React from "react";
 import myImage1 from "./AVINYA_BANNER1.jpg";
 import myImage2 from "./AVINYA_BANNER2.jpg";
-import myImage3 from "./nameonly_white.png";
+import myImage3 from "./AVINYA_FINAL_NAME.png";
 import "./banner.css";
 
 const MyImageComponent = () => {
@@ -16,11 +16,13 @@ const MyImageComponent = () => {
      
       <div className="text-overlay">
       <img src={myImage3} alt="Avinya" className="avinya_name"/>
+        <div>
         <div className="centered font-[drummer]" id="age">
           18 - 21
         </div>
         <div className="centered font-[drummer]" id="month">
           January
+        </div>
         </div>
       </div>
     </div>
