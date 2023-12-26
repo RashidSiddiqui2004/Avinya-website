@@ -37,7 +37,7 @@ export default function App() {
   }, []);
 
   return (
-    <main className="gallery-section" data-aos="zoom-in" id="gallery">
+    <main className="gallery-section mt-10 md:mt-20" data-aos="zoom-in" id="gallery">
       <div className="gallery-header">
         <h1 className="text-3xl md:text-5xl font-bold headerAkira pt-16 pb-24
           px-1 hover:scale-95 transition-all">GALLERY</h1>

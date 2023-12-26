@@ -11,8 +11,7 @@ import Footer from "../footer/footer";
 import Event from "../events/Event";
 import InitialLoader from "../intialLoader/InitialLoader"; 
 import Banner from '../banner/Banner';
-import Nav from '../navbar/Navbar';
-import PastSponsors from "../sponsors/PastSponsors";
+import Nav from '../navbar/Navbar'; 
 
 function Home() {
 

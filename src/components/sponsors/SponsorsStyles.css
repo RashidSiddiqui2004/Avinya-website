@@ -6,8 +6,6 @@
     background-clip: text;
   }
   
-  
-
   .linearGradientSponsors2:hover{
     background-image: linear-gradient(to right, #872968, #013e83);
     color: transparent;

@@ -17,8 +17,7 @@
   bottom: 0;
   left: 0;
   width: 0;
-  height: 2px;
-  background-color: #cd1a1a;
+  height: 2px; 
   transition: width 0.3s ease-out;
 }
 
@@ -52,11 +51,7 @@
 .underlined-text2:hover {
   color: #ffffff;
 }
-
-.underlined-text2:hover::before {
-  width: 100%;
-}
-
+ 
 .headerAkira {
   font-family: akira;
   text-align: center;
