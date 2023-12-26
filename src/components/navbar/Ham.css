@@ -12,6 +12,8 @@
   font-size: x-large;
   font-family: "Chakra Petch", sans-serif;
   font-weight: bolder;
+  margin-top: -1px;
+  margin-left: 11.5px;
 }
 
 .bar {
