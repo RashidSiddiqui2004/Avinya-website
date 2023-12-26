@@ -8,8 +8,6 @@ Welcome to the official website for Avinya, the premier tech event organized by 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -26,6 +24,8 @@ Avinya is an annual tech event organized by Devcomm, bringing together students,
 
 As a website, there is no installation process. Simply access the website through your preferred web browser.
 
+Website URL - [Avinya Official](https://avinya-devcomm.netlify.app/)
+
 ## Usage
 
-Visit the live website [here](#yet-to-add) to explore the features and functionalities. Feel free to navigate through different sections and participate in the registration process.
+Visit the live website [Avinya Official](https://avinya-devcomm.netlify.app/) to explore the features and functionalities. Feel free to navigate through different sections and participate in the registration process.
