@@ -210,15 +210,14 @@ function Sponsors() {
     },
   ]
 
+
+  // ek empty hai
   const pastSponsorsRows56 = [
     {
       sponsor: "CM",
       logoSource: "CM"
     },
-    {
-      sponsor: "Coding Minutes",
-      logoSource: "CodingMinutes"
-    },
+     
     {
       sponsor: "CRON",
       logoSource: "CRON"
@@ -254,12 +253,19 @@ function Sponsors() {
     {
       sponsor: "ONGC",
       logoSource: "ongc"
-    },
+    }, 
     {
-      sponsor: "Python",
-      logoSource: "pythonLogo"
-    },
+      sponsor: "Matic",
+      logoSource: "Matic"
+    }, 
+    {
+      sponsor: "ONGC",
+      logoSource: "ongc"
+    }, 
   ]
+
+  
+  
 
   const specialLogos1 = [
     {
@@ -269,10 +275,13 @@ function Sponsors() {
       logoSource: "GiveMyCertificate"
     },
     {
+      logoSource: "python"
+    },
+    {
       logoSource: "avhikalpana"
     },
     {
-      logoSource: "SOLIndia2"
+      logoSource: "hackerearth"
     },
     {
       logoSource: "Ifoodyou"
@@ -294,9 +303,6 @@ function Sponsors() {
     },
     {
       logoSource: "geeksforgeeks"
-    },
-    {
-      logoSource: "hackerearth"
     },
   ]
 
@@ -333,6 +339,9 @@ function Sponsors() {
     },
     {
       logoSource: "restdb"
+    },
+    { 
+      logoSource: "CodingMinutes"
     },
     
   ]
