@@ -10,7 +10,7 @@ const MyImageComponent = () => {
       <img
         src={window.innerWidth >= 432 ? myImage1 : myImage2}
         alt="banner"
-        className="banner-image"
+        className="banner-image flex  justify-center items-center w-screen h-screen bg-cover mb-10 bg-center"
         id="banner-image"
       />
      

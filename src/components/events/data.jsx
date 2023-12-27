@@ -1,141 +1,79 @@
 const dayValues = {
   1: {
-    block1:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block2:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block3:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block4:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block5:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block6:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block7:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block8:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
+    block1: "Comming sooon.....",
+    block2: "Comming sooon.....",
+    block3: "Comming sooon.....",
+    block4: "Comming sooon.....",
+    block5: "Comming sooon.....",
+    block6: "Comming sooon.....",
+    block7: "Comming sooon.....",
+    block8: "Comming sooon.....",
     date: "18 Jan 2024",
-    infoBlock1:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock2:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock3:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock4:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock5:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock6:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock7:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock8:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
+    infoBlock1: "Comming sooon.....",
+    infoBlock2: "Comming sooon.....",
+    infoBlock3: "Comming sooon.....",
+    infoBlock4: "Comming sooon.....",
+    infoBlock5: "Comming sooon.....",
+    infoBlock6: "Comming sooon.....",
+    infoBlock7: "Comming sooon.....",
+    infoBlock8: "Comming sooon.....",
   },
   2: {
-    block1:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block2:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block3:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block4:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block5:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block6:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block7:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block8:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
+    block1: "Comming sooon.....",
+    block2: "Comming sooon.....",
+    block3: "Comming sooon.....",
+    block4: "Comming sooon.....",
+    block5: "Comming sooon.....",
+    block6: "Comming sooon.....",
+    block7: "Comming sooon.....",
+    block8: "Comming sooon.....",
     date: "19 Jan 2024",
-    infoBlock1:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock2:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock3:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock4:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock5:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock6:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock7:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock8:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
+    infoBlock1: "Comming sooon.....",
+    infoBlock2: "Comming sooon.....",
+    infoBlock3: "Comming sooon.....",
+    infoBlock4: "Comming sooon.....",
+    infoBlock5: "Comming sooon.....",
+    infoBlock6: "Comming sooon.....",
+    infoBlock7: "Comming sooon.....",
+    infoBlock8: "Comming sooon.....",
   },
   3: {
-    block1:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block2:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block3:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block4:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block5:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block6:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block7:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block8:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
+    block1: "Comming sooon.....",
+    block2: "Comming sooon.....",
+    block3: "Comming sooon.....",
+    block4: "Comming sooon.....",
+    block5: "Comming sooon.....",
+    block6: "Comming sooon.....",
+    block7: "Comming sooon.....",
+    block8: "Comming sooon.....",
     date: "20 Jan 2024",
-    infoBlock1:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock2:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock3:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock4:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock5:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock6:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock7:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock8:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
+    infoBlock1: "Comming sooon.....",
+    infoBlock2: "Comming sooon.....",
+    infoBlock3: "Comming sooon.....",
+    infoBlock4: "Comming sooon.....",
+    infoBlock5: "Comming sooon.....",
+    infoBlock6: "Comming sooon.....",
+    infoBlock7: "Comming sooon.....",
+    infoBlock8: "Comming sooon.....",
   },
   4: {
-    block1: "day4 coding competition ",
-    block2:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block3:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block4:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block5:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block6:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block7:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    block8:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
+    block1: "Comming sooon.....",
+    block2: "Comming sooon.....",
+    block3: "Comming sooon.....",
+    block4: "Comming sooon.....",
+    block5: "Comming sooon.....",
+    block6: "Comming sooon.....",
+    block7: "Comming sooon.....",
+    block8: "Comming sooon.....",
     date: "21 Jan 2024",
-    infoBlock1: "day4 coding competition ",
-    infoBlock2:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock3:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock4:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock5:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock6:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock7:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
-    infoBlock8:
-      "6Compete with creative project ideas and get inspiration for your next project. ",
+    infoBlock1: "Comming sooon.....",
+    infoBlock2: "Comming sooon.....",
+    infoBlock3: "Comming sooon.....",
+    infoBlock4: "Comming sooon.....",
+    infoBlock5: "Comming sooon.....",
+    infoBlock6: "Comming sooon.....",
+    infoBlock7: "Comming sooon.....",
+    infoBlock8: "Comming sooon.....",
   },
 };
 

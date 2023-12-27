@@ -25,7 +25,8 @@ import uttkarsh from "./por_photos/Utkarsh_Maurya.jpg";
 import aryan_chourey from "./por_photos/Aryan Chourey.jpg";
 import yash_chandra from "./por_photos/Yash_Chandra.png";
 import adib_ahmed from "./por_photos/Adib_Ahmed_Siddiqui.jpeg";
-import ayush from "./por_photos/ayush.jpg"
+import ayush from "./por_photos/ayush.jpg";
+import rishnak from "./por_photos/Rishnakkumar_por.jpg";
 function TeamPage() {
   useEffect(() => {
     new AOS.init({ duration: 100 });
@@ -354,7 +355,7 @@ function TeamPage() {
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
                   <img
-                    src="/SexyMonke.jpg"
+                    src={rishnak}
                     className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
