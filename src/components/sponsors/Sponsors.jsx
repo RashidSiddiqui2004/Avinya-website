@@ -4,6 +4,7 @@ import './styles.css';
 import './SponsorsStyles.css'
 import SponsorCard from './SponsorCard';
 import PastSposorsCard from './PastSposorsCard';
+import SpecialLogos from './SpecialLogos';
 
 function Sponsors() {
 
@@ -29,7 +30,7 @@ function Sponsors() {
     },
     {
       sponsor: "Celo",
-      logoSource: "celo"
+      logoSource: "celo2"
     }
   ]
 
@@ -63,7 +64,7 @@ function Sponsors() {
     },
     {
       sponsor: "Celo",
-      logoSource: "celo"
+      logoSource: "celo2"
     },
     {
       sponsor: "Devfolio",
@@ -83,7 +84,7 @@ function Sponsors() {
     },
     {
       sponsor: "Celo",
-      logoSource: "celo"
+      logoSource: "celo2"
     },
     {
       sponsor: "Devfolio",
@@ -103,7 +104,7 @@ function Sponsors() {
     },
     {
       sponsor: "Celo",
-      logoSource: "celo"
+      logoSource: "celo2"
     },
   ]
 
@@ -126,103 +127,214 @@ function Sponsors() {
     },
     {
       sponsor: "Celo",
-      logoSource: "celo"
+      logoSource: "celo2"
     },
     {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
+      sponsor: "Prayag",
+      logoSource: "prayag"
     },
     {
-      sponsor: "polygon",
-      logoSource: "polygon"
+      sponsor: "DigitalOcean",
+      logoSource: "digitalocean"
     },
     {
-      sponsor: "filecoin",
-      logoSource: "filecoin"
+      sponsor: "Jumper",
+      logoSource: "jumper"
     },
     {
-      sponsor: "Tezos",
-      logoSource: "tezos"
+      sponsor: "GitLab",
+      logoSource: "gitlab"
     },
     {
-      sponsor: "Celo",
-      logoSource: "celo"
+      sponsor: "DLF",
+      logoSource: "dlf"
     },
     {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
+      sponsor: "Heiphen",
+      logoSource: "heiphen"
     },
     {
-      sponsor: "polygon",
-      logoSource: "polygon"
+      sponsor: "Zulip",
+      logoSource: "zulip"
     },
-    // {
-    //   sponsor: "filecoin",
-    //   logoSource: "filecoin"
-    // },
-    // {
-    //   sponsor: "Tezos",
-    //   logoSource: "tezos"
-    // },
   ]
 
-  const pastSponsorsRows45 = [
+  const pastSponsorsRows34 = [
     {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
+      sponsor: "JET BRAINS",
+      logoSource: "jetbrains"
     },
     {
-      sponsor: "polygon",
-      logoSource: "polygon"
+      sponsor: "StartuPoint",
+      logoSource: "StartuPoint"
     },
     {
-      sponsor: "filecoin",
-      logoSource: "filecoin"
+      sponsor: "ShopClues",
+      logoSource: "ShopClues"
     },
     {
-      sponsor: "Tezos",
-      logoSource: "tezos"
+      sponsor: "Wolfram Language",
+      logoSource: "WolframLanguage"
     },
     {
-      sponsor: "Celo",
-      logoSource: "celo"
+      sponsor: "doselect",
+      logoSource: "doselect"
     },
     {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
+      sponsor: "SendGrid",
+      logoSource: "SendGrid"
     },
     {
-      sponsor: "polygon",
-      logoSource: "polygon"
+      sponsor: "Jio",
+      logoSource: "Jio"
     },
     {
-      sponsor: "filecoin",
-      logoSource: "filecoin"
+      sponsor: "codingblocks",
+      logoSource: "codingblocks"
     },
     {
-      sponsor: "Tezos",
-      logoSource: "tezos"
+      sponsor: "Synergy Enterprises",
+      logoSource: "SyneryEnterprises"
     },
     {
-      sponsor: "Celo",
-      logoSource: "celo"
+      sponsor: "CISCO",
+      logoSource: "Cisco"
     },
     {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
+      sponsor: "acciojob",
+      logoSource: "acciojob"
     },
     {
-      sponsor: "polygon",
-      logoSource: "polygon"
+      sponsor: "CoverDoodle",
+      logoSource: "coverdoodle"
     },
-    // {
-    //   sponsor: "filecoin",
-    //   logoSource: "filecoin"
-    // },
-    // {
-    //   sponsor: "Tezos",
-    //   logoSource: "tezos"
-    // },
+  ]
+
+  const pastSponsorsRows56 = [
+    {
+      sponsor: "CM",
+      logoSource: "CM"
+    },
+    {
+      sponsor: "Coding Minutes",
+      logoSource: "CodingMinutes"
+    },
+    {
+      sponsor: "CRON",
+      logoSource: "CRON"
+    },
+    {
+      sponsor: "DEV",
+      logoSource: "dev"
+    },
+    {
+      sponsor: "echoAR",
+      logoSource: "echoAR"
+    },
+    {
+      sponsor: "Github",
+      logoSource: "Github"
+    },
+    {
+      sponsor: "Rosenfeld",
+      logoSource: "Rosenfeld"
+    },
+    {
+      sponsor: "npm",
+      logoSource: "npm"
+    },
+    {
+      sponsor: "MSi",
+      logoSource: "msi"
+    },
+    {
+      sponsor: "Matic",
+      logoSource: "Matic"
+    },
+    {
+      sponsor: "ONGC",
+      logoSource: "ongc"
+    },
+    {
+      sponsor: "Python",
+      logoSource: "pythonLogo"
+    },
+  ]
+
+  const specialLogos1 = [
+    {
+      logoSource: "microsoft"
+    },
+    {
+      logoSource: "GiveMyCertificate"
+    },
+    {
+      logoSource: "avhikalpana"
+    },
+    {
+      logoSource: "SOLIndia2"
+    },
+    {
+      logoSource: "Ifoodyou"
+    },
+    {
+      logoSource: "CRON"
+    },
+    {
+      logoSource: "bwdisrupt"
+    },
+    {
+      logoSource: "elearnmarkets"
+    },
+    {
+      logoSource: "explara"
+    },
+    {
+      logoSource: "fastly"
+    },
+    {
+      logoSource: "geeksforgeeks"
+    },
+    {
+      logoSource: "hackerearth"
+    },
+  ]
+
+  const specialLogos2 = [
+    {
+      logoSource: "gyandhan"
+    },
+    {
+      logoSource: "InterviewBuddy"
+    },
+    {
+      logoSource: "mozilla"
+    },
+    {
+      logoSource: "InterviewCake"
+    },
+    {
+      logoSource: "placement-saga"
+    },
+    {
+      logoSource: "stickermule"
+    },
+    {
+      logoSource: "WolframAlpha"
+    },
+    {
+      logoSource: "wwc"
+    },
+    {
+      logoSource: "sita"
+    },
+    {
+      logoSource: "taskade"
+    },
+    {
+      logoSource: "restdb"
+    },
+    
   ]
 
   return (
@@ -236,7 +348,6 @@ function Sponsors() {
       >EVENT PARTNERS</h2>
 
       {/* Platinum Partners */}
-
       <div>
         <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
          flex justify-center font-medium
@@ -268,8 +379,8 @@ function Sponsors() {
 
       <div>
 
-       
-          <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5
+
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5
           font-normal headerAkira space-x-1 items-center flex justify-center
           underlined-text pb-3'>EDUCATION PARTNERS</h2>
 
@@ -323,7 +434,7 @@ function Sponsors() {
             <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
           ))}
 
-        </div> 
+        </div>
 
       </div>
 
@@ -374,6 +485,18 @@ function Sponsors() {
             )
           ))}
 
+          {pastSponsorsRows34.map((item, index) => (
+            (index < 6) ? (
+              <div key={index} className='float-from-left logo-animation'>
+                <PastSposorsCard sponsorName={item.sponsor} logosrc={item.logoSource} />
+              </div>
+            ) : (
+              <div key={index} className='float-from-right logo-animation'>
+                <PastSposorsCard sponsorName={item.sponsor} logosrc={item.logoSource} />
+              </div>
+            )
+          ))}
+
 
           {/* <div className='float-from-leftNew logo-animation hidden md:block z-0'>
             <PastSposorsCard sponsorName="Devfolio" logosrc="devfolio" />
@@ -384,7 +507,7 @@ function Sponsors() {
           </div> */}
 
           <h2 className='bg-blue-600 headerAkira w-fit ml-8 md:ml-[25%] md:my-3 lg:my-1 lg:ml-[30%]
-          xl:ml-[35%] rounded-xl lg:mx-32 text-center px-5 md:px-5 lg:px-8 font-bold font py-6
+          xl:ml-[35%] rounded-xl lg:mx-36 text-center px-5 md:px-5 lg:px-8 font-bold font py-6
            text-md md:text-2xl items-center col-span-2 md:col-span-2 z-10 lg:absolute
            '>
             PAST SPONSORS
@@ -398,7 +521,9 @@ function Sponsors() {
             <PastSposorsCard sponsorName="Tezos" logosrc="tezos" />
           </div> */}
 
-          {pastSponsorsRows45.map((item, index) => (
+
+
+          {pastSponsorsRows56.map((item, index) => (
             (index < 6) ? (
               <div key={index} className='float-from-left logo-animation'>
                 <PastSposorsCard sponsorName={item.sponsor} logosrc={item.logoSource} />
@@ -406,6 +531,30 @@ function Sponsors() {
             ) : (
               <div key={index} className='float-from-right logo-animation'>
                 <PastSposorsCard sponsorName={item.sponsor} logosrc={item.logoSource} />
+              </div>
+            )
+          ))}
+
+          {specialLogos1.map((item, index) => (
+            (index < 6) ? (
+              <div key={index} className='float-from-left logo-animation'>
+                <SpecialLogos logosrc={item.logoSource} />
+              </div>
+            ) : (
+              <div key={index} className='float-from-right logo-animation'>
+                <SpecialLogos logosrc={item.logoSource} />
+              </div>
+            )
+          ))}
+
+          {specialLogos2.map((item, index) => (
+            (index < 6) ? (
+              <div key={index} className='float-from-left logo-animation'>
+                <SpecialLogos logosrc={item.logoSource} />
+              </div>
+            ) : (
+              <div key={index} className='float-from-right logo-animation'>
+                <SpecialLogos logosrc={item.logoSource} />
               </div>
             )
           ))}
