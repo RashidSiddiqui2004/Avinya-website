@@ -119,8 +119,8 @@
 }
 @media only screen and (max-height: 693px) {
   .c2 {
-    font-size: medium;
-    transition: font-size 0.4s ease;
+    font-size: small;
+    transition: font-size 1s ease-in-out;
   }
 }
 
