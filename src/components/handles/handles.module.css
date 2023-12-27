@@ -1,5 +1,6 @@
 .container {
-  margin-top: 4rem;
+  margin-top: 13rem;
+  margin-bottom: 4rem;
   font-family: "Akira", sans-serif;
   display: flex;
   align-items: center;
@@ -7,7 +8,7 @@
   overflow-x: hidden;
 }
 .heading {
-  font-size: 2.4rem;
+  font-size: 2.7rem;
   justify-content: center;
   text-align: center;
   color: #ffffff;
@@ -86,9 +87,18 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 450px) {
+  .container{
+    margin-top: 11rem;
+    margin-bottom: 3rem;
+    font-family: "Akira", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
   .heading {
     margin: 0 2vw;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -159,10 +169,10 @@
   }
 }
 
-@media screen and (min-width: 450px) and (max-width: 80px) {
+@media screen and (min-width: 450px) and (max-width: 800px) {
   .heading {
     margin: 0 7vw;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     text-align: center;
     display: flex;
     justify-content: center;

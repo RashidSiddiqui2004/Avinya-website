@@ -1,11 +1,11 @@
-import React from "react";
+// import React from "react";
 import styles from "./handles.module.css";
 
 const joinButton = ({CTA}) => {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>
-        JOIN OUR DISCORD SERVER TO STAY UPDATED
+        JOIN OUR DISCORD SERVER
       </h1>
       <div className="pointer" target="_blank" style={{ margin: "auto" }}>
         <a
