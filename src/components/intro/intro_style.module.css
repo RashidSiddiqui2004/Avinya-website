@@ -14,8 +14,8 @@
   background-color: #02D7F2;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 22%, 17% 0);
   overflow: hidden;
-  margin-top: 120px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
   position: relative;
 }
 
