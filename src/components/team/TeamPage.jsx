@@ -1,4 +1,3 @@
-// TeamPage.js
 
 import { useState, useEffect } from "react";
 import AOS from "aos";
@@ -29,7 +28,7 @@ import adib_ahmed from "./por_photos/Adib_Ahmed_Siddiqui.jpeg";
 import ayush from "./por_photos/ayush.jpg"
 function TeamPage() {
   useEffect(() => {
-    new AOS.init({ duration: 1500 });
+    new AOS.init({ duration: 100 });
   }, []);
 
   const [loading, setLoading] = useState(false);
@@ -73,7 +72,7 @@ function TeamPage() {
             </div>
 
             {/* First Team Section */}
-            <TeamSection title="CHIEF CONVENER">
+            <TeamSection title="CHIEF CONVENER" className="sm:text-1xl">
               <div className=" flex-container sm:mr-10 mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px] ">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
