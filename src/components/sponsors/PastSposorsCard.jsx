@@ -1,10 +1,11 @@
 
 import React from 'react'
 
-const PastSposorsCard = ({ sponsorName, logosrc }) => {
+const PastSposorsCard = ({ sponsorName, logosrc,paddingRight=0}) => {
     return (
         <div>
-            <div className='flex flex-row gap-2 rounded-lg mr-2 xl:bg-slate-600 md:w-fit'>
+            <div className={`flex flex-row gap-2 rounded-lg mr-2 xl:bg-slate-600 md:w-fit 
+             pr-${paddingRight}`}>
                 <img src={`/sponsors/${logosrc}.png`} alt="" className='h-8 md:h-14 unded-lg rounded-md' />
                 <p className='text-white text-sm md:text-lg 
                 font-semibold text-center mt-4 pr-4 flex w-full my-auto'>{sponsorName}</p>

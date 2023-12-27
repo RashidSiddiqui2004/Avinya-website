@@ -189,10 +189,6 @@ function Sponsors() {
       logoSource: "Jio"
     },
     {
-      sponsor: "codingblocks",
-      logoSource: "codingblocks"
-    },
-    {
       sponsor: "Synergy Enterprises",
       logoSource: "SyneryEnterprises"
     },
@@ -204,12 +200,8 @@ function Sponsors() {
       sponsor: "acciojob",
       logoSource: "acciojob"
     },
-    {
-      sponsor: "CoverDoodle",
-      logoSource: "coverdoodle"
-    },
-  ]
 
+  ]
 
   // ek empty hai
   const pastSponsorsRows56 = [
@@ -217,7 +209,7 @@ function Sponsors() {
       sponsor: "CM",
       logoSource: "CM"
     },
-     
+
     {
       sponsor: "CRON",
       logoSource: "CRON"
@@ -253,19 +245,16 @@ function Sponsors() {
     {
       sponsor: "ONGC",
       logoSource: "ongc"
-    }, 
+    },
     {
       sponsor: "Matic",
       logoSource: "Matic"
-    }, 
+    },
     {
       sponsor: "ONGC",
       logoSource: "ongc"
-    }, 
+    },
   ]
-
-  
-  
 
   const specialLogos1 = [
     {
@@ -340,10 +329,10 @@ function Sponsors() {
     {
       logoSource: "restdb"
     },
-    { 
+    {
       logoSource: "CodingMinutes"
     },
-    
+
   ]
 
   return (
@@ -505,6 +494,14 @@ function Sponsors() {
               </div>
             )
           ))}
+
+          <div className='float-from-right logo-animation'>
+            <PastSposorsCard sponsorName='CoverDoodle' logosrc='coverdoodle' paddingRight={10} />
+          </div>
+
+          <div className='float-from-right logo-animation'>
+            <SpecialLogos logosrc="codingblocks" marginRight={2} />
+          </div>
 
 
           {/* <div className='float-from-leftNew logo-animation hidden md:block z-0'>
