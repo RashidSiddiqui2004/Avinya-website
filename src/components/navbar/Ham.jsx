@@ -49,7 +49,7 @@ const HamburgerMenu = ({ homeUrl }) => {
           <li>
             <Link to={"/team"}>
               <a className="nav-a" href="/team">
-                OUR TEAM
+                TEAM
               </a>
             </Link>
           </li>
