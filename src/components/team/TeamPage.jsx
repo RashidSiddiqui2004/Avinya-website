@@ -26,6 +26,7 @@ import uttkarsh from "./por_photos/Utkarsh_Maurya.jpg";
 import aryan_chourey from "./por_photos/Aryan Chourey.jpg";
 import yash_chandra from "./por_photos/Yash_Chandra.png";
 import adib_ahmed from "./por_photos/Adib_Ahmed_Siddiqui.jpeg";
+import ayush from "./por_photos/ayush.jpg"
 function TeamPage() {
   useEffect(() => {
     new AOS.init({ duration: 1500 });
@@ -51,7 +52,7 @@ function TeamPage() {
               <Nav homeUrl="/" />
             </div>
             <div
-              className="flex  justify-center items-center w-full h-screen bg-cover mb-10 bg-center"
+              className="flex  justify-center items-center w-screen h-screen bg-cover mb-10 bg-center"
               style={{
                 backgroundImage: `url(${img})`,
                 overflow: "hidden",
@@ -103,7 +104,7 @@ function TeamPage() {
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
                   <img
-                    src="/SexyMonke.jpg"
+                    src={ayush}
                     className="w-fullNew h-full object-cover"
                     style={{
                       clipPath:
@@ -313,7 +314,7 @@ function TeamPage() {
                   {/* Text Overlay */}
                   <div className="bg-cyan-400 flex flex-col justify-end w-[80px] py-5 px-0 z-20 ">
                     <div className="font-bold text-3xl text-black transform -rotate-90 -translate-x-5 font-['Drummer']">
-                      RAHUL
+                      CHIRAG
                       <p className="text-black text-2xl font-['LLPixel'] font-normal ">
                         EM HEAD
                       </p>
@@ -339,7 +340,7 @@ function TeamPage() {
                   {/* Text Overlay */}
                   <div className="bg-cyan-400 flex flex-col justify-end w-[80px] py-5 px-0 z-20 ">
                     <div className="font-bold text-3xl text-black transform -rotate-90 -translate-x-5 font-['Drummer']">
-                      DHRUV
+                      AATISH
                       <p className="text-black text-2xl font-['LLPixel'] font-normal ">
                         EM HEAD
                       </p>
@@ -423,7 +424,7 @@ function TeamPage() {
                   {/* Text Overlay */}
                   <div className="bg-cyan-400 flex flex-col justify-end w-[80px] py-5 px-0 z-20 ">
                     <div className="font-bold text-3xl text-black transform -rotate-90 -translate-x-5 font-['Drummer']">
-                      UTTKARSH
+                      UTKARSH
                       <p className="text-black text-2xl font-['LLPixel'] font-normal ">
                         TECH HEAD
                       </p>

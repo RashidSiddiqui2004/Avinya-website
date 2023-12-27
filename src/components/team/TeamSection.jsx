@@ -9,7 +9,7 @@ const TeamSection = ({ title, children }) => {
         {title}
       </div>
       <div className=" flex  team-members-container ">
-        <div className=" flex flex-container ">
+        <div className=" flex p-0 flex-container ">
           {children}
         </div>
       </div>
