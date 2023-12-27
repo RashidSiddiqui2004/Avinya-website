@@ -7,14 +7,16 @@ import TeamPage from "./components/team/TeamPage";
 function App() {
 
   return (
-    <>
+
+    <div className="h-screen w-screen">
+    
     <Router>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/team" element={<TeamPage/>}/>
         </Routes>
     </Router>
-  </>
+  </div>
     );
 }
 
