@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,6 +7,8 @@ import InitialLoader from "../intialLoader/InitialLoader";
 import "./team.css";
 import img from "./img1.jpg";
 import TeamSection from "./TeamSection";
+import { AiFillInstagram } from "react-icons/ai";
+import { BsLinkedin } from "react-icons/bs";
 
 // images import
 import sarthak from "./por_photos/Sarthak_srivastava.jpg";
@@ -38,7 +39,7 @@ function TeamPage() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3100);
+    }, 0);
   }, []);
 
   return (
@@ -56,7 +57,6 @@ function TeamPage() {
               style={{
                 backgroundImage: `url(${img})`,
                 overflow: "hidden",
-
               }}
             >
               <div
@@ -77,14 +77,39 @@ function TeamPage() {
               <div className=" flex-container sm:mr-10 mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px] ">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={sarthak}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={sarthak}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -103,14 +128,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={ayush}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={ayush}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -132,14 +182,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={yashwani}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={yashwani}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -158,14 +233,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={dhruv_garg}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={dhruv_garg}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -189,14 +289,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={rinav}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={rinav}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -215,14 +340,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={harshit}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={harshit}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -244,14 +394,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={rahul_sahay}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={rahul_sahay}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -270,14 +445,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={dhruv_deora}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={dhruv_deora}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -299,14 +499,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={chirag}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={chirag}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -325,15 +550,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={atish_malik}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
-
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={atish_malik}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
 
@@ -354,14 +603,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={rishnak}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={rishnak}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -380,14 +654,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={manvi}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={manvi}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -409,15 +708,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={uttkarsh}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
-
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={uttkarsh}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
 
@@ -435,14 +758,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={priyanshu}
-                    className="w-full h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={priyanshu}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -463,14 +811,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={aryan_chourey}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={aryan_chourey}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -491,14 +864,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={yash_chandra}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={yash_chandra}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
@@ -517,14 +915,39 @@ function TeamPage() {
               <div className="mt-5 team-members-container flex flex-col justify-center items-center transform hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out max-w-[475px]">
                 <div className="team-member flex justify-center p-0 ">
                   {/* Team Member Image */}
-                  <img
-                    src={adib_ahmed}
-                    className="w-fullNew h-full object-cover"
-                    style={{
-                      clipPath:
-                        "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
-                    }}
-                  />
+                  <div className="teamMemberCard ">
+                    
+                    <img
+                      src={adib_ahmed}
+                      className=" WHAT w-fullNew h-full "
+                      style={{
+                        clipPath:
+                          "polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 97% 0%, 97% 14%, 100% 17%, 100% 83%, 97% 86%, 97% 100%, 0% 100%)",
+                      }}
+                    />
+                    <div className="absolute flex  justify-center bottom-10  left-10   mb-0">
+                      {" "}
+                      <div className="teamMemberSocialMedia">
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <AiFillInstagram className="icons" />
+                        </a>
+                      </div>
+                      <div  className="teamMemberSocialMedia ml-10" >
+                        
+                        <a
+                          className="teamMemberLink"
+                          href="#"
+                          style={{ fontSize: '35px',color: 'white' }}
+                        >
+                          <BsLinkedin className="icons" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
                   {/* Vertical Line */}
                   <div className="bg-cyan-400 p-5"></div>
