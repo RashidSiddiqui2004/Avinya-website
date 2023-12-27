@@ -37,7 +37,7 @@ function TeamPage() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 3100);
   }, []);
 
   return (
