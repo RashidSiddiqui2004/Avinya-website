@@ -75,10 +75,10 @@
 
 .btn2{
     border-radius: 0;
-    width: 35%;
+    width: 40%;
     position: absolute;
     height : 15%;
-    margin: 0.5% 30% 20px 30%;
+    margin: 0.5% 27.5% 20px 27.5%;
     font-family: Drummer-Register;
     font-style: normal;
     font-weight: 900;
@@ -96,15 +96,18 @@
   }
   
 .btn2:hover {
-    background: black;
+    /* background: black;
     color: #FFFFFF;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease; */
+    border-color: #02D7F2;
+    cursor: auto;
   }
 
 @media (max-width : 768px) {
     .btn2{
-        width: 55%;
-        margin: 4% 20% 5px 20%;
+        width: 75%;
+        margin: 4% 10% 5px 10%;
+        font-size: 14px;
     }
     .head{
         font-size: 30px;
