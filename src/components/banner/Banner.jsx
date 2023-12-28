@@ -59,7 +59,7 @@ const buttonStyle = {
                 data-button-theme="dark"
                 style={{ ...buttonStyle, margin: 'auto' }}
               >
-                HELLO
+             
               </div>
         </div>
       </div>
