@@ -28,7 +28,7 @@ const containerStyle = {
 const buttonStyle = {
   height: '44px',
   width: '312px',
-  backgroundColor: "red",
+ 
 };
   return (
     <div className="banner-container">
@@ -56,7 +56,7 @@ const buttonStyle = {
               <div
                 className="apply-button"
                 data-hackathon-slug="innovatensut24"
-                data-button-theme="dark-inverted"
+                data-button-theme="dark"
                 style={{ ...buttonStyle, margin: 'auto' }}
               >
                 HELLO
