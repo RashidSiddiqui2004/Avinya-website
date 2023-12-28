@@ -93,7 +93,7 @@ function TeamPage() {
             <div
               className="flex  justify-center items-center w-screen h-screen bg-cover mb-10 bg-center"
               style={{
-                backgroundImage: `url(${img})`,
+                backgroundImage: `url('https://res.cloudinary.com/dk8y96rpu/image/upload/v1703790717/img1_fnim8m.jpg')`,
                 overflow: "hidden",
               }}
             >
