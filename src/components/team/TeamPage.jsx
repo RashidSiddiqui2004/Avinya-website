@@ -86,7 +86,7 @@ const TeamMember = ({ name, position, imageSrc,instalink,linkedinlink }) => (
 
 function TeamPage() {
   useEffect(() => {
-    new AOS.init({ duration: 100 });
+    new AOS.init({ duration: 5000 });
   }, []);
 
   const [loading, setLoading] = useState(false);
@@ -95,7 +95,7 @@ function TeamPage() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 1500);
   }, []);
 
   return (
