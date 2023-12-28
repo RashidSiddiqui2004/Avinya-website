@@ -27,7 +27,7 @@ function Home() {
             setLoading(false);
         }, 5000);
     }, []);
-
+ 
     return (
 
         <>
