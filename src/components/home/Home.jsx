@@ -16,7 +16,7 @@ import Nav from '../navbar/Navbar';
 function Home() {
 
     useEffect(() => {
-        new AOS.init({ duration: 1500 });
+        new AOS.init({ duration: 500 });
     }, []);
     
     const [loading, setLoading] = useState(false);
