@@ -9,7 +9,7 @@ const joinButton = ({CTA}) => {
       </h1>
       <div className="pointer" target="_blank" style={{ margin: "auto" }}>
         <a
-          href="https://discord.gg/hhHtDXCBpn"
+          href="https://discord.com/invite/mxKvbKgqMG"
           target="_blank"
           rel="noreferrer"
         >
