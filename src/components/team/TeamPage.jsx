@@ -10,24 +10,6 @@ import TeamSection from "./TeamSection";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
 
-// images import
-import sarthak from "./por_photos/Sarthak_srivastava.jpg";
-import yashwani from "./por_photos/yashwani.jpg";
-import dhruv_garg from "./por_photos/Dhruv_Garg.jpg";
-import rinav from "./por_photos/rinav.jpg";
-import harshit from "./por_photos/Harshit.png";
-import rahul_sahay from "./por_photos/Rahul_Sahay.jpg";
-import dhruv_deora from "./por_photos/Dhruv_deora.jpg";
-import chirag from "./por_photos/Chirag.jpg";
-import atish_malik from "./por_photos/Aatish_malik_por_pic.jpg";
-import manvi from "./por_photos/Manvi.jpg";
-import priyanshu from "./por_photos/Priyanshu Sharma.jpg";
-import uttkarsh from "./por_photos/Utkarsh_Maurya.jpg";
-import aryan_chourey from "./por_photos/Aryan Chourey.jpg";
-import yash_chandra from "./por_photos/Yash_Chandra.png";
-import adib_ahmed from "./por_photos/Adib_Ahmed_Siddiqui.jpeg";
-import ayush from "./por_photos/ayush.jpg";
-import rishnak from "./por_photos/Rishnakkumar_por.jpg";
 
 
 const TeamMember = ({ name, position, imageSrc,instalink,linkedinlink }) => (
@@ -92,12 +74,12 @@ function TeamPage() {
 
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 1500);
-  }, []);
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 1500);
+  // }, []);
 
   return (
     <div>
@@ -112,7 +94,7 @@ function TeamPage() {
             <div
               className="flex  justify-center items-center w-screen h-screen bg-cover mb-10 bg-center"
               style={{
-                backgroundImage: `url(${img})`,
+                backgroundImage: `url('https://res.cloudinary.com/dk8y96rpu/image/upload/v1703790717/img1_fnim8m.jpg')`,
                 overflow: "hidden",
               }}
             >
@@ -134,14 +116,14 @@ function TeamPage() {
               <TeamMember
                 name="SARTHAK"
                 position="CHIEF CONVENER"
-                imageSrc={sarthak}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789796/Sarthak_srivastava_k3j6g1.jpg'}
               linkedinlink="https://www.linkedin.com/in/sarthak-srivastava-5322a3223/"
               instalink="https://www.instagram.com/sarthak_mew/"
               />
               <TeamMember
                 name="AYUSH"
                 position="CHIEF CONVENER"
-                imageSrc={ayush}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789783/ayush_leoqar.jpg'}
               />
             </TeamSection>
 
@@ -150,14 +132,14 @@ function TeamPage() {
               <TeamMember
                 name="YASHWANI"
                 position="C0 CONVENER"
-                imageSrc={yashwani}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789811/yashwani_fwnvq1.jpg'}
                 instalink="https://www.instagram.com/the.mystic.lady/"
                 linkedinlink="https://www.linkedin.com/in/yashwani-mann-020903203/"
               />
               <TeamMember
                 name="DHRUV"
                 position="CHIEF CONVENER"
-                imageSrc={dhruv_garg}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789795/Dhruv_Garg_l69joa.jpg'}
               />
             </TeamSection>
 
@@ -170,7 +152,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <div className="teamMemberCard ">
                     <img
-                      src={rinav}
+                      src={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789781/Rinav_tavpoj.jpg'}
                       className=" WHAT w-fullNew h-full "
                       style={{
                         clipPath:
@@ -219,7 +201,7 @@ function TeamPage() {
                   {/* Team Member Image */}
                   <div className="teamMemberCard ">
                     <img
-                      src={harshit}
+                      src={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789791/Harshit_o86udi.png'}
                       className=" WHAT w-fullNew h-full "
                       style={{
                         clipPath:
@@ -270,12 +252,12 @@ function TeamPage() {
               <TeamMember
                 name="RAHUL"
                 position="GENERAL SECRETARY"
-                imageSrc={rahul_sahay}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789781/Rahul_Sahay_bcuqoy.jpg'}
               />
               <TeamMember
                 name="DHRUV"
                 position="GENERAL SECRETARY"
-                imageSrc={dhruv_deora}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789802/Dhruv_deora_yxvre8.jpg'}
                 linkedinlink="https://www.linkedin.com/in/dhruv-deora/"
                 instalink="https://www.instagram.com/helicopter_uchiha/"
               />
@@ -283,11 +265,11 @@ function TeamPage() {
 
             {/* EM HEEAD */}
             <TeamSection title="EM HEAD" className="sm:text-1xl">
-              <TeamMember name="CHIRAG" position="EM HEAD" imageSrc={chirag} />
+              <TeamMember name="CHIRAG" position="EM HEAD" imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789782/Chirag_hqzp13.jpg'} />
               <TeamMember
                 name="Atish"
                 position="EM HEAD"
-                imageSrc={atish_malik}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789785/Aatish_malik_por_pic_atoxnx.jpg'}
               />
             </TeamSection>
 
@@ -296,12 +278,12 @@ function TeamPage() {
               <TeamMember
                 name="RISHNAK"
                 position="PR HEAD"
-                imageSrc={rishnak}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789803/Rishnakkumar_por_yuajhj.jpg'}
               />
               <TeamMember 
               name="MANVI" 
               position="PR HEAD" 
-              imageSrc={manvi} 
+              imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789808/Manvi_nefcte.jpg'} 
               linkedinlink="https://www.linkedin.com/in/manvi-singh-26412122b/"
               instalink="https://www.instagram.com/manvisingh__55/   "
               />
@@ -312,14 +294,14 @@ function TeamPage() {
               <TeamMember
                 name="UTKARSH"
                 position="TECH HEAD"
-                imageSrc={uttkarsh}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789810/Utkarsh_Maurya_prvcxm.jpg'}
                 linkedinlink="https://www.linkedin.com/in/utkarsh-maurya-962a65210/"
                 instalink="https://www.instagram.com/utttkarrrsh/"
               />
               <TeamMember
                 name="PRIYANSHU"
                 position="TECH HEAD"
-                imageSrc={priyanshu}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789807/Priyanshu_Sharma_suxfow.jpg'}
                 linkedinlink="https://www.linkedin.com/in/priyanshu-sharma-467971188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 instalink="https://www.instagram.com/priyanshusharma12201?igsh=MW13MjF6cGZ1c2VtOA=="
               />  
@@ -330,7 +312,7 @@ function TeamPage() {
               <TeamMember
                 name="ARYAN"
                 position="DESIGN HEAD"
-                imageSrc={aryan_chourey}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789780/Aryan_Chourey_s17uzv.jpg'}
               />
             </TeamSection>
             {/* OPERATION HEAD */}
@@ -338,7 +320,7 @@ function TeamPage() {
               <TeamMember
                 name="YASH"
                 position="OPERATION HEAD"
-                imageSrc={yash_chandra}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789807/Yash_Chandra_vl1ydl.jpg'}
                 linkedinlink="https://www.linkedin.com/in/yash-chandra-4a5918251/"
                 instalink="https://www.instagram.com/yash_chandra2914?igsh=ZGNjOWZkYTE3MQ%3D%3D&utm_source=qr"
 
@@ -346,7 +328,7 @@ function TeamPage() {
               <TeamMember
                 name="ADIB"
                 position="OPERATION HEAD"
-                imageSrc={adib_ahmed}
+                imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789781/Adib_Ahmed_Siddiqui_p3npod.jpg'}
               />
             </TeamSection>
           </div>
