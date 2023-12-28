@@ -5,6 +5,31 @@ import myImage3 from "./AVINYA_FINAL_NAME.png";
 import "./banner.css";
 
 const MyImageComponent = () => {
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
+
+const containerStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  height: '100vh',
+  paddingTop : '10%',
+  
+};
+
+const buttonStyle = {
+  height: '44px',
+  width: '312px',
+  backgroundColor: "red",
+};
   return (
     <div className="banner-container">
       <img
@@ -17,16 +42,32 @@ const MyImageComponent = () => {
       <div className="text-overlay">
       <img src={myImage3} alt="Avinya" className="avinya_name"/>
         <div>
-        <div className="centered font-[drummer]" id="age">
-          18 - 21
+          <div className="centered font-[drummer]" id="age">
+            18 - 21
+          </div>
+          <div className="centered font-[drummer]" id="month">
+            January
+          </div>
+        
         </div>
-        <div className="centered font-[drummer]" id="month">
-          January
-        </div>
+        
+
+        <div style={containerStyle}>
+              <div
+                className="apply-button"
+                data-hackathon-slug="innovatensut24"
+                data-button-theme="dark-inverted"
+                style={{ ...buttonStyle, margin: 'auto' }}
+              >
+                HELLO
+              </div>
         </div>
       </div>
+      
     </div>
   );
 };
+
+
 
 export default MyImageComponent;
