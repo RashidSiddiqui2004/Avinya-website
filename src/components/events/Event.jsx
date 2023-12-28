@@ -7,6 +7,9 @@ import styling2 from "./modal.module.css";
 import eventContent from "./eventdesc";
 
 
+
+
+
 const Mdl = (props) => {
   return (
     props.mdlstate && (
@@ -21,7 +24,7 @@ const Mdl = (props) => {
                   <div style={{width : "fit-content", margin : "1%"}}>No of participants registered : {eventContent[props.day-1][props.event_id-1].no_of_participants} </div>
                   </p>
                   <button className={styling2.btn2}>
-                      Register Now
+                        Registration opening soon.....!
                   </button>
               </div>
               <button className={styling2.btn1} onClick={props.close}>X</button>

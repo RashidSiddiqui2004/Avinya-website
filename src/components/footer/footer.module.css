@@ -53,6 +53,7 @@
 
  .tagline{
     text-align: left;
+    text-wrap: nowrap;
  }
  
  .follow{
