@@ -50,7 +50,7 @@ const TeamMember = ({ name, position, imageSrc,instalink,linkedinlink }) => (
               className="teamMemberLink"
               href={instalink}
               target="_blank" 
-              style={{ fontSize: "35px", color: "white" }}
+              style={{ fontSize: "40px", color: "white" }}
             >
               <AiFillInstagram className="icons" />
             </a>
