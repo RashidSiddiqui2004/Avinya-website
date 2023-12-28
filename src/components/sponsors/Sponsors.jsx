@@ -10,12 +10,12 @@ function Sponsors() {
 
   const platinumPartners = [
     {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
+      logoSource: "InterviewBuddy",
+      logoName: "InterviewBuddy"
     },
     {
-      sponsor: "polygon",
-      logoSource: "polygon"
+      logoSource: "InterviewBuddy",
+      logoName: "InterviewBuddy"
     },
   ]
 
@@ -36,24 +36,44 @@ function Sponsors() {
 
   const goldPartners = [
     {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
+      logoSource: "devfolioLogo",
+      logoName: "DEVFOLIO"
     },
     {
-      sponsor: "polygon",
-      logoSource: "polygon"
+      logoSource: "polygonLogo",
+      logoName: "POLYGON",
     },
   ]
 
+  const silverPartners = [
+    {
+      logoSource: "replit",
+      logoName: "REPLIT"
+    },
+    {
+      logoSource: "replit",
+      logoName: "REPLIT"
+    },
+  ]
+
+  const mediaPartners = [
+    // {
+    //   sponsor: "Devfolio",
+    //   logoSource: "devfolio"
+    // },
+    // {
+    //   sponsor: "polygon",
+    //   logoSource: "polygon"
+    // },
+    // {
+    //   sponsor: "Celo",
+    //   logoSource: "celo2"
+    // }
+  ]
+
   const otherSponsors = [
-    {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
-    },
-    {
-      sponsor: "polygon",
-      logoSource: "polygon"
-    },
+
+
     {
       sponsor: "filecoin",
       logoSource: "filecoin"
@@ -66,14 +86,8 @@ function Sponsors() {
       sponsor: "Celo",
       logoSource: "celo2"
     },
-    {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
-    },
-    {
-      sponsor: "polygon",
-      logoSource: "polygon"
-    },
+
+
     {
       sponsor: "filecoin",
       logoSource: "filecoin"
@@ -86,14 +100,7 @@ function Sponsors() {
       sponsor: "Celo",
       logoSource: "celo2"
     },
-    {
-      sponsor: "Devfolio",
-      logoSource: "devfolio"
-    },
-    {
-      sponsor: "polygon",
-      logoSource: "polygon"
-    },
+
     {
       sponsor: "filecoin",
       logoSource: "filecoin"
@@ -352,98 +359,96 @@ function Sponsors() {
         underlined-text2 pb-3 space-x-1 headerAkira transition-all 
         linearGradientSponsors2'>PLATINUM PARTNERS</h2>
 
-        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
+
+        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
+        items-center justify-center hidden md:flex lg:ml-10'>
+
+          {platinumPartners.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
+          ))}
+
+        </div>
+
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4
         items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20 md:hidden'>
 
           {platinumPartners.map((item, index) => (
-            <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
           ))}
 
         </div>
 
-        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
-        items-center ml-[10%] sm:ml-[20%] md:ml-[38%] hidden md:flex'>
-
-          {platinumPartners.map((item, index) => (
-            <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
-          ))}
-
-        </div>
 
       </div>
 
 
-      {/* Education Partners */}
+      {/* Gold Partners */}
 
       <div>
 
 
         <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5
           font-normal headerAkira space-x-1 items-center flex justify-center
-          underlined-text pb-3'>EDUCATION PARTNERS</h2>
+          underlined-text pb-3'>GOLD PARTNERS</h2>
 
-        {/* <div className='grid grid-cols-1 md:grid-cols-3 gap-14 mx-[38%] mt-3
-         sm:mx-[40%] md:mx-[20%] lg:mx-[25%]'> */}
+        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
+        items-center justify-center hidden md:flex lg:ml-10'>
 
-        {/* {educationPartners.map((item, index) => (
-            <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
-          ))} */}
+
+          {goldPartners.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} />
+          ))}
+
+        </div>
+
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4
+        items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20 md:hidden'>
+
+          {goldPartners.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
+          ))}
+
+
+        </div>
+
+      </div>
+
+      {/* Silver Partners */}
+
+      <div>
+
+
+        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5
+          font-normal headerAkira space-x-1 items-center flex justify-center
+          underlined-text pb-3'>SILVER PARTNERS</h2>
+
+        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
+        items-center justify-center hidden md:flex lg:ml-10'>
+          {silverPartners.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} />
+          ))}
+
+        </div>
 
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
         items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20 md:hidden'>
 
-          {educationPartners.map((item, index) => (
-            <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
-          ))}
-
-        </div>
-
-        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
-        items-center justify-center hidden md:flex'>
-
-          {educationPartners.map((item, index) => (
-            <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
+          {silverPartners.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
           ))}
 
         </div>
 
       </div>
 
-      {/* Gold Partners */}
+      {/* Media Partners */}
 
-      <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-14 mb-5  flex justify-center
-        font-normal headerAkira space-x-1
-        underlined-text pb-3 transition-all linearGradientSponsors3'>GOLD PARTNERS</h2>
-
-        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
-        items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20 md:hidden'>
-
-          {goldPartners.map((item, index) => (
-            <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
-          ))}
-
-        </div>
-
-        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
-        items-center ml-[10%] sm:ml-[20%] md:ml-[36%] hidden md:flex'>
-
-          {goldPartners.map((item, index) => (
-            <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
-          ))}
-
-        </div>
-
-      </div>
-
-
-      {/* Other Sponsors */}
 
       <div>
         <h2 className='
         text-xl sm:text-3xl text-center mt-14 mb-5  flex justify-center
         font-normal headerAkira space-x-1
-        underlined-text pb-3'>OTHER SPONSORS</h2>
+        underlined-text pb-3'>MEDIA PARTNERS</h2>
 
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
         items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20'>
@@ -500,7 +505,7 @@ function Sponsors() {
           </div>
 
           <div className='float-from-right logo-animation'>
-            <SpecialLogos logosrc="codingblocks" marginRight={2} />
+            <SpecialLogos logosrc="codingblocks" marginRight={2} logoName="CODING BLOCKS" />
           </div>
 
 
@@ -519,14 +524,6 @@ function Sponsors() {
             PAST SPONSORS
           </h2>
 
-          {/* <div className='float-from-leftNew logo-animation hidden md:block z-0'>
-            <PastSposorsCard sponsorName="Devfolio" logosrc="devfolio" />
-          </div>
-
-          <div className='float-from-leftNew logo-animation hidden md:block z-0'>
-            <PastSposorsCard sponsorName="Tezos" logosrc="tezos" />
-          </div> */}
-
 
 
           {pastSponsorsRows56.map((item, index) => (
@@ -544,11 +541,11 @@ function Sponsors() {
           {specialLogos1.map((item, index) => (
             (index < 6) ? (
               <div key={index} className='float-from-left logo-animation'>
-                <SpecialLogos logosrc={item.logoSource} />
+                <SpecialLogos logosrc={item.logoSource} logoName={item.logoSource} />
               </div>
             ) : (
               <div key={index} className='float-from-right logo-animation'>
-                <SpecialLogos logosrc={item.logoSource} />
+                <SpecialLogos logosrc={item.logoSource} logoName={item.logoSource} />
               </div>
             )
           ))}
@@ -556,11 +553,11 @@ function Sponsors() {
           {specialLogos2.map((item, index) => (
             (index < 6) ? (
               <div key={index} className='float-from-left logo-animation'>
-                <SpecialLogos logosrc={item.logoSource} />
+                <SpecialLogos logosrc={item.logoSource} logoName={item.logoSource} />
               </div>
             ) : (
               <div key={index} className='float-from-right logo-animation'>
-                <SpecialLogos logosrc={item.logoSource} />
+                <SpecialLogos logosrc={item.logoSource} logoName={item.logoSource} />
               </div>
             )
           ))}
