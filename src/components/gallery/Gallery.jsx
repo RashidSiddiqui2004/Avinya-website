@@ -7,16 +7,31 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation, EffectCoverflow, Pagination, Autoplay, Scrollbar, A11y } from 'swiper/modules';
 
-import img1 from '../../assets/images/img1.jpg'
-import img2 from '../../assets/images/img2.jpg'
-import img3 from '../../assets/images/img3.jpg'
-import img4 from '../../assets/images/img4.jpg'
-import img5 from '../../assets/images/img5.jpg'
-import img6 from '../../assets/images/img6.jpg'
-import img7 from '../../assets/images/img7.jpg'
-import img8 from '../../assets/images/img8.jpg'
-import img10 from '../../assets/images/img10.jpg'
-import img11 from '../../assets/images/img11.jpg'
+// import img1 from '../../assets/images/img1.jpg'
+// import img2 from '../../assets/images/img2.jpg'
+// import img3 from '../../assets/images/img3.jpg'
+// import img4 from '../../assets/images/img4.jpg'
+// import img5 from '../../assets/images/img5.jpg'
+// import img6 from '../../assets/images/img6.jpg'
+// import img7 from '../../assets/images/img7.jpg'
+// import img8 from '../../assets/images/img8.jpg'
+// import img10 from '../../assets/images/img10.jpg'
+// import img11 from '../../assets/images/img11.jpg'
+
+
+const img1 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789392/avinya/img8_gfuafa.jpg"
+const img2 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789390/avinya/img6_zzarkr.jpg"
+const img3 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789371/avinya/img1_k2ybjd.jpg"
+const img4 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789377/avinya/img3_oxqhro.jpg"
+const img5 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789372/avinya/img2_ltqq6w.jpg"
+const img6 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789380/avinya/img7_ayi3rf.jpg"
+const img7 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789379/avinya/img4_v8nfdg.jpg"
+const img8 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789377/avinya/img3_oxqhro.jpg"
+const img9 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789375/avinya/img10_zlluui.jpg"
+const img10 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789374/avinya/img5_kufuib.jpg"
+const img11="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789373/avinya/img11_ro9qt7.jpg"
+
+
 
 import "./carousel.css";
 

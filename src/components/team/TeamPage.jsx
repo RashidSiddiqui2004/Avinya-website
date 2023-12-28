@@ -37,6 +37,7 @@ const TeamMember = ({ name, position, imageSrc,instalink,linkedinlink }) => (
       <div className="teamMemberCard">
         <img
           src={imageSrc}
+          alt={name}
           className="  w-fullNew h-full"
           style={{
             clipPath:

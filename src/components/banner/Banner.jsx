@@ -3,7 +3,7 @@ import myImage1 from "./AVINYA_BANNER1.jpg";
 import myImage2 from "./AVINYA_BANNER2.jpg";
 import myImage3 from "./AVINYA_FINAL_NAME.png";
 import "./banner.css";
-
+const url ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703788912/AVINYA_BANNER1_fjib32.jpg"
 const MyImageComponent = () => {
   React.useEffect(() => {
     const script = document.createElement('script');
@@ -33,7 +33,7 @@ const buttonStyle = {
   return (
     <div className="banner-container">
       <img
-        src={window.innerWidth >= 432 ? myImage1 : myImage2}
+        src={window.innerWidth >= 432 ? url : myImage2}
         alt="banner"
         className="banner-image flex  justify-center items-center w-screen h-screen bg-cover mb-10 bg-center"
         id="banner-image"
