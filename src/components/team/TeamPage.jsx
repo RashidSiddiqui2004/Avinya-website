@@ -1,10 +1,12 @@
   
+import { light } from "@mui/material/styles/createPalette";
 import Footer from "../footer/footer";
 import Nav from "../navbar/Navbar";
 import "./team.css";  
 import TeamSection from "./TeamSection";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
+import { linkClasses } from "@mui/material";
 
 
 
@@ -106,7 +108,9 @@ function TeamPage() {
               name="AYUSH"
               position="CHIEF CONVENER"
               imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789783/ayush_leoqar.jpg'}
-            />
+              instalink=""
+              linkedinlink="https://www.linkedin.com/in/ayush-ahlawat-1344aa22b/"
+/>
           </TeamSection>
 
           {/* co-convener */}
@@ -122,6 +126,8 @@ function TeamPage() {
               name="DHRUV"
               position="CHIEF CONVENER"
               imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789795/Dhruv_Garg_l69joa.jpg'}
+              instalink="https://www.instagram.com/dhruv_._90?igsh=MmVlMjlkMTBhMg=="
+              linkedinlink="https://www.linkedin.com/in/dhruv-garg-66a4b222b/"
             />
           </TeamSection>
 
@@ -235,6 +241,8 @@ function TeamPage() {
               name="RAHUL"
               position="GENERAL SECRETARY"
               imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789781/Rahul_Sahay_bcuqoy.jpg'}
+              linkedinlink="https://www.linkedin.com/in/rahul-sahay-6a83a822a/"
+              instalink="https://www.instagram.com/sahay47_rahul/"
             />
             <TeamMember
               name="DHRUV"
@@ -261,6 +269,8 @@ function TeamPage() {
               name="RISHNAK"
               position="PR HEAD"
               imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789803/Rishnakkumar_por_yuajhj.jpg'}
+              linkedinlink="https://www.linkedin.com/in/rishnak"
+              instalink="https://www.instagram.com/rishnak.10?igsh=MTIyZHZpbndjN2p1aw=="
             />
             <TeamMember
               name="MANVI"
@@ -295,6 +305,8 @@ function TeamPage() {
               name="ARYAN"
               position="DESIGN HEAD"
               imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789780/Aryan_Chourey_s17uzv.jpg'}
+              linkedinlink="https://www.linkedin.com/in/aryan-chourey/"
+              instalink="https://www.instagram.com/aryanchourey4?igsh=MTN3cnlqYjAyMGJlbQ=="
             />
           </TeamSection>
           {/* OPERATION HEAD */}
