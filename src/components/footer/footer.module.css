@@ -13,15 +13,6 @@
  }
  
  .border_div{ 
-   /* background-color: #02D7F2;
-   height: 200px;
-   position: static;
-   width: 98%;
-   width: 97%;
-   padding: 2px;
-   margin: 1%;
-   clip-path: polygon(1.5rem 0, 100% 0, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 0 100%, 0 1.5rem); */
-  /* } */
  
     background-color: #02D7F2;
     height: 200px;
@@ -155,10 +146,7 @@
        }
      .break{
         flex-basis: 100%;
-     }
-     /* .addrs, .email{
-        margin: auto;
-     } */
+     } 
  }
 
  @media (max-width : 500px) {

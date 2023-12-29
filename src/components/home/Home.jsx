@@ -9,9 +9,7 @@ import Footer from "../footer/footer";
 import Event from "../events/Event"; 
 import Banner from '../banner/Banner';
 import Nav from '../navbar/Navbar';
-
-// import SponsorsLazy from "../sponsors/SponsorsLazyLoader"; 
-
+ 
 const Sponsors = React.lazy(() => import ("../sponsors/Sponsors"));
 
 function Home() {

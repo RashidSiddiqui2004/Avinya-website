@@ -6,7 +6,6 @@ import SponsorCard from './SponsorCard';
 import PastSposorsCard from './PastSposorsCard';
 import SpecialLogos from './SpecialLogos';
 
-
 function Sponsors() {
 
   const platinumPartners = [
@@ -340,7 +339,7 @@ function Sponsors() {
 
       {/* Platinum Partners */}
       <div className='mb-20'>
-        <h2 className='text-xl sm:text-4xl text-white mt-12 mb-10
+        <h2 className='text-lg sm:text-4xl text-white mt-12 mb-12
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSposnsors transition-all text-center
        flex justify-center'>PLATINUM PARTNERS</h2>
@@ -370,10 +369,9 @@ function Sponsors() {
 
       {/* Gold Partners */}
 
-      <div>
+      <div className='mb-20'>
 
-
-        <h2 className='text-xl sm:text-3xl text-white mt-12 mb-5
+        <h2 className='text-xl sm:text-4xl text-white mt-12 mb-12
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSponsors2 transition-all text-center
        flex justify-center'>GOLD PARTNERS</h2>
@@ -402,10 +400,10 @@ function Sponsors() {
 
       {/* Silver Partners */}
 
-      <div>
+      <div className='mb-20'>
 
 
-        <h2 className='text-xl sm:text-3xl text-white mt-12 mb-5
+        <h2 className='text-xl sm:text-4xl text-white mt-12 mb-12
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSposnsors transition-all text-center
        flex justify-center'>SILVER PARTNERS</h2>
@@ -429,11 +427,12 @@ function Sponsors() {
 
       </div>
 
+
       {/* Media Partners */}
 
-      <div>
+      <div className='mb-20'>
         <h2 className='
-        text-xl sm:text-3xl text-white mt-12 mb-5
+        text-xl sm:text-4xl text-white mt-12 mb-16
         pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
         linearGradientSposnsors transition-all text-center
         flex justify-center'>MEDIA PARTNERS</h2>
