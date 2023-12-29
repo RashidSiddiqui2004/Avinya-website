@@ -19,7 +19,7 @@ function FeaturesCard(props) {
       ease-in-out transform text-white bg-purple hover:bg-white hover:text-black
       transition-all`} 
     >
-      <h3 className='text-md text-center sm:text-4xl md:text-xl lg:text-2xl font-semibold px-3
+      <h3 className='text-md text-center sm:text-4xl md:text-2xl lg:text-3xl font-semibold px-3
        hover:text-purple pb-3'>{props.header}</h3>
       <p className='text-xs md:text-lg xl:text-lg px-0 md:px-5'>{props.description}</p>
     </div>)
@@ -33,7 +33,7 @@ function FeaturesCard(props) {
         text-black bg-green hover:bg-white hover:text-black
          transition-all`} 
       >
-        <h3 className='text-md text-center sm:text-4xl md:text-xl lg:text-2xl font-semibold px-2
+        <h3 className='text-md text-center sm:text-4xl md:text-2xl lg:text-3xl font-semibold px-2
        hover:text-purple pb-3'>{props.header}</h3>
         <p className='text-xs md:text-lg  xl:text-lg px-0 md:px-5'>{props.description}</p>
       </div>)

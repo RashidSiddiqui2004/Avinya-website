@@ -2,7 +2,7 @@ import React from "react";
 import "./banner.css";
 
 const myImage3 = "https://res.cloudinary.com/drlkkozug/image/upload/v1703826766/Avinya_Final_Name_uzgvd7.png";
-const url ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703788912/AVINYA_BANNER1_fjib32.jpg";
+const myImage1 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703788912/AVINYA_BANNER1_fjib32.jpg";
 const myImage2 = "https://res.cloudinary.com/drlkkozug/image/upload/v1703826767/AVINYA_BANNER2_mhpiuu.jpg";
  
 const MyImageComponent = () => {

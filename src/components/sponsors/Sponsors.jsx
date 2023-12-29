@@ -332,15 +332,15 @@ function Sponsors() {
 
     <div className='overflow-hidden overflow-x-hidden mb-16' id='sponsors'>
 
-      <h1 className='text-5xl sm:text-4xl pt-20 text-white
+      <h1 className='text-2xl sm:text-5xl pt-20 text-white
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSposnsors transition-all text-center
        flex justify-center'
       >EVENT PARTNERS</h1>
 
       {/* Platinum Partners */}
-      <div>
-        <h2 className='text-xl sm:text-3xl text-white mt-12 mb-5
+      <div className='mb-20'>
+        <h2 className='text-xl sm:text-4xl text-white mt-12 mb-10
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSposnsors transition-all text-center
        flex justify-center'>PLATINUM PARTNERS</h2>
