@@ -1,9 +1,10 @@
-import React from "react";
-import myImage1 from "./AVINYA_BANNER1.jpg";
-import myImage2 from "./AVINYA_BANNER2.jpg";
-import myImage3 from "./AVINYA_FINAL_NAME.png";
+import React from "react";   
 import "./banner.css";
-const url ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703788912/AVINYA_BANNER1_fjib32.jpg"
+
+const myImage3 = "https://res.cloudinary.com/drlkkozug/image/upload/v1703826766/Avinya_Final_Name_uzgvd7.png";
+const url ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703788912/AVINYA_BANNER1_fjib32.jpg";
+const myImage2 = "https://res.cloudinary.com/drlkkozug/image/upload/v1703826767/AVINYA_BANNER2_mhpiuu.jpg";
+
 const MyImageComponent = () => {
   React.useEffect(() => {
     const script = document.createElement('script');

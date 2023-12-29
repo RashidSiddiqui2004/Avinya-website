@@ -6,19 +6,7 @@ import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Navigation, EffectCoverflow, Pagination, Autoplay, Scrollbar, A11y } from 'swiper/modules';
-
-// import img1 from '../../assets/images/img1.jpg'
-// import img2 from '../../assets/images/img2.jpg'
-// import img3 from '../../assets/images/img3.jpg'
-// import img4 from '../../assets/images/img4.jpg'
-// import img5 from '../../assets/images/img5.jpg'
-// import img6 from '../../assets/images/img6.jpg'
-// import img7 from '../../assets/images/img7.jpg'
-// import img8 from '../../assets/images/img8.jpg'
-// import img10 from '../../assets/images/img10.jpg'
-// import img11 from '../../assets/images/img11.jpg'
-
-
+ 
 const img1 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789392/avinya/img8_gfuafa.jpg"
 const img2 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789390/avinya/img6_zzarkr.jpg"
 const img3 ="https://res.cloudinary.com/doyheqz2f/image/upload/v1703789371/avinya/img1_k2ybjd.jpg"
@@ -143,28 +131,4 @@ export default function App() {
     </main>
   );
 }
-
-
-{/* <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 105,
-          modifier: 1,
-          slideShadows: true,
-
-        }}
-        autoplay={{
-          disableOnInteraction: false,
-        }}
-
-        // pagination={true}
-        navigation={true}
-        modules={[EffectCoverflow, Autoplay, Navigation]}
-        className="mySwiper"
-      > */}
+ 

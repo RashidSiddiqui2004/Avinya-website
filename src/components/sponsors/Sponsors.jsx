@@ -332,18 +332,18 @@ function Sponsors() {
 
     <div className='overflow-hidden overflow-x-hidden mb-16' id='sponsors'>
 
-      <h2 className='text-2xl sm:text-4xl pt-20 text-white
+      <h1 className='text-5xl sm:text-4xl pt-20 text-white
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSposnsors transition-all text-center
        flex justify-center'
-      >EVENT PARTNERS</h2>
+      >EVENT PARTNERS</h1>
 
       {/* Platinum Partners */}
       <div>
-        <h2 className='text-xl sm:text-3xl text-center mt-16 mb-5
-         flex justify-center font-medium
-        underlined-text2 pb-3 space-x-1 headerAkira transition-all 
-        linearGradientSponsors2'>PLATINUM PARTNERS</h2>
+        <h2 className='text-xl sm:text-3xl text-white mt-12 mb-5
+       pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
+       linearGradientSposnsors transition-all text-center
+       flex justify-center'>PLATINUM PARTNERS</h2>
 
 
         <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
@@ -373,9 +373,10 @@ function Sponsors() {
       <div>
 
 
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5
-          font-normal headerAkira space-x-1 items-center flex justify-center
-          underlined-text pb-3'>GOLD PARTNERS</h2>
+        <h2 className='text-xl sm:text-3xl text-white mt-12 mb-5
+       pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
+       linearGradientSponsors2 transition-all text-center
+       flex justify-center'>GOLD PARTNERS</h2>
 
         <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
         items-center justify-center hidden md:flex lg:ml-10'>
@@ -404,9 +405,10 @@ function Sponsors() {
       <div>
 
 
-        <h2 className='text-xl sm:text-3xl text-center mt-12 mb-5
-          font-normal headerAkira space-x-1 items-center flex justify-center
-          underlined-text pb-3'>SILVER PARTNERS</h2>
+        <h2 className='text-xl sm:text-3xl text-white mt-12 mb-5
+       pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
+       linearGradientSposnsors transition-all text-center
+       flex justify-center'>SILVER PARTNERS</h2>
 
         <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
         items-center justify-center hidden md:flex lg:ml-10'>
@@ -431,9 +433,10 @@ function Sponsors() {
 
       <div>
         <h2 className='
-        text-xl sm:text-3xl text-center mt-14 mb-5  flex justify-center
-        font-normal headerAkira space-x-1
-        underlined-text pb-3'>MEDIA PARTNERS</h2>
+        text-xl sm:text-3xl text-white mt-12 mb-5
+        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
+        linearGradientSposnsors transition-all text-center
+        flex justify-center'>MEDIA PARTNERS</h2>
 
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
         items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20'>
