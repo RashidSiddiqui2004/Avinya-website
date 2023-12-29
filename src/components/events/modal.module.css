@@ -37,7 +37,7 @@
     color: white;
     padding: 0 20px;
     width: 100%;
-    height: 100px;
+    height: 110px;
     font-family: Drummer-X;
     font-style: normal;
     font-weight: 800;
@@ -102,6 +102,11 @@
     border-color: #02D7F2;
     cursor: auto;
   }
+.btn2:focus,
+.btn2:focus-visible {
+    outline: none;
+  }
+
 
 @media (max-width : 768px) {
     .btn2{
