@@ -1,10 +1,7 @@
-import { useState, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+  
 import Footer from "../footer/footer";
 import Nav from "../navbar/Navbar";
-import "./team.css";
-import img from "./img1.jpg";
+import "./team.css";  
 import TeamSection from "./TeamSection";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
@@ -67,19 +64,7 @@ const TeamMember = ({ name, position, imageSrc, instalink, linkedinlink }) => (
 );
 
 function TeamPage() {
-  useEffect(() => {
-    new AOS.init({ duration: 5000 });
-  }, []);
-
-  const [loading, setLoading] = useState(false);
-
-  // useEffect(() => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setLoading(false);
-  //   }, 1500);
-  // }, []);
-
+ 
   return (
     <div>
 

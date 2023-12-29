@@ -123,7 +123,7 @@ function Sponsors() {
     },
     {
       sponsor: "Prayag",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789927/python_vavmpx.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789927/prayag_qvqqkm.jpg"
     },
     {
       sponsor: "DigitalOcean",
@@ -381,7 +381,7 @@ function Sponsors() {
 
 
           {goldPartners.map((item, index) => (
-            <SpecialLogos key={index} logosrc={item.logoSource} />
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName}/>
           ))}
 
         </div>
@@ -411,7 +411,7 @@ function Sponsors() {
         <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
         items-center justify-center hidden md:flex lg:ml-10'>
           {silverPartners.map((item, index) => (
-            <SpecialLogos key={index} logosrc={item.logoSource} />
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
           ))}
 
         </div>
@@ -514,7 +514,7 @@ function Sponsors() {
 
           
           <div className='float-from-right logo-animation'>
-            <SpecialLogos logosrc="https://res.cloudinary.com/drlkkozug/image/upload/v1703789875/dev_hogwkl.png" logoName="NPM" />
+            <SpecialLogos logosrc="https://res.cloudinary.com/drlkkozug/image/upload/v1703789875/dev_hogwkl.png" logoName="DEV" />
           </div>
          
 
