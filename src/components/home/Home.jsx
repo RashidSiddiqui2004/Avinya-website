@@ -46,8 +46,6 @@ function Home() {
            <div className="absolute left-0 w-[100%]">
                 <Footer/>
             </div>
-
-
         </>
     );
 }
