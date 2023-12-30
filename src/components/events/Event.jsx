@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Paper, Tab, Tabs } from "@mui/material";
 import ReactPropTypes from "prop-types";
 import dayValues from "./data.jsx";
@@ -50,7 +50,7 @@ function DayDataLeft(props) {
         <p className={styling.content}>{props.context}</p>
         <button
           className={`${styling["infoLinkLeft"]} text-xs lg:text-base rounded-none focus:outline-none`}
-          // href={props.info}
+       
           onClick={toggle_mdl}
         >
           More Info

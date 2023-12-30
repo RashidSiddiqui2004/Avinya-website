@@ -1,8 +1,7 @@
 
 import React, { Suspense } from "react";
 import IntroFunc from "../intro/intro";
-import WhyPart from "../why_to_participate/WhyPart";
-import Gallery from "../gallery/Gallery";
+import WhyPart from "../why_to_participate/WhyPart"; 
 import JoinButton from "../handles/handles";
 
 import Footer from "../footer/footer";
@@ -11,6 +10,7 @@ import Banner from '../banner/Banner';
 import Nav from '../navbar/Navbar';
  
 const Sponsors = React.lazy(() => import ("../sponsors/Sponsors"));
+const Gallery = React.lazy(() => import ("../gallery/Gallery"));
 
 function Home() {
 
@@ -30,7 +30,10 @@ function Home() {
 
             <WhyPart />
 
-            <Gallery />
+            <Suspense fallback={<div><h1 className="text-3xl md:text-5xl font-bold headerAkira pt-16 pb-24 px-1 hover:scale-95 transition-all">GALLERY</h1></div>}>
+                <Gallery/>
+            </Suspense>
+           
 
             <div className="mt-32">
                 <JoinButton CTA={"JOIN"} />
@@ -41,7 +44,7 @@ function Home() {
             </Suspense>
 
            <div className="absolute left-0 w-[100%]">
-                <Footer />
+                <Footer/>
             </div>
 
 
