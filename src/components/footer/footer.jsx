@@ -9,7 +9,7 @@ const Footer = () => {
         <div className={styling.border_div}>
             <div className={styling.footer_main}>
                 <div className={styling.cont}>
-                    <div className={styling.avinya_txt}><img src={avico} className="w-[270px]"/></div>
+                    <div className={styling.avinya_txt}><img src={avico} className="w-[300px] mb-[5px]"/></div>
                     <div className={styling.tagline}>&nbsp;Innovation meets Technology</div>
                 </div>
                 <div className={styling.break}></div>
