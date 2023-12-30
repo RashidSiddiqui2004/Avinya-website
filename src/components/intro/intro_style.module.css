@@ -86,20 +86,20 @@
   width: 30%; 
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 426px) {
   .box {
     max-width: 100vw;
-    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 240px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .overlap_group{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0% 27%, 17% 0);
     width: 90%;
     left:5%;
-    margin-top: 100px;
+    margin-top: 180px;
+    margin-bottom: 270px;
   }
   .rectangle_1{
     left:75%;
@@ -128,7 +128,7 @@
     margin-top: 7vw;
   }
 }
-@media screen and (max-width: 767px) and (min-width: 420px) {
+@media screen and (max-width: 767px) and (min-width: 426px) {
   .box {
     max-width: 100vw;
     margin-left: auto;

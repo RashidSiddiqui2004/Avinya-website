@@ -28,7 +28,7 @@
 }
 
 .nav-item {
-  background-color: rgba(68, 68, 68, 0.6);
+  background-color: rgba(68, 68, 68, 0.75);
   
   flex: 1; 
   display: flex;
