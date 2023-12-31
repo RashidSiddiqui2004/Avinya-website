@@ -152,7 +152,7 @@ function TeamPage() {
                     <div className="teamMemberSocialMedia">
                       <a
                         className="teamMemberLink"
-                        href="#"
+                        href="https://www.instagram.com/rinav_gupta07?igsh=YW1uY2JqYmlsM240"
                         style={{ fontSize: "35px", color: "white" }}
                       >
                         <AiFillInstagram className="icons" />
@@ -161,7 +161,7 @@ function TeamPage() {
                     <div className="teamMemberSocialMedia ml-10">
                       <a
                         className="teamMemberLink"
-                        href="#"
+                        href="https://www.linkedin.com/in/rinavgupta"
                         style={{ fontSize: "35px", color: "white" }}
                       >
                         <BsLinkedin className="icons" />
@@ -201,7 +201,7 @@ function TeamPage() {
                     <div className="teamMemberSocialMedia">
                       <a
                         className="teamMemberLink"
-                        href="#"
+                        href="https://www.instagram.com/harshit_mittal01?utm_source=qr&igsh=MTB6MXFqdjdnNG9xYw=="
                         style={{ fontSize: "35px", color: "white" }}
                       >
                         <AiFillInstagram className="icons" />
@@ -210,7 +210,7 @@ function TeamPage() {
                     <div className="teamMemberSocialMedia ml-10">
                       <a
                         className="teamMemberLink"
-                        href="#"
+                        href="https://www.linkedin.com/in/harshit-mittal-a29630107/"
                         style={{ fontSize: "35px", color: "white" }}
                       >
                         <BsLinkedin className="icons" />
@@ -259,7 +259,9 @@ function TeamPage() {
             <TeamMember
               name="Atish"
               position="EM HEAD"
-              imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789785/Aatish_malik_por_pic_atoxnx.jpg'}
+              imageSrc='https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789785/Aatish_malik_por_pic_atoxnx.jpg'
+              linkedinlink="https://www.linkedin.com/in/aatish-malik-a4117b21b/"
+              instalink="https://www.instagram.com/aatishhhhhhhhh/"
             />
           </TeamSection>
 
