@@ -40,7 +40,7 @@ body {
   display: flex;
   margin-left: auto  ;
   margin-top: 20px;
-  justify-content: center;
+
   margin-bottom: 20px;
   margin-right: 5px;
 }
@@ -71,6 +71,7 @@ body {
   width: 300px;
   text-align: center;
   position: relative;
+  font-weight: 500;
   color: black !important;
   background-color: #02d7f2;
 }
@@ -133,7 +134,7 @@ body {
   padding: 1rem;
   color: #000;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.15rem;
 }
 .triangleLeft {

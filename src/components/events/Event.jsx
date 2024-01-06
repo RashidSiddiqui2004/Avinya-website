@@ -108,41 +108,41 @@ function DayDataLeft(props) {
   );
 }
 
-function DayDatamiddle(props) {
-  const [mdl, setmdl] = useState(false);
-  const toggle_mdl = () => {
-    setmdl(!mdl);
-  };
-  return (
-    <div className={styling.master1}>
-      <div className={styling.smallBox}>
-        <div className={styling.triangleLeft}></div>
-        <h1 className={styling.num}>{props.num}</h1>
-      </div>
-      <div className={styling.bigBox2}>
-        <Mdl
-          mdlstate={mdl}
-          close={toggle_mdl}
-          event_id={Number(props.num)}
-          day={props.day}
-        />
-        <p className={styling.content}>{props.context}</p>
+// function DayDatamiddle(props) {
+//   const [mdl, setmdl] = useState(false);
+//   const toggle_mdl = () => {
+//     setmdl(!mdl);
+//   };
+//   return (
+//     <div className={styling.master1}>
+//       <div className={styling.smallBox}>
+//         <div className={styling.triangleLeft}></div>
+//         <h1 className={styling.num}>{props.num}</h1>
+//       </div>
+//       <div className={styling.bigBox2}>
+//         <Mdl
+//           mdlstate={mdl}
+//           close={toggle_mdl}
+//           event_id={Number(props.num)}
+//           day={props.day}
+//         />
+//         <p className={styling.content}>{props.context}</p>
        
-          <button
-            className={`${styling["infoLinkLeft2"]} text-xs sm:text-small lg:text-base rounded-none focus:outline-none`}
-            onClick={toggle_mdl}
-          >
-            More Info
-          </button>
+//           <button
+//             className={`${styling["infoLinkLeft2"]} text-xs sm:text-small lg:text-base rounded-none focus:outline-none`}
+//             onClick={toggle_mdl}
+//           >
+//             More Info
+//           </button>
         
-      </div>
-      <div className={styling.smallBox}>
-        <div className={styling.triangleRight}></div>
-        <h1 className={styling.num}>{props.num}</h1>
-      </div>
-    </div>
-  );
-}
+//       </div>
+//       <div className={styling.smallBox}>
+//         <div className={styling.triangleRight}></div>
+//         <h1 className={styling.num}>{props.num}</h1>
+//       </div>
+//     </div>
+//   );
+// }
 
 function DayDataRight(props) {
   const [mdl, setmdl] = useState(false);
@@ -185,11 +185,11 @@ DayDataRight.propTypes = {
   context: ReactPropTypes.string,
   info: ReactPropTypes.string,
 };
-DayDatamiddle.propTypes = {
-  num: ReactPropTypes.string,
-  context: ReactPropTypes.string,
-  info: ReactPropTypes.string,
-};
+// DayDatamiddle.propTypes = {
+//   num: ReactPropTypes.string,
+//   context: ReactPropTypes.string,
+//   info: ReactPropTypes.string,
+// };
 
 function Event() {
   const [activeDay, setActiveDay] = useState(1);
@@ -274,7 +274,7 @@ function Event() {
           {numberofEvents[activeDay - 1] % 2 !== 0 ? (
             <div className="master4">
               <>
-                <DayDatamiddle
+                <DayDataLeft
                   num={numberofEvents[activeDay - 1]}
                   context={
                     dayValues[activeDay].headings[
