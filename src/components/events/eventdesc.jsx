@@ -146,8 +146,8 @@ const eventContent = [[
     time_span: "10:00 AM - 5:00 PM",
     location: "Mini Audi 1",
     organizer: "DevComm",
-    event_info: "Are you ready to be called as the next BGMI Champion ? So bring it on, with the BGMI Duo tournament w\
-    here duos will face-off each other in the Team Death Matches until they conquer everyone and everything.",
+    event_info: "Are you ready to be called as the next BGMI Champion ? So bring it on, with the BGMI Duo tournament \
+    where duos will face-off each other in the Team Death Matches until they conquer everyone and everything.",
     no_of_participants: 0,
     banner: encanto,
     bannerphone: encantophone,
