@@ -15,21 +15,22 @@
 
 .gradient_div{
     background: linear-gradient(180deg, rgba(35, 0, 70, 0) 0%, #230046 29.17%);
-    height: 75%;
+    height: fit-content;
+    min-height: 65%;
     width: 100%;
     position: absolute;
     bottom: 0;
-    padding: 5% 2.5% 0 2.5%;
+    padding: 10% 2.5% 0 2.5%;
 }
 
 .parent_div{
     filter: drop-shadow(0px 0px 8px #8f2187);
     text-align: left;
-    height: 600px;
+    height: 95%;
     width: 70%;
     position: relative;
-    background-image: url("https://res.cloudinary.com/drlkkozug/image/upload/v1703836388/bgg_c9pxeu.png");
-    background-size: cover;
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
     margin: auto;
 }
 
@@ -37,7 +38,7 @@
     color: white;
     padding: 0 20px;
     width: 100%;
-    height: 110px;
+    height: 70px;
     font-family: Drummer-X;
     font-style: normal;
     font-weight: 800;
@@ -88,10 +89,10 @@
 
 .btn2{
     border-radius: 0;
-    width: 40%;
+    width: 25%;
     position: absolute;
-    height : 15%;
-    margin: 0.5% 27.5% 20px 27.5%;
+    height : 10%;
+    margin: 0.5% 35% 20px 35%;
     font-family: Drummer-Register;
     font-style: normal;
     font-weight: 900;
@@ -99,7 +100,6 @@
     line-height: 138%;
     letter-spacing: 0.04em;
     background: #02D7F2;
-    cursor: pointer;
 }
 
 .btn3{
@@ -127,46 +127,44 @@
     transition: background-color 0.3s ease, color 0.3s ease;
   }
   
-.btn2:hover { 
-    border-color: #02D7F2;
-    cursor: pointer;
-  }
-.btn2:focus,
-.btn2:focus-visible {
-    outline: none;
+.btn2:hover {
+    background: black;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease, color 0.3s ease; 
   }
 
-
-@media (max-width : 768px) {
-    .btn2{
-        width: 75%;
-        margin: 4% 10% 5px 10%;
-        font-size: 14px;
-    }
+@media (max-width : 1370px) {
     .head{
-        font-size: 30px;
+        font-size: 27px;
     }
     .info{
-        font-size: 16px;
+        font-size: 14px;
+    }
+    .gradient_div{
+        padding: 3% 2.5% 0 2.5%;
+    }
+    .btn2{
+        font-size: 14px;
+    }
+}
+@media (max-width : 768px) {
+    .btn2{
+        width: 65%;
+        margin: 4% 15% 5px 15%;
     }
     .parent_div{
         filter: drop-shadow(0px 0px 12px #8f2187);
-        height: 520px;
         width: 98vw;
     }
     .gradient_div{
-        height: 80%;
+        height: fit-content;
+        min-height: 65%;
     }
 }
 
 @media (max-width : 450px){
     .gradient_div{
-        height: 75%;
-    }
-}
-
-@media (max-width : 380px) {
-    .parent_div{
-        height: 560px;
+        height: fit-content;
+        min-height: 65%;
     }
 }
