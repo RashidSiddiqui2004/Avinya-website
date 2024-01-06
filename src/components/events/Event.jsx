@@ -4,10 +4,7 @@ import ReactPropTypes from "prop-types";
 import dayValues from "./data.jsx";
 import styling from "./event.module.css";
 import styling2 from "./modal.module.css";
-import eventContent from "./eventdesc"; 
-
-
-
+import eventContent from "./eventdesc";
 
 
 const Mdl = (props) => {
@@ -24,10 +21,10 @@ const Mdl = (props) => {
 
             <button className={styling2.btn3} onClick={() => setForm(false)}>X</button>
 
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc9CEOW_LkEuon4mwjrnvyoXj-CxXpn25GHKxcIeIh4JB80Zg/viewform?embedded=true" 
-            className="w-full h-[440px] overflow-y-hidden overflow-hidden"
-            frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc9CEOW_LkEuon4mwjrnvyoXj-CxXpn25GHKxcIeIh4JB80Zg/viewform?embedded=true"
+              className="w-full h-[440px] overflow-y-hidden overflow-hidden"
+              frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
           </div>
           :
           <div className={styling2.parent_div}>
@@ -119,9 +116,15 @@ DayDataRight.propTypes = {
 
 function Event() {
   const [activeDay, setActiveDay] = useState(1);
+
+  const numberofEvents = [3, 4, 5, 4];
+
   const handleChange = (event, newValue) => {
     setActiveDay(newValue);
   };
+
+  const divArray = Array.from({ length: numberofEvents[activeDay - 1]/2}, (_, index) => index + 1);
+
 
   return (
     <div className={`${styling["main"]}`} id="events">
@@ -165,8 +168,54 @@ function Event() {
       >
         {dayValues[activeDay].date}
       </h1>
+
+      <div>
+
+        {divArray.map((value, index) => {
+
+          return (
+            <div key={index + 1} className={styling.master}>
+              <>
+                <DayDataLeft
+                  num={(index + 1) * 2 - 1}
+                  context={dayValues[activeDay].headings[index * 2]}
+                  // info={dayValues[activeDay].infoBlock1}
+                  day={activeDay}
+                />
+
+                <DayDataRight
+                  num={(index + 1) * 2}
+                  context={dayValues[activeDay].headings[2 * index + 1]}
+                  // info={dayValues[activeDay].infoBlock1}
+                  day={activeDay}
+                />
+              </>
+
+
+            </div>
+          )
+        })}
+
+        {
+          numberofEvents[activeDay - 1] % 2 != 0 ?
+            <>
+              <DayDataLeft
+                num={numberofEvents[activeDay - 1]}
+                context={dayValues[activeDay].headings[numberofEvents[activeDay - 1]-1]}
+                // info={dayValues[activeDay].infoBlock1}
+                day={activeDay}
+              />
+            </>
+            :
+            ""
+        }
+
+      </div>
+
+
       <div className={styling.allContent}>
-        <div className={styling.master}>
+
+        {/* <div className={styling.master}>
           <DayDataLeft
             num="1"
             context={dayValues[activeDay].block1}
@@ -179,8 +228,9 @@ function Event() {
             info={dayValues[activeDay].infoBlock2}
             day={activeDay}
           />
-        </div>
-        <div className={styling.master}>
+        </div> */}
+
+        {/* <div className={styling.master}>
           <DayDataLeft
             num="3"
             context={dayValues[activeDay].block1}
@@ -193,8 +243,9 @@ function Event() {
             info={dayValues[activeDay].infoBlock2}
             day={activeDay}
           />
-        </div>
-        <div className={styling.master}>
+        </div> */}
+
+        {/* <div className={styling.master}>
           <DayDataLeft
             num="5"
             context={dayValues[activeDay].block1}
@@ -207,8 +258,8 @@ function Event() {
             info={dayValues[activeDay].infoBlock2}
             day={activeDay}
           />
-        </div>
-        <div className={styling.master}>
+        </div> */}
+        {/* <div className={styling.master}>
           <DayDataLeft
             num="7"
             context={dayValues[activeDay].block1}
@@ -221,7 +272,8 @@ function Event() {
             info={dayValues[activeDay].infoBlock2}
             day={activeDay}
           />
-        </div>
+        </div> */}
+
       </div>
     </div>
   );
