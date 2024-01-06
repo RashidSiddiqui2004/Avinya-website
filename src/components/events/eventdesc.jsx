@@ -1,17 +1,17 @@
-import bidblitz from "./banners/WEBBANNERIGTS.png";
-import dynamo from "./banners/dynamowbvenatus.png";
-import quizclub from "./banners/QuizClub.png";
-import tds from "./banners/TDS.jpg";
-import bytebazar from "./banners/WebBanner-CodeChef.png";
-import memewars from "./banners/WebBannerNSUT.AI.png";
-import encanto from "./banners/encantowbvenatus.png";
-import temp from "./bgg2.png";
-import bidphone from "./banners/IGTSphone.png";
-import quizphone from "./banners/QuizClub-1.png";
-import dynamophone from "./banners/A5PosterDynamo-1.png";
-import encantophone from "./banners/A5PosterEncanto-1.png";
-import memephone from "./banners/A5PosterNSUT.AI-1.png";
-import bytephone from "./banners/A5Poster-CodeChef-1.png";
+const bidblitz = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559620/WEBBANNERIGTS_mb6tln.png";
+const dynamo = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559619/dynamowbvenatus_guufqo.png";
+const quizclub = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559618/QuizClub_vasrqy.png";
+const tds = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559619/TDS_i9r6hx.jpg";
+const bytebazar = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559621/WebBanner-CodeChef_dj4uia.png";
+const memewars = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559621/WebBannerNSUT.AI_lpzhoo.png";
+const encanto = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559619/encantowbvenatus_thln5e.png";
+const temp = "https://res.cloudinary.com/dop36g38s/image/upload/v1703835956/bgg2_vhoq1b.png";
+const bidphone = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559623/IGTSphone_kfordd.png";
+const quizphone = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559619/QuizClub-1_dy2vqz.png";
+const dynamophone = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559741/A5PosterDynamo-1_dbsred.jpg";
+const encantophone = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559798/A5PosterEncanto-1_ou38wa.jpg";
+const memephone = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559814/A5PosterNSUT.AI-1_uvo69b.jpg";
+const bytephone = "https://res.cloudinary.com/dop36g38s/image/upload/v1704559618/A5Poster-CodeChef-1_erhnnk.png";
 
 const eventContent = [[
   // {
@@ -66,7 +66,7 @@ const eventContent = [[
     location: "Mini Audi 1",
     organizer: "DevComm",
     event_info: "Indulging on a CSS design odyssey, where code becomes the brush for crafting visual masterpieces. \
-    From sophisticated layouts to dynamic animations, each line narrates a pixelated tale. Embracing challenges, pushing boundaries, \
+    = sophisticated layouts to dynamic animations, each line narrates a pixelated tale. Embracing challenges, pushing boundaries, \
     and orchestrating digital symphonies. CSS, the language of style, transforms code into a canvas, and I'm here to paint vivid digital dreams.",
     no_of_participants: 0,
     banner: tds,
