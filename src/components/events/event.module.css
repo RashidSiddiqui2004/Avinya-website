@@ -2,6 +2,7 @@ body {
   background-color: black;
   padding: 0;
   margin: 0;
+  
   font-family: "Montserrat", monospace;
 }
 
@@ -37,10 +38,11 @@ body {
 }
 .master1 {
   display: flex;
-  margin-left: auto;
+  margin-left: auto  ;
   margin-top: 20px;
+  justify-content: center;
   margin-bottom: 20px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .master2 {
   display: flex;
@@ -49,6 +51,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .master {
   display: flex;
   margin: auto;
@@ -71,11 +74,29 @@ body {
   color: black !important;
   background-color: #02d7f2;
 }
+.bigBox2 {
+  height: 150px;
+  width: 610px;
+  text-align: center;
+  position: relative;
+  color: black !important;
+  background-color: #02d7f2;
+}
 .infoLinkLeft {
   color: black;
   background-color: #80ffff;
   position: absolute;
   text-decoration: none;
+  bottom: 0;
+  right: 0;
+  padding: 0.5rem 0.75rem;
+}
+.infoLinkLeft2{
+  color: black;
+  background-color: #80ffff;
+  
+  text-decoration: none;
+
   bottom: 0;
   right: 0;
   padding: 0.5rem 0.75rem;
@@ -101,7 +122,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 10px;
-  padding-top: 25px;
+  padding-top: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -154,6 +175,18 @@ body {
     height: 75px;
     font-size: 0.75rem;
   }
+  .infoLinkLeft2{
+    
+    bottom: 1;
+    right: 0;
+    height:30px ;
+
+  }
+  .bigBox2 {
+    width: 190px;
+    height: 75px;
+    font-size: 1rem;
+  }
   .content {
     font-size: 0.75rem;
     padding: 0.25rem;
@@ -179,13 +212,18 @@ body {
     height: 100px;
     font-size: 1rem;
   }
+  .bigBox2 {
+    width: 500px;
+    height: 100px;
+    font-size: 1rem;
+  }
   .smallBox {
     width: 100px;
     height: 100px;
     font-size: 0.75rem;
   }
   .content {
-    font-size: 0.85rem;
+    font-size: 1rem;
     padding: 0.5rem;
   }
   .num {
