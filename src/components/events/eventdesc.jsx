@@ -1,58 +1,87 @@
+import bidblitz from "./banners/WEBBANNERIGTS.png";
+import dynamo from "./banners/dynamowbvenatus.png";
+import quizclub from "./banners/QuizClub.png";
+import tds from "./banners/TDS.jpg";
+import bytebazar from "./banners/WebBanner-CodeChef.png";
+import memewars from "./banners/WebBannerNSUT.AI.png";
+import encanto from "./banners/encantowbvenatus.png";
+import temp from "./bgg2.png";
+import bidphone from "./banners/IGTSphone.png";
+import quizphone from "./banners/QuizClub-1.png";
+import dynamophone from "./banners/A5PosterDynamo-1.png";
+import encantophone from "./banners/A5PosterEncanto-1.png";
+import memephone from "./banners/A5PosterNSUT.AI-1.png";
+import bytephone from "./banners/A5Poster-CodeChef-1.png";
+
 const eventContent = [[
-  {
-    title: "DevComm 2023",
-    date: "January 18, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
-    organizer: "DevComm",
-    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
-    no_of_participants: 0,
-  },
+  // {
+  //   title: "Opening Ceremony",
+  //   date: "January 18, 2024",
+  //   time_span: "9:00 AM - 10:00 AM",
+  //   location: "Main Audi",
+  //   organizer: "DevComm",
+  //   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+  //   no_of_participants: 0,
+  //   banner: temp,
+  //   bannerphone: temp,
+  // },
   
   {
-    title: "DevComm 2023",
+    title: "Bid Blitz",
     date:"January 18, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
+    time_span: "10:00 AM - 1:00 PM",
+    location: "Main Audi",
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: bidblitz,
+    bannerphone: bidphone,
   },
+  // {
+  //   title: "Speaker Session",
+  //   date: "January 18, 2024",
+  //   time_span: "2:00 AM - 4:00 PM",
+  //   location: "Main Audi",
+  //   organizer: "DevComm",
+  //   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+  //   no_of_participants: 0,
+  //   banner: temp,
+  //   bannerphone: temp,
+  // },
+  // {
+  //   title: "CRES EVE",
+  //   date: "January 18, 2024",
+  //   time_span: "4:00 PM onwards",
+  //   location: "Main Audi",
+  //   organizer: "DevComm",
+  //   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+  //   no_of_participants: 0,
+  //   banner: temp,
+  //   bannerphone: temp,
+  // },
   {
-    title: "DevComm 2023",
-    date: "January 18, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
-    organizer: "DevComm",
-    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
-    no_of_participants: 0,
-  },
-  {
-    title: "DevComm 2023",
-    date: "January 18, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
-    organizer: "DevComm",
-    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
-    no_of_participants: 0,
-  },
-  {
-    title: "DevComm 2023",
+    title: "CSS DESIGN CHALLENGE",
     date:  "January 18, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
+    time_span: "10:00 AM - 1:00 PM",
+    location: "Mini Audi 1",
     organizer: "DevComm",
-    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+    event_info: "Indulging on a CSS design odyssey, where code becomes the brush for crafting visual masterpieces. \
+    From sophisticated layouts to dynamic animations, each line narrates a pixelated tale. Embracing challenges, pushing boundaries, \
+    and orchestrating digital symphonies. CSS, the language of style, transforms code into a canvas, and I'm here to paint vivid digital dreams.",
     no_of_participants: 0,
+    banner: tds,
+    bannerphone: tds,
   },
   {
-    title: "DevComm 2023",
+    title: "Guesstimate QUIZ",
     date:  "January 18, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
+    time_span: "2:00 PM - 4:00 PM",
+    location: "Mini Audi 1",
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
   {
     title: "DevComm 2023",
@@ -62,6 +91,8 @@ const eventContent = [[
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
   {
     title: "DevComm 2023",
@@ -71,44 +102,55 @@ const eventContent = [[
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
 ], [
   {
-    title: "DevComm 2023",
+    title: "MEME WARS",
     date: "January 19, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
+    time_span: "10:00 AM - 1:00 PM",
+    location: "Main Audio",
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: memewars,
+    bannerphone: memephone,
   },
   
   {
-    title: "DevComm 2023",
+    title: "SPEAKER SESSION",
     date:"January 19, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
+    time_span: "4:00 PM onwards",
+    location: "Main Audi",
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
   {
-    title: "DevComm 2023",
+    title: "DYNAMO",
     date: "January 19, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
+    time_span: "10:00 AM - 5:00 PM",
+    location: "Mini Audi 1",
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: dynamo,
+    bannerphone: dynamophone,
   },
   {
-    title: "DevComm 2023",
+    title: "ENCANTO",
     date: "January 19, 2024",
-    time_span: "9:00 AM - 5:00 PM",
-    location: "Main Campus, Dwarka",
+    time_span: "10:00 AM - 5:00 PM",
+    location: "Mini Audi 1",
     organizer: "DevComm",
-    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+    event_info: "Are you ready to be called as the next BGMI Champion ? So bring it on, with the BGMI Duo tournament w\
+    here duos will face-off each other in the Team Death Matches until they conquer everyone and everything.",
     no_of_participants: 0,
+    banner: encanto,
+    bannerphone: encantophone,
   },
   {
     title: "DevComm 2023",
@@ -118,6 +160,8 @@ const eventContent = [[
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
   {
     title: "DevComm 2023",
@@ -127,6 +171,8 @@ const eventContent = [[
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
   {
     title: "DevComm 2023",
@@ -136,6 +182,8 @@ const eventContent = [[
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
   {
     title: "DevComm 2023",
@@ -145,34 +193,49 @@ const eventContent = [[
     organizer: "DevComm",
     event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
     no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
 ], [{
-  title: "DevComm 2023",
+  title: "API-nt",
   date: "January 20, 2024",
-  time_span: "9:00 AM - 5:00 PM",
-  location: "Main Campus, Dwarka",
+  time_span: "10:00 AM - 1:00 PM",
+  location: "Mini Audi 1",
   organizer: "DevComm",
   event_info: "Join us for an einnovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: quizclub,
+  bannerphone: quizphone,
 },
 
 {
-  title: "DevComm 2023",
+  title: "Byte Bazaar",
   date: "January 20, 2024",
-  time_span: "9:00 AM - 5:00 PM",
-  location: "Main Campus, Dwarka",
+  time_span: "10:00 AM - 12:00 PM",
+  location: "Mini Audi 2",
   organizer: "DevComm",
-  event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+  event_info: "Hola Coders! Brace yourselves for an offline coding tournament organized by CodeChef NSUT, 'ByteBazaar'. Coming\
+               up in the 3rd week of January , this event will consist of 2 stages - auction and coding. A tournament akin to none,\
+               with the spice of bidding and coding. Follow the motto - 'Spend more code less'",
   no_of_participants: 0,
+  banner: bytebazar,
+  bannerphone: bytephone,
 },
 {
-  title: "DevComm 2023",
+  title: "INNOVATE NSUT'24",
   date:"January 20, 2024",
-  time_span: "9:00 AM - 5:00 PM",
-  location: "Main Campus, Dwarka",
+  time_span: "9:00 AM onwards",
+  location: "Smart Block",
   organizer: "DevComm",
-  event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+  event_info: "'Hackathons are a chance to think big and act fast.'Embark on a journey of \
+  innovation at NSUT's most prestigious hackathon, 'Innovate NSUT,' a highlight of AVINYA'24 -\
+   Devcomm NSUT's annual tech fest.\
+   30 hours of non-stop brain storming.\
+   Price pool worth rupees 2 Lacs\
+   Goodies and much more.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -182,6 +245,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -191,6 +256,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -200,6 +267,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -209,6 +278,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -218,6 +289,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },], [{
   title: "DevComm 2023",
   date:"January 21, 2024",
@@ -226,6 +299,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 
 {
@@ -236,6 +311,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -245,6 +322,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -254,6 +333,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -263,6 +344,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -272,6 +355,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -281,6 +366,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },
 {
   title: "DevComm 2023",
@@ -290,6 +377,8 @@ const eventContent = [[
   organizer: "DevComm",
   event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
+  banner: temp,
+  bannerphone: temp,
 },]];
 
 export default eventContent;
