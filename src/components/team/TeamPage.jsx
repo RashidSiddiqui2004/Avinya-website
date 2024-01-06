@@ -108,7 +108,7 @@ function TeamPage() {
               name="AYUSH"
               position="CHIEF CONVENER"
               imageSrc={'https://res.cloudinary.com/dk8y96rpu/image/upload/v1703789783/ayush_leoqar.jpg'}
-              instalink="https://www.instagram.com/kim_dfeng/"
+              instalink="#"
               linkedinlink="https://www.linkedin.com/in/ayush-ahlawat-1344aa22b/"
 />
           </TeamSection>
