@@ -117,18 +117,6 @@ const eventContent = [[
     banner: memewars,
     bannerphone: memephone,
   },
-  
-  {
-    title: "SPEAKER SESSION",
-    date:"January 19, 2024",
-    time_span: "4:00 PM onwards",
-    location: "Main Audi",
-    organizer: "DevComm",
-    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
-    no_of_participants: 0,
-    banner: temp,
-    bannerphone: temp,
-  },
   {
     title: "DYNAMO",
     date: "January 19, 2024",
@@ -139,6 +127,17 @@ const eventContent = [[
     no_of_participants: 0,
     banner: dynamo,
     bannerphone: dynamophone,
+  },
+  {
+    title: "SPEAKER SESSION",
+    date:"January 19, 2024",
+    time_span: "4:00 PM onwards",
+    location: "Main Audi",
+    organizer: "DevComm",
+    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+    no_of_participants: 0,
+    banner: temp,
+    bannerphone: temp,
   },
   {
     title: "ENCANTO",

@@ -13,7 +13,10 @@ const Mdl = (props) => {
     props.mdlstate && (
       <div className="fixed top-0 left-0 w-[100vw] h-full flex items-center justify-center z-50">
         {form ? (
-          <div className={styling2.parent_div}>
+          <div className={styling2.parent_div} 
+          style={{backgroundImage : `url(${window.innerWidth > 430 ? eventContent[props.day - 1][props.event_id - 1].banner
+                  : eventContent[props.day - 1][props.event_id - 1].bannerphone})`,
+                  backgroundSize : "100% 100%"}}>
             <h1 className={styling2.head2}>
               {eventContent[props.day - 1][props.event_id - 1].title}{" "}
             </h1>
@@ -24,7 +27,7 @@ const Mdl = (props) => {
 
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSc9CEOW_LkEuon4mwjrnvyoXj-CxXpn25GHKxcIeIh4JB80Zg/viewform?embedded=true"
-              className="w-full h-[440px] overflow-y-hidden overflow-hidden"
+              className="w-full h-[80%] overflow-y-hidden overflow-hidden"
               frameborder="0"
               marginheight="0"
               marginwidth="0"
@@ -33,7 +36,9 @@ const Mdl = (props) => {
             </iframe>
           </div>
         ) : (
-          <div className={styling2.parent_div}>
+          <div className={styling2.parent_div} 
+      style={{backgroundImage : `url(${window.innerWidth > 430 ? eventContent[props.day - 1][props.event_id - 1].banner
+              : eventContent[props.day - 1][props.event_id - 1].bannerphone})`}}>
             <div className={styling2.gradient_div}>
               <h1 className={styling2.head}>
                 {eventContent[props.day - 1][props.event_id - 1].title}{" "}
@@ -52,15 +57,15 @@ const Mdl = (props) => {
                   }{" "}
                 </div>
                 <div style={{ width: "fit-content", margin: "1%" }}>
-                  No of participants registered :{" "}
+                  Venue :{" "}
                   {
                     eventContent[props.day - 1][props.event_id - 1]
-                      .no_of_participants
+                      .location
                   }{" "}
                 </div>
               </p>
               <button className={styling2.btn2} onClick={() => setForm(true)}>
-                Registration opening soon.....!
+                Register Now
               </button>
             </div>
             <button className={styling2.btn1} onClick={props.close}>
