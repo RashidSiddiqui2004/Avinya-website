@@ -35,8 +35,9 @@ const eventContent = [[
     location: "Mini Audi 1",
     organizer: "DevComm",
     event_info: "Indulging on a CSS design odyssey, where code becomes the brush for crafting visual masterpieces. \
-    = sophisticated layouts to dynamic animations, each line narrates a pixelated tale. Embracing challenges, pushing boundaries, \
-    and orchestrating digital symphonies. CSS, the language of style, transforms code into a canvas, and I'm here to paint vivid digital dreams.",
+    From sophisticated layouts to dynamic animations, each line narrates a pixelated tale. Embracing challenges, \
+    pushing boundaries, and orchestrating digital symphonies. CSS, the language of style, transforms code into a canvas, \
+    and I'm here to paint vivid digital dreams.",
     no_of_participants: 0,
     banner: tds,
     bannerphone: tdsphone,
@@ -59,7 +60,7 @@ const eventContent = [[
     title: "MEME WARS",
     date: "January 19, 2024",
     time_span: "10:00 AM - 1:00 PM",
-    location: "Main Audio",
+    location: "Main Audi",
     organizer: "DevComm",
     event_info: "Yo, NSUT.AI meme lords! Time to dust off your pixels and sharpen your wit, because the #NSUTAIMemeWars\
      are about to explode! We're talking meme battles so epic, they'll make your sides split wider than a politician's promise.\
@@ -139,7 +140,7 @@ const eventContent = [[
   registrationlink:"https://unstop.com/hackathons/bytebazaar-avinya-netaji-subhas-university-of-technology-nsut-delhi-858955?lb=pB4UN6X",
 },
 {
-  title: "INNOVATENSUT'24",
+  title: "INNOVATE NSUT'24",
   date:"January 20, 2024",
   time_span: "9:00 AM onwards",
   location: "Smart Block",

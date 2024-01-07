@@ -38,7 +38,7 @@ const Mdl = (props) => {
                   {eventContent[props.day - 1][props.event_id - 1].title}{" "}
                 </h1>
             }
-            
+
             <p className={styling2.info}>
               {eventContent[props.day - 1][props.event_id - 1].event_info}
               <div style={{ width: "fit-content", margin: "2% 1% 1% 1%" }}>
