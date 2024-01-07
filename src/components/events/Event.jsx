@@ -16,7 +16,9 @@ const Mdl = (props) => {
       
           <div className={styling2.parent_div} 
       style={{backgroundImage : `url(${window.innerWidth > 430 ? eventContent[props.day - 1][props.event_id - 1].banner
-              : eventContent[props.day - 1][props.event_id - 1].bannerphone})`}}>
+              : eventContent[props.day - 1][props.event_id - 1].bannerphone})`,
+              backgroundBlendMode : "darken",
+              backgroundColor : `rgba(52, 52, 52, ${window.innerWidth > 430 ? 0 : 0.5})`}}>
             <div className={styling2.gradient_div}>
               <h1 className={styling2.head}>
                 {eventContent[props.day - 1][props.event_id - 1].title}{" "}

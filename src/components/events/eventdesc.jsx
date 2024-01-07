@@ -35,8 +35,9 @@ const eventContent = [[
     location: "Mini Audi 1",
     organizer: "DevComm",
     event_info: "Indulging on a CSS design odyssey, where code becomes the brush for crafting visual masterpieces. \
-    = sophisticated layouts to dynamic animations, each line narrates a pixelated tale. Embracing challenges, pushing boundaries, \
-    and orchestrating digital symphonies. CSS, the language of style, transforms code into a canvas, and I'm here to paint vivid digital dreams.",
+    From sophisticated layouts to dynamic animations, each line narrates a pixelated tale. Embracing challenges, \
+    pushing boundaries, and orchestrating digital symphonies. CSS, the language of style, transforms code into a canvas, \
+    and I'm here to paint vivid digital dreams.",
     no_of_participants: 0,
     banner: tds,
     bannerphone: tdsphone,
@@ -139,7 +140,7 @@ const eventContent = [[
   registrationlink:"",
 },
 {
-  title: "INNOVATENSUT'24",
+  title: "INNOVATE NSUT'24",
   date:"January 20, 2024",
   time_span: "9:00 AM onwards",
   location: "Smart Block",
