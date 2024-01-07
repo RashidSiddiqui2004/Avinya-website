@@ -6,36 +6,14 @@ import styling from "./event.module.css";
 import styling2 from "./modal.module.css";
 import eventContent from "./eventdesc";
 
-const Mdl = (props) => {
-  const [form, setForm] = useState(false);
+const Mdl = (props) => { 
+
+  const registrationUrl = eventContent[props.day - 1][props.event_id - 1].registrationlink;
 
   return (
     props.mdlstate && (
       <div className="fixed top-0 left-0 w-[100vw] h-full flex items-center justify-center z-50">
-        {form ? (
-          <div className={styling2.parent_div} 
-          style={{backgroundImage : `url(${window.innerWidth > 430 ? eventContent[props.day - 1][props.event_id - 1].banner
-                  : eventContent[props.day - 1][props.event_id - 1].bannerphone})`,
-                  backgroundSize : "100% 100%"}}>
-            <h1 className={styling2.head2}>
-              {eventContent[props.day - 1][props.event_id - 1].title}{" "}
-            </h1>
-
-            <button className={styling2.btn3} onClick={() => setForm(false)}>
-              X
-            </button>
-
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSc9CEOW_LkEuon4mwjrnvyoXj-CxXpn25GHKxcIeIh4JB80Zg/viewform?embedded=true"
-              className="w-full h-[80%] overflow-y-hidden overflow-hidden"
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
-            >
-              Loading…
-            </iframe>
-          </div>
-        ) : (
+      
           <div className={styling2.parent_div} 
       style={{backgroundImage : `url(${window.innerWidth > 430 ? eventContent[props.day - 1][props.event_id - 1].banner
               : eventContent[props.day - 1][props.event_id - 1].bannerphone})`}}>
@@ -64,7 +42,7 @@ const Mdl = (props) => {
                   }{" "}
                 </div>
               </p>
-              <button className={styling2.btn2} onClick={() => setForm(true)}>
+              <button className={styling2.btn2} onClick={() => { window.open(registrationUrl, '_blank')}}>
                 Register Now
               </button>
             </div>
@@ -72,7 +50,7 @@ const Mdl = (props) => {
               X
             </button>
           </div>
-        )}
+       
       </div>
     )
   );
@@ -296,67 +274,7 @@ function Event() {
           )}
         </div>
       </div>
-
-      <div className={styling.allContent}>
-        {/* <div className={styling.master}>
-          <DayDataLeft
-            num="1"
-            context={dayValues[activeDay].block1}
-            info={dayValues[activeDay].infoBlock1}
-            day={activeDay}
-          />
-          <DayDataRight
-            num="2"
-            context={dayValues[activeDay].block2}
-            info={dayValues[activeDay].infoBlock2}
-            day={activeDay}
-          />
-        </div> */}
-
-        {/* <div className={styling.master}>
-          <DayDataLeft
-            num="3"
-            context={dayValues[activeDay].block1}
-            info={dayValues[activeDay].infoBlock1}
-            day={activeDay}
-          />
-          <DayDataRight
-            num="4"
-            context={dayValues[activeDay].block2}
-            info={dayValues[activeDay].infoBlock2}
-            day={activeDay}
-          />
-        </div> */}
-
-        {/* <div className={styling.master}>
-          <DayDataLeft
-            num="5"
-            context={dayValues[activeDay].block1}
-            info={dayValues[activeDay].infoBlock1}
-            day={activeDay}
-          />
-          <DayDataRight
-            num="6"
-            context={dayValues[activeDay].block2}
-            info={dayValues[activeDay].infoBlock2}
-            day={activeDay}
-          />
-        </div> */}
-        {/* <div className={styling.master}>
-          <DayDataLeft
-            num="7"
-            context={dayValues[activeDay].block1}
-            info={dayValues[activeDay].infoBlock1}
-            day={activeDay}
-          />
-          <DayDataRight
-            num="8"
-            context={dayValues[activeDay].block2}
-            info={dayValues[activeDay].infoBlock2}
-            day={activeDay}
-          />
-        </div> */}
-      </div>
+ 
     </div>
   );
 }

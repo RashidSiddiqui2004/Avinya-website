@@ -36,6 +36,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: bidblitz,
     bannerphone: bidphone,
+    registrationlink:"",
   },
   // {
   //   title: "Speaker Session",
@@ -71,6 +72,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: tds,
     bannerphone: tds,
+    registrationlink:"",
   },
   {
     title: "Guesstimate QUIZ",
@@ -82,6 +84,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
+    registrationlink:"",
   },
   {
     title: "DevComm 2023",
@@ -93,6 +96,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
+    registrationlink:"",
   },
   {
     title: "DevComm 2023",
@@ -104,6 +108,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
+    registrationlink:"",
   },
 ], [
   {
@@ -116,6 +121,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: memewars,
     bannerphone: memephone,
+    registrationlink:"",
   },
   {
     title: "DYNAMO",
@@ -127,6 +133,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: dynamo,
     bannerphone: dynamophone,
+    registrationlink:"",
   },
   {
     title: "SPEAKER SESSION",
@@ -138,6 +145,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
+    registrationlink:"",
   },
   {
     title: "ENCANTO",
@@ -150,6 +158,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: encanto,
     bannerphone: encantophone,
+    registrationlink:"",
   },
   {
     title: "DevComm 2023",
@@ -161,6 +170,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
+    registrationlink:"",
   },
   {
     title: "DevComm 2023",
@@ -172,6 +182,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
+    registrationlink:"",
   },
   {
     title: "DevComm 2023",
@@ -183,6 +194,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
+    registrationlink:"",
   },
   {
     title: "DevComm 2023",
@@ -194,6 +206,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
+    registrationlink:"",
   },
 ], [{
   title: "API-nt",
@@ -205,6 +218,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: quizclub,
   bannerphone: quizphone,
+  registrationlink:"",
 },
 
 {
@@ -219,6 +233,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: bytebazar,
   bannerphone: bytephone,
+  registrationlink:"",
 },
 {
   title: "INNOVATE NSUT'24",
@@ -235,6 +250,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"https://innovatensut24.devfolio.co/",
 },
 {
   title: "DevComm 2023",
@@ -246,6 +262,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -257,6 +274,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -268,6 +286,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -279,6 +298,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -290,6 +310,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },], [{
   title: "DevComm 2023",
   date:"January 21, 2024",
@@ -300,6 +321,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 
 {
@@ -312,6 +334,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -323,6 +346,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -334,6 +358,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -345,6 +370,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -356,6 +382,8 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -367,6 +395,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },
 {
   title: "DevComm 2023",
@@ -378,6 +407,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: temp,
   bannerphone: temp,
+  registrationlink:"",
 },]];
 
 export default eventContent;

@@ -20,7 +20,7 @@ function WhyPart() {
             "Compete with creative project ideas and get inspiration for your next project.",
             "Meet innovative new peers, make new connections.",
             "Learn about different tech stacks, see it in action and enhance your skills.",
-            "Prize pool worth 8,00,000 INR awaits the competition winners.",
+            "Prize pool worth 2,00,000 INR awaits the competition winners.",
             "Get a real world exposure of a Tech Fest.",
             "Get cool goodies and swags to show off to your friends.",
         ]
