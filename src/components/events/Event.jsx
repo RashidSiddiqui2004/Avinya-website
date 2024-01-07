@@ -6,51 +6,69 @@ import styling from "./event.module.css";
 import styling2 from "./modal.module.css";
 import eventContent from "./eventdesc";
 
-const Mdl = (props) => { 
+const Mdl = (props) => {
 
   const registrationUrl = eventContent[props.day - 1][props.event_id - 1].registrationlink;
 
   return (
     props.mdlstate && (
       <div className="fixed top-0 left-0 w-[100vw] h-full flex items-center justify-center z-[150]">
-      
-          <div className={styling2.parent_div} 
-      style={{backgroundImage : `url(${window.innerWidth > 430 ? eventContent[props.day - 1][props.event_id - 1].banner
-              : eventContent[props.day - 1][props.event_id - 1].bannerphone})`}}>
-            <div className={styling2.gradient_div}>
-              <h1 className={styling2.head}>
-                {eventContent[props.day - 1][props.event_id - 1].title}{" "}
-              </h1>
-              <p className={styling2.info}>
-                {eventContent[props.day - 1][props.event_id - 1].event_info}
-                <div style={{ width: "fit-content", margin: "2% 1% 1% 1%" }}>
-                  {" "}
-                  Time :{" "}
-                  {eventContent[props.day - 1][props.event_id - 1].time_span}
+
+        <div className={styling2.parent_div}
+          style={{
+            backgroundImage: `url(${window.innerWidth > 430 ? eventContent[props.day - 1][props.event_id - 1].banner
+              : eventContent[props.day - 1][props.event_id - 1].bannerphone})`
+          }}>
+          <div className={styling2.gradient_div}>
+
+            {
+              eventContent[props.day - 1][props.event_id - 1].title == "INNOVATENSUT'24" ?
+
+                <div>
+                  <h1 className= {`${styling2.head} block lg:hidden`}>
+                 
+                    INNOVATE NSUT'24
+                  </h1>
+                  <h1 className={`${styling2.head} hidden lg:block`} >
+                    INNOVATENSUT'24
+                  </h1>
                 </div>
-                <div style={{ width: "fit-content", margin: "1%" }}>
-                  {" "}
-                  Date : {
-                    eventContent[props.day - 1][props.event_id - 1].date
-                  }{" "}
-                </div>
-                <div style={{ width: "fit-content", margin: "1%" }}>
-                  Venue :{" "}
-                  {
-                    eventContent[props.day - 1][props.event_id - 1]
-                      .location
-                  }{" "}
-                </div>
-              </p>
-              <button className={styling2.btn2} onClick={() => { window.open(registrationUrl, '_blank')}}>
-                Register Now
-              </button>
-            </div>
-            <button className={styling2.btn1} onClick={props.close}>
-              X
+
+                : <h1 className={styling2.head}>
+                  {eventContent[props.day - 1][props.event_id - 1].title}{" "}
+                </h1>
+            }
+            
+            <p className={styling2.info}>
+              {eventContent[props.day - 1][props.event_id - 1].event_info}
+              <div style={{ width: "fit-content", margin: "2% 1% 1% 1%" }}>
+                {" "}
+                Time :{" "}
+                {eventContent[props.day - 1][props.event_id - 1].time_span}
+              </div>
+              <div style={{ width: "fit-content", margin: "1%" }}>
+                {" "}
+                Date : {
+                  eventContent[props.day - 1][props.event_id - 1].date
+                }{" "}
+              </div>
+              <div style={{ width: "fit-content", margin: "1%" }}>
+                Venue :{" "}
+                {
+                  eventContent[props.day - 1][props.event_id - 1]
+                    .location
+                }{" "}
+              </div>
+            </p>
+            <button className={styling2.btn2} onClick={() => { window.open(registrationUrl, '_blank') }}>
+              Register Now
             </button>
           </div>
-       
+          <button className={styling2.btn1} onClick={props.close}>
+            X
+          </button>
+        </div>
+
       </div>
     )
   );
@@ -105,14 +123,14 @@ function DayDataLeft(props) {
 //           day={props.day}
 //         />
 //         <p className={styling.content}>{props.context}</p>
-       
+
 //           <button
 //             className={`${styling["infoLinkLeft2"]} text-xs sm:text-small lg:text-base rounded-none focus:outline-none`}
 //             onClick={toggle_mdl}
 //           >
 //             More Info
 //           </button>
-        
+
 //       </div>
 //       <div className={styling.smallBox}>
 //         <div className={styling.triangleRight}></div>
@@ -256,7 +274,7 @@ function Event() {
                   num={numberofEvents[activeDay - 1]}
                   context={
                     dayValues[activeDay].headings[
-                      numberofEvents[activeDay - 1] - 1
+                    numberofEvents[activeDay - 1] - 1
                     ]
                   }
                   day={activeDay}
@@ -274,7 +292,7 @@ function Event() {
           )}
         </div>
       </div>
- 
+
     </div>
   );
 }
