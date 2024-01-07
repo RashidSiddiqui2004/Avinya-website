@@ -140,7 +140,7 @@ const eventContent = [[
   registrationlink:"https://unstop.com/hackathons/bytebazaar-avinya-netaji-subhas-university-of-technology-nsut-delhi-858955?lb=pB4UN6X",
 },
 {
-  title: "INNOVATE NSUT'24",
+  title: "INNOVATENSUT'24",
   date:"January 20, 2024",
   time_span: "9:00 AM onwards",
   location: "Smart Block",
