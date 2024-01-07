@@ -12,7 +12,7 @@ const Mdl = (props) => {
 
   return (
     props.mdlstate && (
-      <div className="fixed top-0 left-0 w-[100vw] h-full flex items-center justify-center z-50">
+      <div className="fixed top-0 left-0 w-[100vw] h-full flex items-center justify-center z-[150]">
       
           <div className={styling2.parent_div} 
       style={{backgroundImage : `url(${window.innerWidth > 430 ? eventContent[props.day - 1][props.event_id - 1].banner
