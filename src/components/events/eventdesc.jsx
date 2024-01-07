@@ -60,7 +60,7 @@ const eventContent = [[
     title: "MEME WARS",
     date: "January 19, 2024",
     time_span: "10:00 AM - 1:00 PM",
-    location: "Main Audio",
+    location: "Main Audi",
     organizer: "DevComm",
     event_info: "Yo, NSUT.AI meme lords! Time to dust off your pixels and sharpen your wit, because the #NSUTAIMemeWars\
      are about to explode! We're talking meme battles so epic, they'll make your sides split wider than a politician's promise.\
