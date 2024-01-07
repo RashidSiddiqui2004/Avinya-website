@@ -1,7 +1,7 @@
 const dayValues = {
   1: {
     headings: [ "BidBlitz",
-     "CSS DESIGN CHALLENGE",
+     "CSS Design Challenge",
     
      "Masterclass Guesstimate QUIZ",
      
@@ -10,7 +10,7 @@ const dayValues = {
      
     date: "18 Jan 2024",
     subheadings: [ "BidBlitz",
-    "CSS DESIGN CHALLENGE",
+    "CSS Design Challenge",
     "Speaker Session",
     
     ],
@@ -29,19 +29,19 @@ const dayValues = {
   3: {
     headings: [ "APInt",
      "BYTEbazaar ",
-     "INNOVATE NSUT'24",
+     "INNOVATENSUT'24",
 ],
     date: "20 Jan 2024",
     subheadings: [ "APInt",
     "BYTEbazaar ",
-    "INNOVATE NSUT'24",
+    "INNOVATENSUT'24",
 ,],
   },
   4: {
-    headings: [ "EVENT-1 DAY-4.....",
+    headings: ["INNOVATENSUT'24  Continues...",
     ],
     date: "21 Jan 2024",
-    subheadings: [ "EVENT-1 DAY-4.....",
+    subheadings: [ "INNOVATENSUT'24  Continues...",
   ],
   },
 };

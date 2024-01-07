@@ -131,11 +131,12 @@ body {
   z-index: 1;
 }
 .content {
-  padding: 1rem;
+  padding: 2.5rem;
   color: #000;
   font-style: normal;
-  font-weight: 500;
-  font-size: 1.15rem;
+  /* font-family: drummer ; */
+  font-weight: 510;
+  font-size: 1.05rem;
 }
 .triangleLeft {
   height: 0;
@@ -190,7 +191,7 @@ body {
   }
   .content {
     font-size: 0.75rem;
-    padding: 0.25rem;
+    padding: 0.45rem;
   }
   .num {
     font-size: 2rem;
