@@ -2,7 +2,7 @@ import styling from "./footer.module.css";
 import insta from "./insta.svg";
 import linkdn from "./linkdn.svg";
 import discord from "./discord.svg";
-import avico from "./Avinya_Final_Name2.png"
+const avico = "https://res.cloudinary.com/dop36g38s/image/upload/v1704647253/Avinya_Final_Name2_brozta.png";
 
 const Footer = () => {
     return (
