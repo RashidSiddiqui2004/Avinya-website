@@ -17,13 +17,11 @@ const dayValues = {
   },
   2: {
     headings: [ "Meme Wars",
-     "Dynamo + Encanto",
-     "Speaker Session",
+     "Dynamo + Encanto", 
      ],
     date: "19 Jan 2024",
     subheadings: [ "Meme Wars",
-    "Dynamo + Encanto",
-    "Speaker Session",
+    "Dynamo + Encanto", 
     ],
   },
   3: {
