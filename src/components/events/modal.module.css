@@ -15,8 +15,7 @@
 
 .gradient_div{
     background: linear-gradient(180deg, rgba(35, 0, 70, 0) 0%, #230046 29.17%);
-    height: fit-content;
-    min-height: 65%;
+    height: 70%;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -91,8 +90,8 @@
     border-radius: 0;
     width: 25%;
     position: absolute;
-    height : 10%;
-    margin: 0.5% 35% 20px 35%;
+    height : 50px;
+    margin: 0 35% 20px 35%;
     font-family: Drummer-Register;
     font-style: normal;
     font-weight: 900;
@@ -158,13 +157,9 @@
     }
     .gradient_div{
         height: fit-content;
-        min-height: 65%;
+        min-height: 75%;
     }
-}
-
-@media (max-width : 450px){
-    .gradient_div{
-        height: fit-content;
-        min-height: 65%;
+    .info{
+        font-size: 13px;
     }
 }
