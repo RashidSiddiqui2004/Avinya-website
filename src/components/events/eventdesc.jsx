@@ -150,12 +150,11 @@ const eventContent = [[
   time_span: "9:00 AM onwards",
   location: "Smart Block",
   organizer: "DevComm",
-  event_info: "'Hackathons are a chance to think big and act fast.'Embark on a journey of \
-  innovation at NSUT's most prestigious hackathon, 'Innovate NSUT,' a highlight of AVINYA'24 -\
-   Devcomm NSUT's annual tech fest.\
-   30 hours of non-stop brain storming.\
-   Price pool worth rupees 2 Lacs\
-   Goodies and much more.",
+  event_info: "'Hackathons are a chance to think big and act fast.', embark on a journey of innovation at NSUT's\
+  most prestigious hackathon, 'Innovate NSUT,' a highlight of AVINYA'24 - Devcomm NSUT's annual tech fest. \
+  Spanning 30 hours, this grand event is an opportunity to craft sustainable tech solutions for real-world \
+  challenges in areas such as agriculture, healthcare, justice, education, and beyond.\
+   It's a perfect stage to showcase your ideas and technical prowess in this extraordinary hackathon experience.",
   no_of_participants: 0,
   banner: innovatensut24,
   bannerphone: innovatensut24,
@@ -167,12 +166,11 @@ const eventContent = [[
   time_span: "till 3:00 PM",
   location: "Smart Block",
   organizer: "DevComm",
-  event_info: "'Hackathons are a chance to think big and act fast.'Embark on a journey of \
-  innovation at NSUT's most prestigious hackathon, 'Innovate NSUT,' a highlight of AVINYA'24 -\
-   Devcomm NSUT's annual tech fest.\
-   30 hours of non-stop brain storming.\
-   Price pool worth rupees 2 Lacs\
-   Goodies and much more.",
+  event_info: "'Hackathons are a chance to think big and act fast.', embark on a journey of innovation at NSUT's\
+   most prestigious hackathon, 'Innovate NSUT,' a highlight of AVINYA'24 - Devcomm NSUT's annual tech fest. \
+   Spanning 30 hours, this grand event is an opportunity to craft sustainable tech solutions for real-world \
+   challenges in areas such as agriculture, healthcare, justice, education, and beyond.\
+    It's a perfect stage to showcase your ideas and technical prowess in this extraordinary hackathon experience.",
   no_of_participants: 0,
   banner: innovatensut24,
   bannerphone: innovatensut24,
