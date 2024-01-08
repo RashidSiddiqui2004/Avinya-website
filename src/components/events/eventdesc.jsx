@@ -26,7 +26,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: bidblitz,
     bannerphone: bidphone,
-    registrationlink:"",
+    registrationlink:"#",
   },
   {
     title: "CSS DESIGN CHALLENGE",
@@ -53,7 +53,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: temp,
     bannerphone: temp,
-    registrationlink:"",
+    registrationlink:"#",
   },
 ], [
   {

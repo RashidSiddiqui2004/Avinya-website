@@ -1,8 +1,9 @@
-import styling from "./footer.module.css";
-import insta from "./insta.svg";
-import linkdn from "./linkdn.svg";
-import discord from "./discord.svg";
-import avico from "./Avinya_Final_Name2.png"
+import styling from "./footer.module.css"; 
+
+const insta = "https://res.cloudinary.com/drlkkozug/image/upload/v1704711368/insta_lh3j0a.svg"
+const linkdn = "https://res.cloudinary.com/drlkkozug/image/upload/v1704711369/linkdn_rt1dk9.svg";
+const discord = "https://res.cloudinary.com/drlkkozug/image/upload/v1704711267/discord_fzfkkg.svg";
+const avico = "https://res.cloudinary.com/drlkkozug/image/upload/v1704711033/Avinya_Final_Name2_fi8bl4.png"
 
 const Footer = () => {
     return (
@@ -16,9 +17,7 @@ const Footer = () => {
                 <div className={styling.cnt2}>
                     <div className={styling.follow}>Follow us on</div>
                     <div className={styling.img_cont} >
-                        {/* <div className="flex-1 flex justify-center">
-                            <a href="/"><img className="h-full"  src={fb} alt="media"/></a>
-                        </div> */}
+                    
                         <div className="flex-1 flex justify-center">
                             <a href="https://www.instagram.com/avinya.nsut/" target="_blank"><img className="h-full" src={insta} alt="media" /></a>
                         </div>

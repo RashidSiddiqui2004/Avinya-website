@@ -10,6 +10,8 @@ const Mdl = (props) => {
 
   const registrationUrl = eventContent[props.day - 1][props.event_id - 1].registrationlink;
 
+  const buttonMsg = !(registrationUrl==="#");
+
   return (
     props.mdlstate && (
       <div className="fixed top-0 left-0 w-[100vw] h-full flex items-center justify-center z-[150]">
@@ -25,8 +27,8 @@ const Mdl = (props) => {
               eventContent[props.day - 1][props.event_id - 1].title == "INNOVATENSUT'24" ?
 
                 <div>
-                  <h1 className= {`${styling2.head} block lg:hidden`}>
-                 
+                  <h1 className={`${styling2.head} block lg:hidden`}>
+
                     INNOVATE NSUT'24
                   </h1>
                   <h1 className={`${styling2.head} hidden lg:block`} >
@@ -61,7 +63,11 @@ const Mdl = (props) => {
               </div>
             </p>
             <button className={styling2.btn2} onClick={() => { window.open(registrationUrl, '_blank') }}>
-              Register Now
+              {buttonMsg ?
+
+                "Register Now"
+                :
+                "Registration Starting Soon"}
             </button>
           </div>
           <button className={styling2.btn1} onClick={props.close}>
