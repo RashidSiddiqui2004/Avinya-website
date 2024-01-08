@@ -22,7 +22,11 @@ const eventContent = [[
     time_span: "10:00 AM - 1:00 PM",
     location: "Main Audi",
     organizer: "DevComm",
-    event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
+    event_info: "Get ready to jump into the campus intellectual auction scene: Plot your moves for those coveted \
+    treasures and level up your intellectual game. Let your brainpower loose - toss in those bids and seize victory!\
+                Join us for an evening where the stakes are high, the energy is contagious, and victory is reserved \
+                for those who dare to defy convention. BidBlitz - where the thrill of the bid meets the triumph of \
+                the legend!.  Bid like a boss, win like a legend!.",
     no_of_participants: 0,
     banner: bidblitz,
     bannerphone: bidphone,
@@ -73,20 +77,6 @@ const eventContent = [[
     bannerphone: memephone,
     registrationlink:"https://unstop.com/hackathons/meme-wars-avinya-netaji-subhas-university-of-technology-nsut-delhi-859869",
   },
-  {
-    title: "DYNAMO",
-    date: "January 19, 2024",
-    time_span: "10:00 AM - 5:00 PM",
-    location: "Mini Audi 1",
-    organizer: "DevComm",
-    event_info: "Are you ready to be called as the next BGMI Champion ? So bring it on, with the BGMI Duo tournament \
-    where duos will face-off each other in the Team Death Matches until they conquer everyone and everything.\
-    Join us at Avinya in Mini Audi 1 on January 19, 2024. and go on show it to your friends .fiojk  jnkn. come one . next line",
-    no_of_participants: 0,
-    banner: dynamo,
-    bannerphone: dynamophone,
-    registrationlink:"",
-  },
   // {
   //   title: "SPEAKER SESSION",
   //   date:"January 19, 2024",
@@ -106,11 +96,26 @@ const eventContent = [[
     location: "Mini Audi 1",
     organizer: "DevComm",
     event_info: "Are you ready to be called as the next BGMI Champion ? So bring it on, with the BGMI Duo tournament \
-    where duos will face-off each other in the Team Death Matches until they conquer everyone and everything.",
+    where duos will face-off each other in the Team Death Matches until they conquer everyone and everything.\
+    Join us at Avinya in Mini Audi 1 on January 19, 2024.",
     no_of_participants: 0,
     banner: encanto,
     bannerphone: encantophone,
     registrationlink:"https://docs.google.com/forms/d/e/1FAIpQLScodMgUvP_HL3BYNtYStLTY0Q2Jt3PDwbDdr3fNKGBKCRTSQA/viewform",
+  },
+  {
+    title: "DYNAMO",
+    date: "January 19, 2024",
+    time_span: "10:00 AM - 5:00 PM",
+    location: "Mini Audi 1",
+    organizer: "DevComm",
+    event_info: "Are you ready to be called as the next BGMI Champion ? So bring it on, with the BGMI Duo tournament \
+    where duos will face-off each other in the Team Death Matches until they conquer everyone and everything.\
+    Join us at Avinya in Mini Audi 1 on January 19, 2024.",
+    no_of_participants: 0,
+    banner: dynamo,
+    bannerphone: dynamophone,
+    registrationlink:"",
   },
 ], [{
   title: "API-nt",
@@ -118,7 +123,7 @@ const eventContent = [[
   time_span: "10:00 AM - 1:00 PM",
   location: "Mini Audi 1",
   organizer: "DevComm",
-  event_info: "Join us for an einnovation, coding challenges, and collaboration.",
+  event_info: "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
   no_of_participants: 0,
   banner: quizclub,
   bannerphone: quizphone,
