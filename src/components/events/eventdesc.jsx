@@ -30,7 +30,7 @@ const eventContent = [[
     no_of_participants: 0,
     banner: bidblitz,
     bannerphone: bidphone,
-    registrationlink:"",
+    registrationlink:"https://unstop.com/competitions/bidblitz-avinya-netaji-subhas-university-of-technology-nsut-delhi-859912",
   },
   {
     title: "CSS DESIGN CHALLENGE",
