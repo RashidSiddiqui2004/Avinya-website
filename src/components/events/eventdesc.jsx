@@ -66,12 +66,7 @@ const eventContent = [[
     time_span: "10:00 AM - 1:00 PM",
     location: "Main Audi",
     organizer: "DevComm",
-    event_info: "Yo, NSUT.AI meme lords! Time to dust off your pixels and sharpen your wit, because the #NSUTAIMemeWars\
-     are about to explode! We're talking meme battles so epic, they'll make your sides split wider than a politician's promise.\
-    Feeling lost like figuring out your life plan? Channel your inner 'Aayein?'' and let your memes do the panicking for \
-    you. Got someone acting like they're royalty? Hit 'em with the 'Aukat Dekha Di' so fast, they'll be bowing down to your meme throne.\
-    Life got you 'Moye Moye'ing? Embrace the absurdity and meme your way through it. Or just yell 'Ohio' and join the \
-    internet's latest head-scratcher.",
+    event_info: "Yo, NSUT.AI meme lords!  Get ready for #NSUTAIMemeWars! 🎮 Epic meme battles incoming – split sides wider than a politician's promise! Lost? 'Aayein?' your way out. Royalty acting up? 'Aukat Dekha Di' them into submission. 'Moye Moye' life? Meme through it! Just yell 'Ohio' and join the head-scratching fun. Let the pixelated chaos begin! 🔥🤣",
     no_of_participants: 0,
     banner: memewars,
     bannerphone: memephone,
@@ -139,11 +134,7 @@ const eventContent = [[
   time_span: "9:00 AM onwards",
   location: "Smart Block",
   organizer: "DevComm",
-  event_info: "'Hackathons are a chance to think big and act fast.', embark on a journey of innovation at NSUT's\
-  most prestigious hackathon, 'Innovate NSUT,' a highlight of AVINYA'24 - Devcomm NSUT's annual tech fest. \
-  Spanning 30 hours, this grand event is an opportunity to craft sustainable tech solutions for real-world \
-  challenges in areas such as agriculture, healthcare, justice, education, and beyond.\
-   It's a perfect stage to showcase your ideas and technical prowess in this extraordinary hackathon experience.",
+  event_info: "'🚀 Join 'Innovate NSUT,' the flagship hackathon at AVINYA'24! 🌐 30 hours of innovation, tackling real-world challenges in agri, healthcare, justice, and more. Showcase your tech prowess – think big, act fast! 🌟👩‍💻👨‍💻",
   no_of_participants: 0,
   banner: innovatensut24,
   bannerphone: innovatensut24,
