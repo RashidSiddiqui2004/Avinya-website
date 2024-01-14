@@ -116,7 +116,7 @@ const eventContent = [[
   no_of_participants: 0,
   banner: quizclub,
   bannerphone: quizphone,
-  registrationlink:"#",
+  registrationlink:"https://unstop.com/p/api-nt-avinya-netaji-subhas-university-of-technology-nsut-delhi-862077",
 },
 
 {
