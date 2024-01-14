@@ -196,7 +196,7 @@ DayDataRight.propTypes = {
 function Event() {
   const [activeDay, setActiveDay] = useState(1);
 
-  const numberofEvents = [3, 2, 3, 1];
+  const numberofEvents = [2, 2, 3, 2];
 
   const handleChange = (event, newValue) => {
     setActiveDay(newValue);

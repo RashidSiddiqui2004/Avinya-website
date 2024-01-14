@@ -1,11 +1,7 @@
 const dayValues = {
   1: {
     headings: [ "BidBlitz",
-     "CSS Design Challenge",
-    
-     "Masterclass Guesstimate QUIZ",
-     
-    
+     "CSS Design Challenge",  
     ],
      
     date: "18 Jan 2024",
@@ -37,9 +33,11 @@ const dayValues = {
   },
   4: {
     headings: ["INNOVATENSUT'24  Continues...",
+    "Masterclass Guesstimate QUIZ",
     ],
     date: "21 Jan 2024",
     subheadings: [ "INNOVATENSUT'24  Continues...",
+    "Masterclass Guesstimate QUIZ",
   ],
   },
 };
