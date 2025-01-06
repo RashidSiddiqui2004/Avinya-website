@@ -33,7 +33,7 @@ const dayValues = {
   },
   4: {
     headings: ["INNOVATENSUT'24  Continues...",
-    "Masterclass Guesstimate QUIZ",
+    "CASEAGON",
     ],
     date: "21 Jan 2024",
     subheadings: [ "INNOVATENSUT'24  Continues...",

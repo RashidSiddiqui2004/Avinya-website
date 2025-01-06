@@ -2,37 +2,44 @@
 import React from 'react'
 import './styles.css';
 import './SponsorsStyles.css'
-import SponsorCard from './SponsorCard';
 import PastSposorsCard from './PastSposorsCard';
 import SpecialLogos from './SpecialLogos';
+import TitleSponsor from './TitleSponsor';
 
 function Sponsors() {
+
+  const titlePartners = [
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705506467/ao06hgpif7fm3vekzdef.jpg",
+      logoName: "SITA"
+    }
+  ]
 
   const platinumPartners = [
     {
       logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789889/InterviewBuddyLogo_yxroqd.jpg",
       logoName: "InterviewBuddy"
     },
-    {
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789889/InterviewBuddyLogo_yxroqd.jpg",
-      logoName: "InterviewBuddy"
-    },
+    // {
+    //   logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789889/InterviewBuddyLogo_yxroqd.jpg",
+    //   logoName: "InterviewBuddy"
+    // },
   ]
 
-  const educationPartners = [
-    {
-      sponsor: "Devfolio",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789646/devfolioLogo_vv4hoh.png"
-    },
-    {
-      sponsor: "polygon",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789909/polygonLogo_d626ox.png"
-    },
-    {
-      sponsor: "Celo",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789874/celo2_ulmzv8.png"
-    }
-  ]
+  // const educationPartners = [
+  //   {
+  //     sponsor: "Devfolio",
+  //     logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789646/devfolioLogo_vv4hoh.png"
+  //   },
+  //   {
+  //     sponsor: "polygon",
+  //     logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789909/polygonLogo_d626ox.png"
+  //   },
+  //   {
+  //     sponsor: "Celo",
+  //     logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789874/celo2_ulmzv8.png"
+  //   }
+  // ]
 
   const goldPartners = [
     {
@@ -50,53 +57,91 @@ function Sponsors() {
       logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789817/replit_a9muwl.png",
       logoName: "REPLIT"
     },
+    // {
+    //   logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789817/replit_a9muwl.png",
+    //   logoName: "REPLIT"
+    // },
+  ]
+
+  const associateSponsors = [
     {
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789817/replit_a9muwl.png",
-      logoName: "REPLIT"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705507084/kst4ozqdjrb84a8ny9gx.png",
+      logoName: "AXURE"
+    },
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705507111/f1puip0xvuvkxlytoes0.jpg",
+      logoName: ".XYZ"
     },
   ]
 
-  const mediaPartners = [
-
+  const knowledgeSponsors = [
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705510356/xphimr7sjgythi2iuvki.png",
+      logoName: "ZYPP"
+    },
   ]
 
-  const otherSponsors = [
+  const communityPartners = [ 
     {
-      sponsor: "filecoin",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789878/filecoin_u5jmoz.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513819/celswqyxfgxmip6pcz7u.png"
     },
     {
-      sponsor: "Tezos",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789930/tezos_drfyov.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705514842/mgzinjxkbfymvhrbjsed.png"
     },
     {
-      sponsor: "Celo",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789874/celo2_ulmzv8.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513820/dsmdpb2zfd55yckunsss.jpg"
     },
     {
-      sponsor: "filecoin",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789878/filecoin_u5jmoz.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513819/li36f2rsaqu2cefibatn.png"
     },
     {
-      sponsor: "Tezos",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789930/tezos_drfyov.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705515217/rzts5kftmfcw4xelthxr.jpg"
     },
     {
-      sponsor: "Celo",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789874/celo2_ulmzv8.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513816/uzgb4rcbwnrfakisv0l4.png"
+    },
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513815/ogbka4e85wfy8kyh8t1v.jpg"
     },
 
     {
-      sponsor: "filecoin",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789878/filecoin_u5jmoz.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513815/xfnuemrlepmyuha6lbfn.png"
     },
     {
-      sponsor: "Tezos",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789930/tezos_drfyov.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513815/ppcrqr3cofyonay44nut.png"
     },
     {
-      sponsor: "Celo",
-      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1703789874/celo2_ulmzv8.png"
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513814/tkyxr4dvtth8rhazjt68.png"
+    },
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513813/pjyqzi1aqjwmxr0kevvi.jpg"
+    },
+
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705515229/qi9x1jrga2tl1goeprom.jpg"
+    },
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513812/yrljulvj1cmljeawcqan.png"
+    },
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513812/ofibg6huivc5h7qbepod.png"
+    },
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513812/zbueckuv9bkbosohkmil.png"
+    },
+ 
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513809/k1vyxizduiaoz38h5cil.png"
+    },
+
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513809/mcp8at0nkim2vsp4d7ko.png"
+    },
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705515372/vj5akdqqwyrjhvqs4odh.jpg"
+    },
+    {
+      logoSource: "https://res.cloudinary.com/drlkkozug/image/upload/v1705513808/qi85g4axucsdiutsnuep.png"
     },
   ]
 
@@ -337,12 +382,41 @@ function Sponsors() {
        flex justify-center'
       >EVENT PARTNERS</h1>
 
+      {/* Title Partners */}
+      <div className='mb-20'>
+        <h2 className='text-2xl sm:text-5xl text-white mt-12 mb-12
+       pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
+       linearGradientSposnsors transition-all text-center
+       flex justify-center'>TITLE SPONSOR</h2>
+
+
+        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-1 gap-5 lg:gap-8 
+        items-center justify-center hidden md:flex lg:ml-10'>
+
+          {titlePartners.map((item, index) => (
+            <TitleSponsor key={index} logosrc={item.logoSource} logoName={item.logoName} />
+          ))}
+
+        </div>
+
+        <div className='grid grid-cols-1 gap-4
+        items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20 md:hidden'>
+
+          {titlePartners.map((item, index) => (
+            <TitleSponsor key={index} logosrc={item.logoSource} logoName={item.logoName} />
+          ))}
+
+        </div>
+
+
+      </div>
+
       {/* Platinum Partners */}
       <div className='mb-20'>
         <h2 className='text-lg sm:text-4xl text-white mt-12 mb-12
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSposnsors transition-all text-center
-       flex justify-center'>PLATINUM PARTNERS</h2>
+       flex justify-center'>PLATINUM SPONSOR</h2>
 
 
         <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
@@ -354,7 +428,7 @@ function Sponsors() {
 
         </div>
 
-        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-4
+        <div className='grid grid-cols-1 gap-4
         items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20 md:hidden'>
 
           {platinumPartners.map((item, index) => (
@@ -366,22 +440,20 @@ function Sponsors() {
 
       </div>
 
-
       {/* Gold Partners */}
-
       <div className='mb-20'>
 
         <h2 className='text-xl sm:text-4xl text-white mt-12 mb-12
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSponsors2 transition-all text-center
-       flex justify-center'>GOLD PARTNERS</h2>
+       flex justify-center'>GOLD SPONSORS</h2>
 
         <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
         items-center justify-center hidden md:flex lg:ml-10'>
 
 
           {goldPartners.map((item, index) => (
-            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName}/>
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
           ))}
 
         </div>
@@ -402,11 +474,10 @@ function Sponsors() {
 
       <div className='mb-20'>
 
-
         <h2 className='text-xl sm:text-4xl text-white mt-12 mb-12
        pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
        linearGradientSposnsors transition-all text-center
-       flex justify-center'>SILVER PARTNERS</h2>
+       flex justify-center'>SILVER SPONSOR</h2>
 
         <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
         items-center justify-center hidden md:flex lg:ml-10'>
@@ -416,8 +487,10 @@ function Sponsors() {
 
         </div>
 
-        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
-        items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20 md:hidden'>
+        <div className='grid grid-cols-1 gap-14 
+        items-center ml-[10%] sm:ml-[20%] md:ml-[18%] md:hidden'>
+
+          {/* md:grid-cols-2 lg:grid-cols-5 */}
 
           {silverPartners.map((item, index) => (
             <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
@@ -427,21 +500,80 @@ function Sponsors() {
 
       </div>
 
+      {/* Knowledge Sponsors */}
 
-      {/* Media Partners */}
+      <div className='mb-20'>
+
+        <h2 className='text-xl sm:text-4xl text-white mt-12 mb-12
+pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
+linearGradientSposnsors transition-all text-center
+flex justify-center'>KNOWLEDGE SPONSOR</h2>
+
+        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
+items-center justify-center hidden md:flex lg:ml-10'>
+
+          {knowledgeSponsors.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
+          ))}
+
+        </div>
+
+        <div className='grid grid-cols-1 lg:gap-8 
+items-center justify-center ml-[15%] md:hidden'>
+
+          {knowledgeSponsors.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
+          ))}
+
+        </div>
+
+      </div>
+
+
+      {/* Associate Sponsors */}
+
+      <div className='mb-20'>
+
+        <h2 className='text-xl sm:text-4xl text-white mt-12 mb-12
+       pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
+       linearGradientSposnsors transition-all text-center
+       flex justify-center'>ASSOCIATE SPONSORS</h2>
+
+        <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
+        items-center justify-center hidden md:flex lg:ml-10'>
+
+          {associateSponsors.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
+          ))}
+
+        </div>
+
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-14 lg:gap-8 
+        items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20 md:hidden'>
+
+          {associateSponsors.map((item, index) => (
+            <SpecialLogos key={index} logosrc={item.logoSource} logoName={item.logoName} />
+          ))}
+
+        </div>
+
+      </div>
+
+
+      {/* Community Partners */}
 
       <div className='mb-20'>
         <h2 className='
         text-xl sm:text-4xl text-white mt-12 mb-16
         pb-2 headerAkira font-bold tracking-wide leading-tight p-8 shadow-md
         linearGradientSposnsors transition-all text-center
-        flex justify-center'>MEDIA PARTNERS</h2>
+        flex justify-center'>COMMUNITY PARTNERS</h2>
 
-        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-5 lg:gap-8 
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-5 lg:gap-8 
         items-center ml-[10%] sm:ml-[20%] md:ml-[18%] lg:ml-20'>
 
-          {otherSponsors.map((item, index) => (
-            <SponsorCard key={index} sponsorName={item.sponsor} logosrc={item.logoSource} />
+          {communityPartners.map((item, index) => (
+            <SpecialLogos key={index} logoName="Community Partner" logosrc={item.logoSource} />
           ))}
 
         </div>
@@ -512,11 +644,11 @@ function Sponsors() {
             <SpecialLogos logosrc="https://res.cloudinary.com/drlkkozug/image/upload/v1703789890/npm_faeczq.png" logoName="NPM" />
           </div>
 
-          
+
           <div className='float-from-right logo-animation'>
             <SpecialLogos logosrc="https://res.cloudinary.com/drlkkozug/image/upload/v1703789875/dev_hogwkl.png" logoName="DEV" />
           </div>
-         
+
 
           {specialLogos1.map((item, index) => (
             (index < 6) ? (

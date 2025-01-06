@@ -30,6 +30,8 @@ const innovatensut24 =
   "https://res.cloudinary.com/dop36g38s/image/upload/v1704633462/hacka_z3m7ji.png";
 const tdsphone =
   "https://res.cloudinary.com/dop36g38s/image/upload/v1704607720/Tds-1_jlbriv.png";
+const caseAgon = 
+  "https://res.cloudinary.com/drlkkozug/image/upload/v1705514091/zx1anfeqmsn0q4xmxvo4.webp";
 
 const eventContent = [
   [
@@ -44,8 +46,7 @@ const eventContent = [
       no_of_participants: 0,
       banner: bidblitz,
       bannerphone: bidphone,
-      registrationlink:
-        "https://unstop.com/competitions/bidblitz-avinya-netaji-subhas-university-of-technology-nsut-delhi-859912",
+      registrationlink:"-1"
     },
     {
       title: "CSS DESIGN CHALLENGE",
@@ -61,10 +62,9 @@ const eventContent = [
       no_of_participants: 0,
       banner: tds,
       bannerphone: tdsphone,
-      registrationlink:
-        "https://unstop.com/hackathons/css-design-challenge-avinya-netaji-subhas-university-of-technology-nsut-delhi-859889",
+      registrationlink:"-1"
     },
-    
+  
   ],
   [
     {
@@ -78,8 +78,7 @@ const eventContent = [
       no_of_participants: 0,
       banner: memewars,
       bannerphone: memephone,
-      registrationlink:
-        "https://unstop.com/hackathons/meme-wars-avinya-netaji-subhas-university-of-technology-nsut-delhi-859869",
+      registrationlink:"-1"
     },
 
     {
@@ -95,8 +94,7 @@ const eventContent = [
       no_of_participants: 0,
       banner: encanto,
       bannerphone: encantophone,
-      registrationlink:
-        "https://docs.google.com/forms/d/e/1FAIpQLScodMgUvP_HL3BYNtYStLTY0Q2Jt3PDwbDdr3fNKGBKCRTSQA/viewform",
+      registrationlink:"-1"
     },
     {
       title: "DYNAMO",
@@ -111,7 +109,7 @@ const eventContent = [
       no_of_participants: 0,
       banner: dynamo,
       bannerphone: dynamophone,
-      registrationlink: "",
+      registrationlink: "-1",
     },
   ],
   [
@@ -126,7 +124,7 @@ const eventContent = [
       no_of_participants: 0,
       banner: quizclub,
       bannerphone: quizphone,
-      registrationlink: "https://unstop.com/p/api-nt-avinya-netaji-subhas-university-of-technology-nsut-delhi-862077",
+      registrationlink: "-1",
     },
 
     {
@@ -142,8 +140,7 @@ const eventContent = [
       no_of_participants: 0,
       banner: bytebazar,
       bannerphone: bytephone,
-      registrationlink:
-        "https://unstop.com/hackathons/bytebazaar-avinya-netaji-subhas-university-of-technology-nsut-delhi-858955?lb=pB4UN6X",
+      registrationlink:"-1"
     },
     {
       title: "INNOVATENSUT'24",
@@ -156,7 +153,7 @@ const eventContent = [
       no_of_participants: 0,
       banner: innovatensut24,
       bannerphone: innovatensut24,
-      registrationlink: "https://innovatensut24.devfolio.co/",
+      registrationlink: "-1",
     },
   ],
   [
@@ -171,10 +168,10 @@ const eventContent = [
       no_of_participants: 0,
       banner: innovatensut24,
       bannerphone: innovatensut24,
-      registrationlink: "https://innovatensut24.devfolio.co/",
+      registrationlink: "-1",
     },
     {
-      title: "Guesstimate QUIZ",
+      title: "CaseAgon",
       date: "January 18, 2024",
       time_span: "2:00 PM - 4:00 PM",
       location: "Mini Audi 1",
@@ -182,9 +179,9 @@ const eventContent = [
       event_info:
         "Join us for an exciting hackathon filled with innovation, coding challenges, and collaboration.",
       no_of_participants: 0,
-      banner: temp,
+      banner: caseAgon,
       bannerphone: temp,
-      registrationlink: "#",
+      registrationlink: "-1",
     },
   ],
 ];

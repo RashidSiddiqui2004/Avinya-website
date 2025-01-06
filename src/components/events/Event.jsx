@@ -10,7 +10,7 @@ const Mdl = (props) => {
 
   const registrationUrl = eventContent[props.day - 1][props.event_id - 1].registrationlink;
 
-  const buttonMsg = !(registrationUrl==="#");
+  const buttonMsg = !(registrationUrl === "#");
 
   return (
     props.mdlstate && (
@@ -62,13 +62,30 @@ const Mdl = (props) => {
                 }{" "}
               </div>
             </p>
-            <button className={styling2.btn2} onClick={() => { window.open(registrationUrl, '_blank') }}>
-              {buttonMsg ?
 
-                "Register Now"
+            {
+              !(registrationUrl === "-1")
+                ?
+
+                <button className={styling2.btn2} onClick={() => { window.open(registrationUrl, '_blank') }}>
+                  {!buttonMsg ?
+
+                    "Registration Starting Soon"
+
+                    :
+                    
+                    "Register Now"
+                  }
+                </button>
+
                 :
-                "Registration Starting Soon"}
-            </button>
+
+                <button className={styling2.btn2} >
+                  Registrations Closed
+                </button>
+            }
+
+
           </div>
           <button className={styling2.btn1} onClick={props.close}>
             X
